@@ -1,90 +1,18 @@
 <?php
-//JUST FOR TESTS
-function reset_configurations () {
-	delete_user_meta(get_current_user_id(), "pomodoroAtivo");
-}
-
-
-
-/**/
+//
 add_filter('show_admin_bar', '__return_false'); 
-/**/
 
 add_action( 'login_form_middle', 'add_lost_password_link' );
+add_action('wp_logout','go_home');
+
+
 function add_lost_password_link() {
     return '<a href="/wp-login.php?action=lostpassword">Esqueci a senha!</a>';
 }
-
-/**/
-add_action('wp_logout','go_home');
 function go_home(){
   wp_redirect( home_url() );
   exit();
 }
-
-/**/
-
-add_action( 'admin_menu', 'my_remove_menu_pages' );
-
-function my_remove_menu_pages() {
-	//is_author() if (!is_admin() ) { - if(!current_user_can('administrator')) { if ($user_level < 5) {
-	get_currentuserinfo();
-	if(!current_user_can('administrator')) {
-		remove_menu_page('link-manager.php');
-		remove_menu_page('themes.php');
-		remove_menu_page('index.php');
-		remove_menu_page('tools.php');
-		remove_menu_page('profile.php');
-		remove_menu_page('upload.php');
-		remove_menu_page('post.php');
-		remove_menu_page('post-new.php');
-		remove_menu_page('edit-comments.php');
-		remove_menu_page('admin.php');
-		remove_menu_page('edit-comments.php');
-		remove_submenu_page( 'edit.php', 'post-new.php' );
-		remove_submenu_page( 'tools.php', 'wp-cumulus.php' );
-		
-		 remove_meta_box('linktargetdiv', 'link', 'normal');
-		  remove_meta_box('linkxfndiv', 'link', 'normal');
-		  remove_meta_box('linkadvanceddiv', 'link', 'normal');
-		  remove_meta_box('postexcerpt', 'post', 'normal');
-		  remove_meta_box('trackbacksdiv', 'post', 'normal');
-		  remove_meta_box('commentstatusdiv', 'post', 'normal');
-		  remove_meta_box('postcustom', 'post', 'normal');
-		  remove_meta_box('commentstatusdiv', 'post', 'normal');
-		  remove_meta_box('commentsdiv', 'post', 'normal');
-		  remove_meta_box('revisionsdiv', 'post', 'normal');
-		  remove_meta_box('authordiv', 'post', 'normal');
-		  remove_meta_box('sqpt-meta-tags', 'post', 'normal');
-		  remove_meta_box('submitdiv', 'post', 'normal');
-		  remove_meta_box('avhec_catgroupdiv', 'post', 'normal');
-		  remove_meta_box('categorydiv', 'post', 'normal');
-	}
-}
-
-function edit_admin_menus() {  
-    global $menu;  
-    $menu[5][0] = 'Pomodoros'; // Change Posts to Pomodoros
-}  
-add_action( 'admin_menu', 'edit_admin_menus' ); 
-
-/*SESSION PARA NAO PERDER DADOS DO FORMULARIO*/
-add_action('init', 'myStartSession', 1);
-add_action('wp_logout', 'myEndSession');
-add_action('wp_login', 'myEndSession');
-
-function myStartSession() {
-    if(!session_id()) {
-        session_start();
-        
-    }
- 
-}
-
-function myEndSession() {
-    session_destroy ();
-}
-
 
 function save_progress () {
 	//http://codex.wordpress.org/Function_Reference/get_current_user_id
