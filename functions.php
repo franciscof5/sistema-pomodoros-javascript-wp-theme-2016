@@ -3,16 +3,16 @@
 add_filter('show_admin_bar', '__return_false'); 
 
 add_action( 'login_form_middle', 'add_lost_password_link' );
-add_action('wp_logout','go_home');
+//add_action('wp_logout','go_home');
 
 
 function add_lost_password_link() {
     return '<a href="/wp-login.php?action=lostpassword">Esqueci a senha!</a>';
 }
-function go_home(){
-  wp_redirect( home_url() );
-  exit();
-}
+//function go_home(){
+//  wp_redirect( home_url() );
+//  exit();
+//}
 
 function save_progress () {
 	//http://codex.wordpress.org/Function_Reference/get_current_user_id

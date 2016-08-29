@@ -5,7 +5,7 @@ Description: Tema para o site Pomodoros, based in Darwin.
 Version: 0.1
 Author: Francisco Matelli
 Author URI: http://www.franciscomatelli.com
-Template: bp-default
+
 Tags: red, pomodoros, social, buddypress
 //REMOVIDO PARA TESTAR -> Template: bp-default
 */
@@ -13,6 +13,7 @@ Tags: red, pomodoros, social, buddypress
 /*
 principal light color: #093;
 principal dark color: #096;
+ztemplate: bp-default
 */
 
 @import url( ../../plugins/buddypress/bp-themes/bp-default/_inc/css/reset.css );
@@ -25,6 +26,18 @@ html, body {
 }
 
 /*f5sites*/
+#logo_generated {
+	display: block;
+	font-family: 'Lilita One',cursive;
+	float: left;
+	color: #FFF;
+	font-size: 26px;
+	line-height: 32px;
+	/*top: 10px;
+	position: absolute;
+	left: 0px;*/
+}
+
 .register_div_box {padding:10px 15px;margin:10px auto;min-height:110px;}
 .register_div_box:hover {background:#EEE;}
 .register_div_box h3{color:#333; text-align:center;}
@@ -76,12 +89,13 @@ div#sidebar {width:24%;}
 #loginlogbox {
 	display:none;
 	width: 180px;
-	height: 210px;
 	position: absolute;
 	background: #FFFFFF;
 	border: solid 2px #DDD;
 	z-index: 20;
-	/*left: 1070px;*/
+	/*
+	height: 210px;
+	left: 1070px;*/
 	right:18%;
 	top: 45px;
 	border-radius: 10px;
@@ -536,6 +550,7 @@ margin: 0 auto;
 	position: absolute;
 	margin-right: 10px;
 	top: 10px;
+	left: 36px;
 	background: #006633;
 	padding: 10px;
 	border-radius: 5px;
@@ -2105,6 +2120,7 @@ ol.commentlist li {
 		#footer-content .link-group {
 			float: left;
 			margin: 0 20px;
+			/*width: 25%;*/
 		}
 		#footer-content h3 {
 			color:#FFF;

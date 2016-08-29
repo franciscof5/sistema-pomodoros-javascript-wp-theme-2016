@@ -1,5 +1,5 @@
 <?php
-/* Template Name: Pomo - Calendario */
+/* Template Name: Pomo - Calendario (DEPRECATED) */
 ?>
 <?php get_header() ?>
 
@@ -16,7 +16,6 @@
 </div><!-- #content -->
 	
 <?php get_footer() ?>
-<?php get_header() ?>
 <? /*
 	<div id="content" class="content_default">
 		<div class="padder">

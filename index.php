@@ -1,65 +1,95 @@
+<?php if (is_user_logged_in()) {
+		wp_redirect( home_url()."/focus" ); exit;
+	} ?>
 <?php get_header() ?>
 
-	<div id="content" class="content_default">
-		<div class="padder">
+<?php 
+//It was used for an old incorrect way to develop
+/*if ( current_user_can( 'manage_options' ) ) { ?>
+	<script src="<?php bloginfo('stylesheet_directory'); ?>/pomodoro/pomodoro-functions-admin.js" type="text/javascript"></script>
+<?php } else { ?>
+	<script src="<?php bloginfo('stylesheet_directory'); ?>/pomodoro/pomodoro-functions.js" type="text/javascript"></script>
+<?php } */?>
 
-		<?php do_action( 'bp_before_blog_home' ) ?>
 
-		<div class="page" id="blog-latest">
 
-			<?php if ( have_posts() ) : ?>
-
-				<?php while (have_posts()) : the_post(); ?>
-
-					<?php do_action( 'bp_before_blog_post' ) ?>
-
-					<div class="post" id="post-<?php the_ID(); ?>">
-
-						<div class="author-box">
-							<?php echo get_avatar( get_the_author_meta( 'user_email' ), '50' ); ?>
-							<p><?php printf( __( 'by %s', 'buddypress' ), bp_core_get_userlink( $post->post_author ) ) ?></p>
-						</div>
-
-						<div class="post-content">
-							<h2 class="posttitle"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php _e( 'Permanent Link to', 'buddypress' ) ?> <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
-
-							<p class="date"><?php the_time() ?> <em><?php _e( 'in', 'buddypress' ) ?> <?php the_category(', ') ?> <?php printf( __( 'by %s', 'buddypress' ), bp_core_get_userlink( $post->post_author ) ) ?></em></p>
-
-							<div class="entry">
-								<?php the_content( __( 'Read the rest of this entry &rarr;', 'buddypress' ) ); ?>
-							</div>
-
-							<p class="postmetadata"><span class="tags"><?php the_tags( __( 'Tags: ', 'buddypress' ), ', ', '<br />'); ?></span> <span class="comments"><?php comments_popup_link( __( 'No Comments &#187;', 'buddypress' ), __( '1 Comment &#187;', 'buddypress' ), __( '% Comments &#187;', 'buddypress' ) ); ?></span></p>
-						</div>
-
-					</div>
-
-					<?php do_action( 'bp_after_blog_post' ) ?>
-
-				<?php endwhile; ?>
-
-				<div class="navigation">
-
-					<div class="alignleft"><?php next_posts_link( __( '&larr; Previous Entries', 'buddypress' ) ) ?></div>
-					<div class="alignright"><?php previous_posts_link( __( 'Next Entries &rarr;', 'buddypress' ) ) ?></div>
-
-				</div>
-
-			<?php else : ?>
-
-				<h2 class="center"><?php _e( 'Not Found', 'buddypress' ) ?></h2>
-				<p class="center"><?php _e( 'Sorry, but you are looking for something that isn\'t here.', 'buddypress' ) ?></p>
-
-				<?php locate_template( array( 'searchform.php' ), true ) ?>
-
-			<?php endif; ?>
-		</div>
-
-		<?php do_action( 'bp_after_blog_home' ) ?>
-
-		</div><!-- .padder -->
-	</div><!-- #content -->
-
-	<?php locate_template( array( 'sidebar.php' ), true ) ?>
-
+		<!--Template-->
+		<?php /*get_sidebar(); ?>
+	
+		<?php //locate_template( array( 's-pomodoros.php' ), true ); ?>
+		<div class="content_pomodoro">
+			<?php locate_template( array( 'pomodoro/pomodoros-painel.php' ), true ); ?>
+		</div><!-- #content -->
+	<? } else { */?>
+		<div id="content_inicio">
+			<div class="circulo" id="">
+				<h3>Pomodoros.com.br</h3>
+				<img />
+				<p>Rede social de produtividade, para pessoas e equipes compartilharem seus projeto e estudos com colegas.</p>
+			</div>
+			<div class="circulo" id="">
+				<h3>Como funciona</h3>
+				<img />
+				<p>Escreva a tarefa que precisa fazer e inicie o cronômetro, você deve focar na sua tarefa sem distrações.</p>
+			</div>
+			<div class="circulo" id="">
+				<h3>Técnica dos Pomod.</h3>
+				<img />
+				<p>São 25 minutos focando na tarefa e 5 minutos de descanso, formando um ciclo. Após 4 ciclos tem um intervalo de 20 minutos.</p>
+			</div>
+			<div class="circulo" id="">
+				<h3>Origem</h3>
+				<img />
+				<p>Criada pelo italiano Francesco Cerello, na década de 80, para estudar para provas. Usava um relógio em forma de tomate, para tempo de pizza.</p>
+			</div>
+			<div class="circulo" id="">
+				<h3>Benefícios</h3>
+				<img />
+				<ul>
+					<li>Ajuda a cumprir prazos</li>
+					<li>Mais foco e produtividade</li>
+					<li>Controle sobre demandas</li>
+					<li>Diminui ansiedade</li>
+				</ul>
+			</div>
+			<div class="circulo" id="">
+				<h3>Funcionalidade</h3>
+				<img />
+				<ul>
+					<li>Calendário de pomodoros</li>
+					<li>Prêmios para os melhores</li>
+					<li>Salvar pomodoro para depois</li>
+					<li>Seus pomodoros nas nuvens</li>
+					<li>Pomodoros por projetos</li>
+				</ul>
+			</div>
+			<div class="circulo" id="">
+				<h3>Rede social</h3>
+				<img />
+				<p>Estudar sozinho nunca mais! Encontre seus colegas de trabalho, escola e faculdade, compartilhe e comente suas tarefas.</p>
+			</div>
+			<div class="circulo" id="">
+				<h3>Brasil</h3>
+				<img />
+				<p>Tecnologia nacional, desenvolvida por empresa brasileira.</p>
+			</div>
+			<?php
+				/*
+				$my_id = 3096;
+				
+				$post_id = get_post($my_id); 
+				$title = $post_id->post_title;
+				$content = $post_id->post_content;
+				_e("<h1>".$title."</h1>");
+				_e($content);
+				echo '<h2>Teste</h2>';
+				*/
+			?> 
+			<?php  ?>
+		</div><!-- #content -->
+	<? //} ?>
+	<?php /*locate_template( array( 'sidebar.php' ), true ) */?>
+	
+	
+	<?php /*locate_template( array( 'sidebar.php' ), true ) */?>
 <?php get_footer() ?>

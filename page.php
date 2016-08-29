@@ -1,6 +1,6 @@
 <?php get_header() ?>
 
-	<div id="content" class="content_default">
+	<div class="content_nosidebar">
 		<div class="padder">
 
 		<?php do_action( 'bp_before_blog_page' ) ?>
@@ -32,7 +32,5 @@
 
 		</div><!-- .padder -->
 	</div><!-- #content -->
-
-	<?php locate_template( array( 'sidebar.php' ), true ) ?>
 
 <?php get_footer(); ?>
