@@ -1,7 +1,7 @@
 {
 	"name": "f5sites/sistema-pomodoros",
 	"description": "WordPress F5 Sites DEV projects",
-	"type": "wordpress-plugin",
+	"type": "wordpress-theme",
 	"authors": [
 		{
 			"name": "Francisco Matelli Matulovic",
