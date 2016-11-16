@@ -1,31 +1,39 @@
 /*
-Theme Name: Pomodoros
+Theme Name: Pomodoros Opensource
 Theme URI: http://www.pomodoros.com.br
-Description: Tema para o site Pomodoros, based in Darwin.
-Version: 0.1
-Author: Francisco Matelli
-Author URI: http://www.franciscomatelli.com
-
-Tags: red, pomodoros, social, buddypress
-//REMOVIDO PARA TESTAR -> Template: bp-default
+Description: Tema para o site Pomodoros, based in Darwin, and now opensource.
+Version: 1.0
+Author: Francisco Mat
+Author URI: http://www.franciscomat.com
+Tags: social, buddypress, projectimer
 */
 
 /*
-principal light color: #093;
-principal dark color: #096;
-ztemplate: bp-default
-*/
+BASIC STRUCTURES
+HEADER
+PAGES (home,)
+FOOTER
+GENERICS
 
-@import url( ../../plugins/buddypress/bp-themes/bp-default/_inc/css/reset.css );
-@import url(pomodoro/pomodoro.css );
 
-/*fot stick footer*/
-html, body {
-  height: 100%;
-  margin: 0;
-}
 
-/*f5sites*/
+
+@import url("css/activity-mural.css"); */
+
+/* reset 
+body, html, div, blockquote, img, label, p, h1, h2, h3, h4, h5, h6, pre, ul,
+ol, li, dl, dt, dd, form, a, fieldset, input, th, td {margin: 0; padding: 0; border: 0; outline: none;}
+body{line-height: 1;font-size: 88%;}
+ 
+h1, h2, h3, h4, h5, h6{font-size: 100%;padding: .6em 0;margin: 0 15px;}
+ 
+ul, ol{list-style: none;}
+ 
+img{border: 0;}*/
+
+/*for stick footer*/
+html, body {height: 100%;margin: 0;}
+
 #logo_generated {
 	display: block;
 	font-family: 'Lilita One',cursive;
@@ -38,7 +46,64 @@ html, body {
 	left: 0px;*/
 }
 
-.register_div_box {padding:10px 15px;margin:10px auto;min-height:110px;}
+h1, h2, h3, h4 {font-family: 'Lilita One',cursive !important;}
+
+.round_box {
+	border-radius:15px !important;
+	background: rgba(255,255,255, 0.8);
+	padding:10px 15px;
+}
+
+/*.circulo {
+	padding:20px;
+	background:#FFF;
+	border: solid 2px #DDD;
+	width: 200px;
+	/*height: 130px;*
+	border-radius: 70px;
+	text-align: center;
+	position: relative;
+	margin: 15px 30px;
+	float: left;
+	opacity:0.95;
+	filter:alpha(opacity=95); /* For IE8 and earlier *
+}
+.circulo h3 {
+	font-family: 'Lilita One',cursive;
+	margin: 5px 0 8px 0;
+	font-size: 22px;
+	/*color: #093;*
+	/*font-weight: bold;*
+}
+.circulo ul li {list-style-type: square;}*/
+/*
+#loginlogbox {
+	display:none;
+	width: 180px;
+	position: absolute;
+	background: #FFFFFF;
+	border: solid 2px #DDD;
+	z-index: 20;
+	/*
+	height: 210px;
+	left: 1070px;*
+	right:18%;
+	top: 45px;
+	border-radius: 10px;
+	padding: 30px;
+	opacity: 0.95;
+	filter:alpha(opacity=95); /* For IE8 and earlier *
+}
+#loginlogbox p label {
+	color: #999;
+	font-weight: bold;
+	display:block;
+}
+#loginlogbox input[type="text"],#loginlogbox input[type="password"] {width:160px;}
+#loginlogbox input[type="submit"] {top: -10px;position: relative;}
+.widget_loginlogout #loginform {display:none;}
+*/
+/*.register_div_box {padding:10px 15px;margin:10px auto;min-height:110px;}
 .register_div_box:hover {background:#EEE;}
 .register_div_box h3{color:#333; text-align:center;}
 
@@ -62,18 +127,17 @@ div#sidebar {width:24%;}
 	}
 .sidebar {background: rgba(255,255,255, 0.8);border-radius:15px !important;}
 
-.content_pomodoro {width:500px;padding:0;margin:0 auto;border-radius:15px !important;background: rgba(255,255,255, 0.8);}
+/*.content_pomodoro {width:500px;padding:0;margin:0 auto;border-radius:15px !important;background: rgba(255,255,255, 0.8);}*
 .content_nosidebar {background:#FFF;border-radius:10px; padding:40px;font-size:12px;margin:5px 0 40px 0;}
 #pomodoro-painel {width:290px;margin:0 auto 30px auto;padding: 30px 0 50px 0;} 
 #secondsRemaining_box{width: 50px;text-align: center;background: transparent;border: none; float:left;}
 
 .content_estatisticas {padding:40px 300px;}
 #login-text {visibility:hidden;display:none;}
-.Authors a {height: 36px;overflow: hidden; /*display: inline-block;*/}
-.Authors li {margin-bottom:20px;}
+.Authors a {height: 36px;overflow: hidden; /*display: inline-block;*}
+.Authors li {margin-bottom:20px;}*/
 
-/**/
-
+/*
 .clear:after {
   clear:both;
   content:".";
@@ -83,62 +147,28 @@ div#sidebar {width:24%;}
   visibility:hidden;
 }
 
-/**/
-.editfield {width:300px;float:right;}
+.editfield {width:300px;float:right;}*/
 
-#loginlogbox {
-	display:none;
-	width: 180px;
-	position: absolute;
-	background: #FFFFFF;
-	border: solid 2px #DDD;
-	z-index: 20;
-	/*
-	height: 210px;
-	left: 1070px;*/
-	right:18%;
-	top: 45px;
-	border-radius: 10px;
-	padding: 30px;
-	opacity: 0.95;
-	filter:alpha(opacity=95); /* For IE8 and earlier */
-}
-#loginlogbox p label {
-	color: #999;
-	font-weight: bold;
-	display:block;
-}
-#loginlogbox input[type="text"],#loginlogbox input[type="password"] {width:160px;}
-#loginlogbox input[type="submit"] {top: -10px;position: relative;}
-.widget_loginlogout #loginform {display:none;}
 
-#settingsbox {
+/*#settingsbox {
 	display:none;
 	width: 420px;
 	position: absolute;
 	background: #FFFFFF;
 	border: solid 2px #DDD;
 	z-index: 20;
-	/*left: 1070px;*/
+	/*left: 1070px;*
 	right:18%;
 	top: 45px;
 	border-radius: 10px;
 	padding: 30px;
 	opacity: 0.95;
-	filter:alpha(opacity=95); /* For IE8 and earlier */
+	filter:alpha(opacity=95); /* For IE8 and earlier *
 }
 
-textarea, input[type="text"] {background:#FFF;width: 100%;}
+textarea, input[type="text"] {background:#FFF;width: 100%;}*/
 
-html { 
-  /*background: url(images/bck_studas.jpeg) no-repeat center center fixed; */
-  /*background: #EEE;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;*/
-}
-
+/*
 #fotofundo {
 	display:none;
 	background-position: 50% 50%;
@@ -151,38 +181,38 @@ html {
 	background: url('images/bck_studas.jpeg') #543;
 	position: relative;
 	/*position: absolute;
-	/*left: 0;*/
+	/*left: 0;*
 	z-index: -1;
 }
 #wrapper {
-	/*STICK FOOTER*/
+	/*STICK FOOTER*
 	min-height: 100%;
 	height: auto !important;
 	height: 100%;
 	
 	/*margin-bottom: -200px;
 	/*max-width: 1000px; /*sera que precisa*
-	background: rgba(255,255,255,0.9);*/
+	background: rgba(255,255,255,0.9);*
 	max-width: 1250px;
 	margin-left: auto;
 	margin-right: auto;
 }
 #content_inicio {
-	/*padding-top: 40px;*/
+	/*padding-top: 40px;*
 	position:relative;
 	background:transparent;
-	/*margin-bottom: -200px;*/
+	/*margin-bottom: -200px;*
 	
 	max-width: 1250px;
 	margin-left: auto;
 	margin-right: auto;
-	/*height: 100%;*/
+	/*height: 100%;*
 }
 
 #content_inicio li{
 	list-style: none;
 }
-/*REMENDO PORQUE NAO LOGADO NAO MOSTRA CONTAINER*/
+/*REMENDO PORQUE NAO LOGADO NAO MOSTRA CONTAINER*
 #login{
 	background:#FFF;
 	margin-top: 70px;
@@ -190,7 +220,7 @@ html {
 	padding: 20px;
 	margin: auto;
 	margin-bottom: 20px;
-	/*top: 110px;*/
+	/*top: 110px;*
 	position: relative;
 	border-radius: 20px;
 	padding-bottom: 8px;
@@ -202,28 +232,7 @@ html {
 	float:none;
 	margin-top: 10px;
 }
-.circulo {
-padding:20px;
-background:#FFF;
-border: solid 2px #DDD;
-width: 200px;
-/*height: 130px;*/
-border-radius: 70px;
-text-align: center;
-position: relative;
-margin: 15px 30px;
-float: left;
-opacity:0.95;
-filter:alpha(opacity=95); /* For IE8 and earlier */
-}
-.circulo h3 {
-	font-family: 'Lilita One',cursive;
-	margin: 5px 0 8px 0;
-	font-size: 22px;
-	/*color: #093;*/
-	/*font-weight: bold;*/
-}
-.circulo ul li {list-style-type: square;}
+
 #content_register {
 	width: 800px;
 	margin: 0 auto 60px auto;
@@ -233,13 +242,13 @@ filter:alpha(opacity=95); /* For IE8 and earlier */
 	position: relative;
 	border-radius: 20px;
 	opacity: 0.9;
-	filter:alpha(opacity=90); /* For IE8 and earlier */
+	filter:alpha(opacity=90); /* For IE8 and earlier *
 }
 .editfield {float:left !important;}
-.field-visibility-settings-notoggle, .field-visibility-settings-toggle {display:none;}
+.field-visibility-settings-notoggle, .field-visibility-settings-toggle {display:none;}*/
 
 
-/* OUTRAS MODIFICACOES*/
+/* OUTRAS MODIFICACOES*
 #contem-modelos ul {
 background: none repeat scroll 0% 0% rgb(255, 255, 255);
 padding: 22px 22px 12px 22px;
@@ -249,9 +258,9 @@ border-radius: 15px;
 #contem-modelos ul p{
 text-align:center;
 margin:10px 0 0 0;
-}
+}*/
 
-/* ITES MODIFICADOS ALTERADOS EDITADOS DOS ORIGINAIS */
+/* ITES MODIFICADOS ALTERADOS EDITADOS DOS ORIGINAIS *
 ul.activity-list > li:first-child {
     padding-top: 20px;
 }
@@ -272,14 +281,15 @@ ul.item-list li.load-more {
 	display: none;
 }
 li.activity-item  {
-	/*border-radius: 30px;*/
+	/*border-radius: 30px;*
 	border-radius: 48px 60px;
 	width: 25%;
 	float: left;
 	/**
 	background: #CCC;
-	position: relative;*/
+	position: relative;*
 }
+
 .activity-header p {
 	height: 50px;
 	margin: 2px 0px 0px -10px;
@@ -295,7 +305,7 @@ li.activity-item  {
 
 }
 .activity-header p a:nth-child(2) {
-	/*margin-top: -30px;*/
+	/*margin-top: -30px;*
 	top:0;
 	white-space: nowrap;
   	overflow: hidden;
@@ -311,9 +321,9 @@ li.activity-item  {
 
 .activity-header p:content {
 	background: #98d;
-}
+}#activity-mentions {display: none;}*/
 
-#activity-mentions {display: none;}
+
 
 /**/
 .estats_box {
@@ -399,10 +409,7 @@ body {
 	width: 100% !important; 
 	max-width: 100% !important;
 }
-	body.activity-permalink {
-		min-width: 500px;
-		max-width: 760px;
-	}
+
 
 h2 {
 	margin: 10px 0;
@@ -448,7 +455,7 @@ img.avatar {
 	display: none;
 }
 
-span.activity, div#message p {
+div#message p {
 	display: inline-block;
 	font-size: 11px;
 	font-weight: normal;
@@ -494,8 +501,7 @@ left:0;
 width: 1250px;
 margin: 0 auto;
 }
-	body.activity-permalink #header { height: 65px; }
-
+	
 	#header #search-bar {
 		position: absolute;
 		top: 25px;
@@ -504,8 +510,7 @@ margin: 0 auto;
 		text-align: right;
                 visibility: hidden; /*f5sites*/
 	}
-		body.activity-permalink #header #search-bar { display: none; }
-
+		
 		#header h1 {
 			line-height: 330%; /*f5sites 230%*/
 			text-indent: -999px;
@@ -618,8 +623,7 @@ ul#nav {
         border-top: 2px solid #FFF;/*cd4225*/
         border-bottom: 2px solid #FFF;/*941300*/
 }
-	body.activity-permalink ul#nav { display: none; }
-
+	
 	ul#nav li {
 		float: left;
 		margin: 0;
@@ -659,10 +663,7 @@ top: 60px;
 
 
 }
-	body.activity-permalink div#container {
-		background: none;
-		border: none;
-	}
+	
 
 /* > Sidebar
 -------------------------------------------------------------- */
@@ -756,12 +757,11 @@ div#sidebar {
 -------------------------------------------------------------- */
 
 div#content {
-	float: right; /*f5sites*/
-	width: 74% ;  /*500px f5sites 80%*/
-	/*max-width: 1000px;*/
+	/*float: right; 
+	width: 74% ;  
 	background: rgba(255,255,255,0.9);
 	border-radius: 15px;
-	margin-bottom: 20px;
+	margin-bottom: 20px;*/
 }
 
 div#content .padder {
@@ -803,7 +803,7 @@ div#item-header {
 			text-decoration: none;
 		}
 
-div#item-header span.activity, div#item-header h2 span.highlight {
+div#item-header h2 span.highlight {
 		vertical-align: middle;
 		font-size: 11px;
 		font-weight: normal;
@@ -1437,7 +1437,7 @@ form#whats-new-form {
 
 /* > Activity Stream Listing
 -------------------------------------------------------------- */
-
+/*
 ul.activity-list li {
 	padding: 20px 0 0 0;
 }
@@ -1600,7 +1600,7 @@ ul.activity-list li {
 	}
 
 /* > Activity Stream Comments
--------------------------------------------------------------- */
+-------------------------------------------------------------- *
 
 div.activity-meta {
 	margin: 0 0 20px 3px;

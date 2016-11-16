@@ -12,7 +12,7 @@
 				<?php if (is_user_logged_in()) { ?><?php } ?>
 				
 				<div class="links">
-					<div class="link-group">
+					<!--div class="link-group">
 						<h3>Pages</h3>
 						<ul>
 							<li><a href="<?php bloginfo('url'); ?>">Início</a></li>
@@ -25,15 +25,17 @@
 							<li><a href="<?php bloginfo('url'); ?>/ranking">Ranking</a></li>
 						</ul>
 						<?php //wp_list_pages("title_li=&include=8,3096,381,4814"); ?>
-					</div>
+					</div-->
 					
-					<div class="link-group">
+					<!--div class="link-group">
 						<h3>Latest Tasks Done:</h3>
+						<ul>
 						<?php $recent_posts = wp_get_recent_posts("numberposts=6");
 						foreach( $recent_posts as $recent ){
 							echo '<li><a href="' . get_permalink($recent["ID"]) . '" title="Look '.esc_attr($recent["post_title"]).'" >' .   $recent["post_title"].'</a> </li> ';
 						} ?>
-					</div>
+						</ul>
+					</div-->
 					<!--div class="link-group">
 						<h3>Telefones</h3>
 						<ul>

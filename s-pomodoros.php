@@ -1,6 +1,7 @@
 <?php do_action( 'bp_before_sidebar' ); ?>
 <div class="sidebar" id="sidebar_pomodoro">
 	<div class="padder">
+		
 		<li>
 			<h3 class="widget-title">Estatísticas de <?php get_currentuserinfo(); echo $current_user->user_firstname; ?> </h3>
 			Membro ha dias:

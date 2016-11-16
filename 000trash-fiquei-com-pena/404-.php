@@ -1,6 +1,12 @@
 
 <?php 
 $basename = basename($_SERVER['REQUEST_URI'],'/');
+
+if($basename=="focus") {
+	require_once("t-focar.php");
+}
+
+#CACETE ESQUECE DAQUI PRA BAIXO
 if($basename=="calendar" or $basename=="calendario" or $basename=="ranking" or $basename=="focus") {
 	if (!is_user_logged_in()) {
 		//TODO: create page for non authorized access
