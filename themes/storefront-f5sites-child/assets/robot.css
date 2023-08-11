@@ -1,0 +1,298 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+	box-sizing: border-box;
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	-text-size-adjust: 100%;
+
+	font-family: 'Londrina Solid', cursive;
+	font-family: 'Rubik', sans-serif;
+
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+	background-color: #2b2b2b;
+}
+
+/* HEADER */
+
+header {
+	padding: 0.5em 0;
+	position: fixed;
+	display: block;
+	width: 100%;
+	z-index: 1000;
+	background-color: #fff;
+}
+
+.logo {
+	margin: 0;
+	padding: 1em;
+	clear: both;
+	font-size: 1.5rem;
+	font-weight: bold;
+	text-decoration: none;
+	color: #000;
+}
+
+.nav {
+	margin: 0;
+	padding: 1em;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	overflow: hidden;
+	background-color: #fff;
+}
+
+.nav li {
+	display: inline-block;
+	width: 32.4%;
+	list-style: none;
+	text-align: center;
+}
+
+.nav li a {
+	padding: 1em;
+	background-color: #fff;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.1rem;
+	font-weight: 300;
+	text-align: center;
+	text-decoration: none;
+	color: #000;
+
+}
+
+.nav li a:hover {
+	background-color: #2b2b2b;
+	color: #fff;
+}
+
+/* SPLASH - DANCING ROBOT */
+
+.splash {
+	padding-top: 100px;
+	text-align: center;
+}
+
+.robot {
+	/*width: 200px;*/
+	width: 30%;
+}
+@media only screen and (max-width: 600px) {
+	.robot {
+		width: 60%;
+	}	
+}
+h1 {
+	margin: 0;
+	font-family: 'Londrina Solid', cursive;
+	font-size: 2.5rem;
+	text-align: center;
+	color: #000;
+}
+
+.p1 {
+	margin-top: -0.25em;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.5rem;
+	text-align: center;
+	color: #000;
+}
+
+.p2 {
+	font-family: 'Rubik', sans-serif;
+	font-weight: 300;
+	font-size: 1.25rem;
+	text-align: center;
+	text-decoration: none;
+	color: #000;
+}
+
+.p3 {
+	font-family: 'Rubik', sans-serif;
+	font-weight: 500;
+	font-size: 1.25rem;
+	line-height: 1.25em;
+	text-align: center;
+	text-decoration: none;
+	color: #000;
+}
+
+.link:hover {
+	color: #fff;
+}
+
+/* Robot style */
+
+.st0 {
+	fill: #ff8c00;
+}
+
+.st1 {
+	fill: #d90000;
+}
+
+.st2 {
+	fill: #f8580c;
+}
+
+.st3 {
+	fill: #fff4d6;
+}
+
+.st4 {
+	fill: #ff2d00;
+}
+
+.st5 {
+	fill: #ffb501;
+}
+
+/* Robot animation */
+
+@keyframes dance {
+	0% {
+		transform: rotate(0deg);
+		transform-origin: bottom right;
+	}
+	12% {
+		transform: rotate(3deg);
+		transform-origin: bottom right;
+	}
+	25% {
+		transform: rotate(8deg);
+		transform-origin: bottom right;
+	}
+	37% {
+		transform: rotate(6deg);
+		transform-origin: bottom left;
+	}
+	50% {
+		transform: rotate(0deg);
+		transform-origin: bottom left;
+	}
+	62% {
+		transform: rotate(-3deg);
+		transform-origin: bottom left;
+	}
+	75% {
+		transform: rotate(-8deg);
+		transform-origin: bottom left;
+	}
+	87% {
+		transform: rotate(-4deg);
+		transform-origin: bottom right;
+	}
+	100% {
+		transform: rotate(0deg);
+		transform-origin: bottom left;
+	}
+}
+
+@keyframes shimmy {
+	0% {
+		transform: translate(0, 0);
+	}
+	25% {
+		transform: translate(0, 0px);
+	}
+	50% {
+		transform: translate(0, 0);
+	}
+	75% {
+		transform: translate(0, -20px);
+	}
+	100% {
+		transform: translate(0, 0);
+	}
+}
+
+#whole-head:hover {
+	animation: dance 1s ease-in-out infinite;
+}
+
+#body:hover {
+	animation: dance 1s ease-in-out infinite reverse;
+}
+
+#arms:hover {
+	animation: shimmy 1s ease-out infinite;
+}
+
+#l-leg:hover {
+	animation: shimmy 1s ease-in infinite;
+}
+
+#r-leg:hover {
+	animation: shimmy 1s ease-in infinite 500ms;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (min-width: 25em) {
+
+/* SPLASH - DANCING ROBOT */
+
+	.splash {
+		padding-top: 90px;
+	}
+}
+
+@media only screen and (min-width: 38em) {
+
+/* HEADER */
+
+	header {
+		padding: 0;
+		position: static;
+		overflow: hidden;
+	}
+
+	.logo {
+		padding: 0.5em 1em;
+		float: left;
+	}
+
+	.nav {
+		padding-right: 0;
+		display: block;
+		position: static;
+		float: right;
+		width: 60%;
+	}
+
+	.nav li {
+		width: 32%;
+	}
+
+	.nav li a {
+		padding: 1em 1.5em;
+	}
+
+/* SPLASH - DANCING ROBOT */
+
+	.splash {
+		padding-top: 50px;
+	}
+
+}
+
+@media only screen and (min-width: 60em) {
+}
+
+@media only screen and (min-width: 90em) {
+}
+

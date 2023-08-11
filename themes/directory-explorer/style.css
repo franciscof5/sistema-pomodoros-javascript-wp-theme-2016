@@ -1,0 +1,58 @@
+/*
+ Theme Name:   Explorer Directory (dw-minion child)
+ Theme URI:    http://source.f5sites.com
+ Description:  Explorer Directory - windows explorer like theme, sensation of navigation trought information like it was in folders and files
+ Author:       Francisco Matelli
+ Author URI:   http://franciscomatelli.com/wordpress
+ Template:     dw-minion
+ Version:      0.1
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready, directory
+ Text Domain:  dw-minion-child
+*/
+
+.content-list .hentry {
+margin-bottom: -4px;
+margin-top: 9px;
+padding-top: 0px;
+}
+.entry-header {
+    margin-bottom: 2px;
+}
+.entry-title {
+    display: inline;
+}
+.entry-tags {
+    /*display: inline-block;
+    margin-bottom: 0px;
+    position: relative;
+    top: -4px;
+    left: 5px;*/
+	line-height: 10px;
+}
+.entry-tags a {
+	margin-right: 9px;
+	line-height: 0px;
+	top: -1px;
+	position: relative;
+	left: 3px;
+}
+.widget_categories li {
+    text-transform: none !important;
+}
+
+.site-nav .widget, #secondary .widget {
+    padding-top: 15px;
+    margin-top: 15px;
+}
+.btn {
+    text-transform: none !important;
+}
+.btn-small {
+    padding: 0px 5px !important;
+    margin-right: 10px !important;
+}
+.btn-small a {
+    color:#FFF !important;
+}

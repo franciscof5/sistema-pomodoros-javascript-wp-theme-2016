@@ -1,0 +1,16 @@
+{
+	"name": "f5sites/f5sites-footer-bar",
+	"description": "Just put it on mu-plugins of each wpmu install and configure e style it editing the single file php code, made to be simple and for programmers (old multi-network-integrated-bar). WordPress F5 Sites DEV projects.",
+	"type": "wordpress-plugin",
+	"authors": [
+		{
+			"name": "Francisco Matelli Matulovic",
+			"email": "francisco@f5sites.com",
+			"homepage": "http://franciscomat.com"
+		}
+	],
+	"require": {
+    		"composer/installers": "~1.0",
+	        "php": ">=5.2.4"
+        }
+}

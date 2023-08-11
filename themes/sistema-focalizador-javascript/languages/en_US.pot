@@ -1,0 +1,812 @@
+# Blank WordPress Pot
+# Copyright 2014 ...
+# This file is distributed under the GNU General Public License v3 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: "
+"Sistema Focalizador JS\n"
+"POT-Creation-Date: "
+"2018-11-26 10:55-0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Your "
+"Name <you@example.com>\n"
+"Language-Team: Francisco "
+"Mat F5 Sites "
+"<francisco@f5sites.com>\n"
+"Report-Msgid-Bugs-To: "
+"Translator Name "
+"<translations@example."
+"com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/"
+"plain; charset=UTF-8\n"
+"Content-Transfer-"
+"Encoding: 8bit\n"
+"Plural-Forms: "
+"nplurals=2; plural=n != "
+"1;\n"
+"X-Textdomain-Support: "
+"yesX-Generator: Poedit "
+"1.6.4\n"
+"X-Poedit-SourceCharset: "
+"UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;esc_html_e;"
+"esc_html_x:1,2c;"
+"esc_html__;esc_attr_e;"
+"esc_attr_x:1,2c;"
+"esc_attr__;_ex:1,2c;"
+"_nx:4c,1,2;"
+"_nx_noop:4c,1,2;_x:1,2c;"
+"_n:1,2;_n_noop:1,2;"
+"__ngettext:1,2;"
+"__ngettext_noop:1,2;_c,"
+"_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Language: en_US\n"
+"X-Generator: Poedit "
+"1.8.7.1\n"
+"X-Poedit-"
+"SearchPath-0: .\n"
+"X-Poedit-"
+"SearchPathExcluded-0: "
+"activity\n"
+"X-Poedit-"
+"SearchPathExcluded-1: "
+"members\n"
+"X-Poedit-"
+"SearchPathExcluded-2: "
+"registration\n"
+"X-Poedit-"
+"SearchPathExcluded-3: "
+"archive.php\n"
+"X-Poedit-"
+"SearchPathExcluded-4: "
+"page.php\n"
+"X-Poedit-"
+"SearchPathExcluded-5: t-"
+"nosidebar.php\n"
+"X-Poedit-"
+"SearchPathExcluded-6: "
+"custom-post-type.php\n"
+
+#: footer.php:14
+msgid "Last pomodoros"
+msgstr ""
+
+#: footer.php:21
+msgid "Top Users"
+msgstr ""
+
+#: footer.php:44
+msgid "Top 5 Cities"
+msgstr ""
+
+#: footer.php:46
+msgid "Top 3 Countries"
+msgstr ""
+
+#: footer.php:52
+#: sidebar-index.php:22
+msgid "Our blog"
+msgstr ""
+
+#: footer.php:59
+msgid "Get it on"
+msgstr ""
+
+#: footer.php:61
+#: sidebar-index.php:6
+#: sidebar-pomodoro-right.php:11
+msgid "Sponsored by"
+msgstr ""
+
+#: footer.php:65
+#: header.php:142
+msgid "Support"
+msgstr ""
+
+#: footer.php:66
+#: header.php:140
+msgid "Open support ticket"
+msgstr ""
+
+#: functions.php:734
+msgid "Warning!"
+msgstr ""
+
+#: functions.php:735
+msgid ""
+"These content is not "
+"avaiable in your "
+"language. Original "
+"content language is: "
+msgstr ""
+
+#: functions.php:738
+msgid "Go to blog homepage"
+msgstr ""
+
+#: functions.php:865
+msgid ""
+"you most recent task is"
+msgstr ""
+
+#: functions.php:867
+msgid ""
+"you never started a task"
+msgstr ""
+
+#: functions.php:869
+msgid "Hello"
+msgstr ""
+
+#: functions.php:869
+msgid ""
+"go to online app and "
+"start focus"
+msgstr ""
+
+#: functions.php:871
+msgid "Dear visitor"
+msgstr ""
+
+#: functions.php:871
+msgid ""
+"create your free user"
+msgstr ""
+
+#: functions.php:871
+msgid ""
+"and start focus right now"
+msgstr ""
+
+#: functions.php:872
+msgid ""
+"If you already have an "
+"account"
+msgstr ""
+
+#: functions.php:872
+msgid "login"
+msgstr ""
+
+#: functions.php:1160
+msgid "Realizar Pagamento"
+msgstr ""
+
+#: functions.php:1600
+#: functions.php:1601
+#: functions.php:1617
+#: header.php:81
+#: part-focus.php:2
+msgid "Focus"
+msgstr ""
+
+#: functions.php:1602
+msgid "Add New"
+msgstr ""
+
+#: functions.php:1603
+msgid "Add New Focus"
+msgstr ""
+
+#: functions.php:1604
+msgid "Edit"
+msgstr ""
+
+#: functions.php:1605
+msgid "Edit Focus"
+msgstr ""
+
+#: functions.php:1606
+msgid "New Focus"
+msgstr ""
+
+#: functions.php:1607
+#: functions.php:1608
+msgid "View Focus"
+msgstr ""
+
+#: functions.php:1609
+msgid "Search Focus"
+msgstr ""
+
+#: functions.php:1610
+msgid "No Focus found"
+msgstr ""
+
+#: functions.php:1611
+msgid ""
+"No Focus found in Trash"
+msgstr ""
+
+#: functions.php:1612
+msgid "Parent Focus"
+msgstr ""
+
+#: header.php:24
+msgid ""
+"Site Wide Activity RSS "
+"Feed"
+msgstr ""
+
+#: header.php:28
+msgid "Activity RSS Feed"
+msgstr ""
+
+#: header.php:32
+msgid ""
+"Group Activity RSS Feed"
+msgstr ""
+
+#: header.php:35
+msgid "Blog Posts RSS Feed"
+msgstr ""
+
+#: header.php:37
+msgid ""
+"Blog Posts Atom Feed"
+msgstr ""
+
+#: header.php:71
+msgid ""
+"Go to Pomodoros Blog"
+msgstr ""
+
+#: header.php:79
+msgid "Start Focus"
+msgstr ""
+
+#: header.php:85
+msgid "View Productivity"
+msgstr ""
+
+#: header.php:87
+msgid "Productivity"
+msgstr ""
+
+#: header.php:91
+msgid "Colleagues list"
+msgstr ""
+
+#: header.php:93
+msgid "Colleagues"
+msgstr ""
+
+#: header.php:97
+msgid ""
+"View the most productive "
+"users Ranking"
+msgstr ""
+
+#: header.php:99
+#: part-ranking.php:2
+msgid "Ranking"
+msgstr ""
+
+#: header.php:104
+msgid "Perfomance Calendar"
+msgstr ""
+
+#: header.php:106
+#: part-calendar.php:2
+msgid "Calendar"
+msgstr ""
+
+#: header.php:115
+#: header.php:117
+#: part-closed.php:6
+#: part-underconst.php:8
+msgid "Login"
+msgstr ""
+
+#: header.php:121
+msgid ""
+"Create your free "
+"pomodoros.com.br account"
+msgstr ""
+
+#: header.php:123
+msgid "Sign Up"
+msgstr ""
+
+#: header.php:134
+msgid "View your account"
+msgstr ""
+
+#: header.php:136
+msgid "My Acount"
+msgstr ""
+
+#: header.php:146
+#: header.php:148
+msgid "Logout"
+msgstr ""
+
+#: part-app.php:2
+msgid "Mobile"
+msgstr ""
+
+#: part-app.php:13
+msgid "Pomodoros Mobile"
+msgstr ""
+
+#: part-app.php:14
+msgid "Login to access app"
+msgstr ""
+
+#: part-closed.php:2
+msgid "Exclusive Content"
+msgstr ""
+
+#: part-closed.php:5
+msgid "Restrict Area"
+msgstr ""
+
+#: part-closed.php:6
+msgid ""
+"to view the exclusive "
+"content"
+msgstr ""
+
+#: part-csv.php:2
+msgid "CSV"
+msgstr ""
+
+#: part-focus.php:57
+msgid "Hello, welcome"
+msgstr ""
+
+#: part-focus.php:66
+msgid "Volume"
+msgstr ""
+
+#: part-focus.php:80
+msgid "Voice"
+msgstr ""
+
+#: part-focus.php:98
+msgid "Task"
+msgstr ""
+
+#: part-focus.php:103
+#: part-task.php:33
+msgid "Project tags"
+msgstr ""
+
+#: part-focus.php:106
+msgid "Extra"
+msgstr ""
+
+#: part-focus.php:111
+#: part-task.php:45
+msgid "Notes"
+msgstr ""
+
+#: part-focus.php:121
+msgid ""
+"What kind of taks is "
+"that?"
+msgstr ""
+
+#: part-focus.php:123
+msgid "Study"
+msgstr ""
+
+#: part-focus.php:124
+msgid "Work"
+msgstr ""
+
+#: part-focus.php:125
+msgid "Personal"
+msgstr ""
+
+#: part-focus.php:127
+msgid "Privacy"
+msgstr ""
+
+#: part-focus.php:129
+msgid ""
+"Public - everyone can see"
+msgstr ""
+
+#: part-focus.php:130
+msgid ""
+"Private - only you can "
+"see"
+msgstr ""
+
+#: part-focus.php:134
+msgid "TODO"
+msgstr ""
+
+#: part-focus.php:135
+msgid "Save Task"
+msgstr ""
+
+#: part-focus.php:155
+msgid "Automatic cycle"
+msgstr ""
+
+#: part-focus.php:165
+msgid "Drop tasks below"
+msgstr ""
+
+#: part-focus.php:175
+msgid "TODO list"
+msgstr ""
+
+#: part-focus.php:283
+msgid "For admin only:"
+msgstr ""
+
+#: part-focus.php:284
+msgid "Start demo"
+msgstr ""
+
+#: part-help.php:2
+msgid ""
+"Help & Support System"
+msgstr ""
+
+#: part-help.php:5
+msgid "Support System"
+msgstr ""
+
+#: part-help.php:12
+msgid "Contact Us"
+msgstr ""
+
+#: part-index.php:3
+msgid ""
+"Work & Fun Time Tracker"
+msgstr ""
+
+#: part-index.php:4
+msgid ""
+"Relax and Focus: Online "
+"social time tracker for "
+"task and projects"
+msgstr ""
+
+#: part-index.php:5
+msgid ""
+"get you and your team "
+"more productive than ever"
+msgstr ""
+
+#: part-index.php:266
+#: part-news.php:84
+#: part-product.php:41
+#: single-product.php:48
+#: single.php:57
+msgid "Permanent Link to"
+msgstr ""
+
+#: part-index.php:275
+#: part-news.php:93
+#: part-product.php:50
+#: single-product.php:57
+#: single.php:67
+msgid ""
+"Read the rest of this "
+"entry &rarr;"
+msgstr ""
+
+#: part-index.php:278
+#: part-news.php:96
+#: part-product.php:53
+#: single-product.php:60
+#: single.php:71
+msgid "No Comments &#187;"
+msgstr ""
+
+#: part-index.php:278
+#: part-news.php:96
+#: part-product.php:53
+#: single-product.php:60
+#: single.php:71
+msgid "1 Comment &#187;"
+msgstr ""
+
+#: part-index.php:278
+#: part-news.php:96
+#: part-product.php:53
+#: single-product.php:60
+#: single.php:71
+msgid "% Comments &#187;"
+msgstr ""
+
+#: part-index.php:293
+#: part-news.php:111
+#: part-product.php:68
+#: tag-(now-part-tag).php:391
+msgid "Not Found"
+msgstr ""
+
+#: part-index.php:294
+#: part-news.php:112
+#: part-product.php:69
+#: tag-(now-part-tag).php:392
+msgid ""
+"Sorry, but you are "
+"looking for something "
+"that isn't here."
+msgstr ""
+
+#: part-news.php:2
+msgid "Blog"
+msgstr ""
+
+#: part-news.php:96
+#: part-product.php:53
+#: single-product.php:60
+#: single.php:71
+msgid "Tags: "
+msgstr ""
+
+#: part-tag.php:8
+#: part-tag.php:187
+msgid "Project Tag"
+msgstr ""
+
+#: part-tag.php:188
+msgid "Project leader"
+msgstr ""
+
+#: part-tag.php:192
+msgid "Project Details"
+msgstr ""
+
+#: part-tag.php:197
+#: part-tag.php:248
+#: part-task.php:15
+msgid "Details"
+msgstr ""
+
+#: part-tag.php:198
+#: part-tag.php:249
+#: part-task.php:16
+msgid "Info"
+msgstr ""
+
+#: part-tag.php:203
+msgid "Pomodoros done"
+msgstr ""
+
+#: part-tag.php:207
+#: sidebar-pomodoro-right.php:50
+msgid "Work time"
+msgstr ""
+
+#: part-tag.php:211
+msgid "Collaborators total"
+msgstr ""
+
+#: part-tag.php:215
+msgid "Duration in days"
+msgstr ""
+
+#: part-tag.php:219
+msgid "Days of work"
+msgstr ""
+
+#: part-tag.php:223
+msgid ""
+"Project productivity "
+"factor"
+msgstr ""
+
+#: part-tag.php:227
+msgid "First pomodoro"
+msgstr ""
+
+#: part-tag.php:231
+msgid "Last pomodoro"
+msgstr ""
+
+#: part-tag.php:243
+msgid "Project Statistics"
+msgstr ""
+
+#: part-tag.php:254
+msgid ""
+"Mean of pomodoros / "
+"total days"
+msgstr ""
+
+#: part-tag.php:258
+msgid ""
+"Average working hours / "
+"total days"
+msgstr ""
+
+#: part-tag.php:262
+msgid ""
+"Average pomodoros / days "
+"worked"
+msgstr ""
+
+#: part-tag.php:266
+msgid ""
+"Average hours worked / "
+"days worked"
+msgstr ""
+
+#: part-tag.php:452
+#: tag-(now-part-tag).php:384
+msgid ""
+"&larr; Previous Entries"
+msgstr ""
+
+#: part-tag.php:453
+#: tag-(now-part-tag).php:385
+msgid "Next Entries &rarr;"
+msgstr ""
+
+#: part-task.php:21
+msgid "Author"
+msgstr ""
+
+#: part-task.php:25
+msgid "Name"
+msgstr ""
+
+#: part-task.php:29
+msgid "Location"
+msgstr ""
+
+#: part-task.php:37
+msgid "Type"
+msgstr ""
+
+#: part-task.php:41
+msgid "Pomodoro date"
+msgstr ""
+
+#: part-task.php:62
+msgid "Durantion"
+msgstr ""
+
+#: part-task.php:66
+msgid "Total pomodoros"
+msgstr ""
+
+#: part-underconst.php:2
+#: part-underconst.php:5
+msgid "Under Construct"
+msgstr ""
+
+#: part-underconst.php:6
+msgid ""
+"Content under "
+"development, come back "
+"soon"
+msgstr ""
+
+#: sidebar-blog-DISABLED.php:19
+#: sidebar-pomodoro-left.php:24
+msgid "Log Out"
+msgstr ""
+
+#: sidebar-blog-DISABLED.php:38
+#: sidebar-pomodoro-left.php:43
+#, php-format
+msgid ""
+"Please <a href=\"%s\" "
+"title=\"Create an account"
+"\">create an account</a> "
+"to get started."
+msgstr ""
+
+#: sidebar-blog-DISABLED.php:45
+#: sidebar-pomodoro-left.php:50
+msgid "Username"
+msgstr ""
+
+#: sidebar-blog-DISABLED.php:48
+#: sidebar-pomodoro-left.php:53
+msgid "Password"
+msgstr ""
+
+#: sidebar-blog-DISABLED.php:51
+#: sidebar-pomodoro-left.php:56
+msgid "Remember Me"
+msgstr ""
+
+#: sidebar-blog-DISABLED.php:55
+#: sidebar-pomodoro-left.php:59
+msgid "Log In"
+msgstr ""
+
+#: sidebar-blog-DISABLED.php:68
+#: sidebar-pomodoro-left.php:73
+msgid "Forum Topic Tags"
+msgstr ""
+
+#: sidebar-index.php:13
+#: sidebar-pomodoro-right.php:18
+msgid ""
+"Buy to support our free "
+"services"
+msgstr ""
+
+#: sidebar-index.php:36
+msgid "Most recent task"
+msgstr ""
+
+#: sidebar-pomodoro-left.php:11
+msgid "Your Account"
+msgstr ""
+
+#: sidebar-pomodoro-left.php:104
+msgid ""
+"Projects from Community"
+msgstr ""
+
+#: sidebar-pomodoro-right.php:31
+msgid "Statistics from"
+msgstr ""
+
+#: sidebar-pomodoro-right.php:46
+msgid "Time from register"
+msgstr ""
+
+#: sidebar-pomodoro-right.php:51
+#: sidebar-pomodoro-right.php:55
+msgid "days"
+msgstr ""
+
+#: sidebar-pomodoro-right.php:54
+msgid "Not work time"
+msgstr ""
+
+#: sidebar-pomodoro-right.php:69
+msgid "Last 7 days"
+msgstr ""
+
+#: sidebar-pomodoro-right.php:74
+msgid "Current month"
+msgstr ""
+
+#: sidebar-pomodoro-right.php:79
+msgid "Since beggining"
+msgstr ""
+
+#: sidebar-pomodoro-right.php:108
+#: sidebar-pomodoro-right.php:110
+msgid "Export Calendar"
+msgstr ""
+
+#: sidebar-pomodoro-right.php:109
+msgid ""
+"See your pomodoros in "
+"the calendars of Google, "
+"Apple, Microsoft and "
+"others."
+msgstr ""
+
+#: sidebar-pomodoro-right.php:113
+#: sidebar-pomodoro-right.php:115
+msgid "Export Worksheet"
+msgstr ""
+
+#: sidebar-pomodoro-right.php:114
+msgid ""
+"Have control over your "
+"data, view your "
+"pomodoros in Microsoft "
+"Excel, LibreOffice Calc "
+"and others"
+msgstr ""
+
+#: sidebar-pomodoro-right.php:118
+msgid "Your projects"
+msgstr ""
+
+#: single-product.php:66
+#: single.php:77
+msgid "Edit this entry."
+msgstr ""

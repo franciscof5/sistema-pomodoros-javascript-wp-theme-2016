@@ -1,0 +1,84 @@
+# Social Likes
+# Author: TS Soft
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: wp-posts-to-instagram-cat\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-08-19 09:40+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Koshkin D&D Group <koshkin527@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: wp-social-likes.php:89
+msgid "Request failed, there's a chance that this proxy/ip is blocked"
+msgstr ""
+"Не удалось выполнить запрос, есть шанс, что этот прокси / IP заблокирован"
+
+#: wp-social-likes.php:90
+msgid "Empty response received from the server while trying to login"
+msgstr "Пустой ответ получен от сервера при попытке входа в Instagram"
+
+#: wp-social-likes.php:91
+msgid "Could not decode the Instagram response"
+msgstr "Не удалось декодировать ответ сервера Instagram"
+
+#: wp-social-likes.php:92
+msgid "Posted to Instagram"
+msgstr "Опубликовано в Instagram"
+
+#: wp-social-likes.php:93
+msgid "Failed post to Instagram"
+msgstr "Ошибка при публикации в Instagram"
+
+#: wp-social-likes.php:93
+msgid ""
+"Empty response received from the server while trying to configure the image"
+msgstr ""
+"Пустой ответ, полученный от сервера при попытке настроить изображение"
+
+#: wp-social-likes.php:93
+msgid "You are not logged in. There's a chance that the account is banned"
+msgstr ""
+"Вы не вошли в систему. Есть вероятность, что учетная запись заблокирована"
+
+#: wp-social-likes.php:93
+msgid "Instagram response status error"
+msgstr "Ошибка ответа от сервера Instagram"
+
+#: wp-social-likes.php:93
+msgid "Error while processing the image to Instagram"
+msgstr "Ошибка при обработке изображения для Instagram"
+
+#: wp-social-likes.php:93
+msgid "Settings Updated"
+msgstr "Настройки обновлены "
+
+#: wp-social-likes.php:93
+msgid "Instagram account settings"
+msgstr "Настройки учетной записи Instagram"
+
+#: wp-social-likes.php:93
+msgid "Instagram poster settings"
+msgstr "Настройки"
+
+#: wp-social-likes.php:93
+msgid "Instagram Account Login"
+msgstr "Имя учетной записи"
+
+#: wp-social-likes.php:93
+msgid "Instagram Account Password"
+msgstr "Пароль"
+
+#: wp-social-likes.php:93
+msgid ""
+"Select the type of content, the publication of which will be sent to "
+"instagram"
+msgstr ""
+"Выберите тип содержимого, публикация которой будет загружена в Instagram"
+

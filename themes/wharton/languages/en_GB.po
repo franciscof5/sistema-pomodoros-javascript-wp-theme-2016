@@ -1,0 +1,1093 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Wharton\n"
+"POT-Creation-Date: 2015-06-07 20:37-0000\n"
+"PO-Revision-Date: 2015-06-07 20:37-0000\n"
+"Last-Translator: MeanThemes <themes@meanthemes.com>\n"
+"Language-Team: MeanThemes <themes@meanthemes.com>\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:7
+msgid "Please try using our search to find the content you were looking for."
+msgstr ""
+
+#: ../_part-content-page.php:79
+msgid "Most recent posts"
+msgstr ""
+
+#: ../_part-content-page.php:91
+msgid "By month"
+msgstr ""
+
+#: ../_part-content-page.php:95
+msgid "By year"
+msgstr ""
+
+#: ../_part-content-page.php:101
+msgid "By author"
+msgstr ""
+
+#: ../_part-content-page.php:105
+msgid "By category"
+msgstr ""
+
+#: ../_part-content-page.php:115 ../_part-content.php:22 ../t-index.php:97
+msgid "<span>Pages:</span>"
+msgstr ""
+
+#: ../_part-content.php:33
+msgid "Continue reading"
+msgstr ""
+
+#: ../_part-meta-bottom.php:6
+msgid "Saved: "
+msgstr ""
+
+#: ../_part-meta-bottom.php:8
+msgid "Tagged: "
+msgstr ""
+
+#: ../_part-meta-bottom.php:21
+msgid "By"
+msgstr ""
+
+#: ../_part-meta-top.php:13
+msgid "0 Comments"
+msgstr ""
+
+#: ../_part-meta-top.php:13
+msgid "1 Comment"
+msgstr ""
+
+#: ../_part-meta-top.php:13
+msgid "% Comments"
+msgstr ""
+
+#: ../_part-meta-top.php:17
+msgid "by "
+msgstr ""
+
+#: ../_part-nav-archive.php:3
+msgid ".Prev Page"
+msgstr ""
+
+#: ../_part-nav-archive.php:4
+msgid "Next Page."
+msgstr ""
+
+#: ../_part-nav-prev-next.php:3
+msgid ".Previously"
+msgstr ""
+
+#: ../_part-nav-prev-next.php:4 ../_part-nav-prev-next.php:8
+msgid "%title"
+msgstr ""
+
+#: ../_part-nav-prev-next.php:7
+msgid "Up Next."
+msgstr ""
+
+#: ../_part-social-share.php:26 ../framework/widgets.php:130
+msgid "Twitter"
+msgstr ""
+
+#: ../_part-social-share.php:29 ../framework/widgets.php:133
+msgid "Facebook"
+msgstr ""
+
+#: ../_part-social-share.php:32 ../framework/widgets.php:151
+msgid "Pinterest"
+msgstr ""
+
+#: ../_part-social-share.php:35 ../framework/widgets.php:139
+msgid "Google+"
+msgstr ""
+
+#: ../archive.php:31 ../archive.php:33 ../archive.php:35
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: ../archive.php:78 ../author.php:72 ../search.php:66
+#, php-format
+msgid "Nothing Found for: %s"
+msgstr ""
+
+#: ../archive.php:78 ../author.php:72 ../search.php:66
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: ../comments.php:11
+msgid "Comments (0)"
+msgstr ""
+
+#: ../comments.php:11
+msgid "Comments (1)"
+msgstr ""
+
+#: ../comments.php:11
+msgid "Comments (%)"
+msgstr ""
+
+#: ../comments.php:16
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: ../comments.php:25 ../comments.php:34
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr ""
+
+#: ../comments.php:26 ../comments.php:35
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../comments.php:39
+msgid "Comments are closed."
+msgstr ""
+
+#: ../comments.php:45
+msgid "Leave a comment"
+msgstr ""
+
+#: ../comments.php:46
+msgid ""
+"Your email address will not be published. Required fields are marked <span "
+"class=\"required\">*</span>"
+msgstr ""
+
+#: ../comments.php:48
+msgid "Comment"
+msgstr ""
+
+#: ../comments.php:51
+msgid "Post Comment"
+msgstr ""
+
+#: ../framework/custom-meta.php:14
+msgid "Post Formats"
+msgstr ""
+
+#: ../framework/custom-meta.php:60
+msgid ""
+"To keep things simple, please fill out the following below per post format, "
+"you must ensure you also choose the right post format from the 'Format' "
+"panel for the below to work"
+msgstr ""
+
+#: ../framework/custom-meta.php:61
+msgid "Link Format"
+msgstr ""
+
+#: ../framework/custom-meta.php:62
+msgid "URL (Web Address):"
+msgstr ""
+
+#: ../framework/custom-meta.php:63
+msgid ""
+"Open this link in the same window (this overrides the default new window/tab)"
+msgstr ""
+
+#: ../framework/custom-meta.php:65
+msgid "Video Format:"
+msgstr ""
+
+#: ../framework/custom-meta.php:66
+msgid "Video Embed Code:"
+msgstr ""
+
+#: ../framework/custom-meta.php:70
+msgid "Status Format:"
+msgstr ""
+
+#: ../framework/custom-meta.php:71
+msgid "Insert Facebook or Twitter Embed Code:"
+msgstr ""
+
+#: ../framework/custom-meta.php:75
+msgid "Audio Format (mp3):"
+msgstr ""
+
+#: ../framework/custom-meta.php:76
+msgid ""
+"Audio Web Address (URL - you can upload via WordPress and then copy link "
+"into here):"
+msgstr ""
+
+#: ../framework/custom-meta.php:78
+msgid "Quote Format"
+msgstr ""
+
+#: ../framework/custom-meta.php:79
+msgid "Source:"
+msgstr ""
+
+#: ../framework/custom-meta.php:80
+msgid "Source URL:"
+msgstr ""
+
+#: ../framework/custom-meta.php:132 ../framework/custom-meta.php:141
+msgid "Header Background settings"
+msgstr ""
+
+#: ../framework/custom-meta.php:181
+msgid ""
+"Choose your header background colour - if you set a header image below, the "
+"colour will sit behind that image."
+msgstr ""
+
+#: ../framework/custom-meta.php:183
+msgid "Choose Background Colour"
+msgstr ""
+
+#: ../framework/custom-meta.php:188
+msgid "Choose Text Colour"
+msgstr ""
+
+#: ../framework/custom-meta.php:195
+msgid "Background Cover or Repeat..."
+msgstr ""
+
+#: ../framework/custom-meta.php:198
+msgid "Cover background (Default)"
+msgstr ""
+
+#: ../framework/custom-meta.php:199
+msgid "No-repeat "
+msgstr ""
+
+#: ../framework/custom-meta.php:200
+msgid "Repeat (Tiled)"
+msgstr ""
+
+#: ../framework/custom-meta.php:201
+msgid "Repeat-X (Horizontal)"
+msgstr ""
+
+#: ../framework/custom-meta.php:202
+msgid "Repeat-Y (Vertical)"
+msgstr ""
+
+#: ../framework/custom-meta.php:208
+msgid "Position background image..."
+msgstr ""
+
+#: ../framework/custom-meta.php:211
+msgid "Center Center (Default)"
+msgstr ""
+
+#: ../framework/custom-meta.php:212
+msgid "Top Center"
+msgstr ""
+
+#: ../framework/custom-meta.php:213
+msgid "Bottom Center"
+msgstr ""
+
+#: ../framework/custom-meta.php:214
+msgid "Top Left"
+msgstr ""
+
+#: ../framework/custom-meta.php:215
+msgid "Top Right"
+msgstr ""
+
+#: ../framework/custom-meta.php:216
+msgid "Bottom Left"
+msgstr ""
+
+#: ../framework/custom-meta.php:217
+msgid "Bottom Right"
+msgstr ""
+
+#: ../framework/custom-meta.php:224
+msgid "Opacity of the Image Layer..."
+msgstr ""
+
+#: ../framework/custom-meta.php:227
+msgid "30% (Default)"
+msgstr ""
+
+#: ../framework/custom-meta.php:228
+msgid "5%"
+msgstr ""
+
+#: ../framework/custom-meta.php:229
+msgid "10%"
+msgstr ""
+
+#: ../framework/custom-meta.php:230
+msgid "15%"
+msgstr ""
+
+#: ../framework/custom-meta.php:231
+msgid "20%"
+msgstr ""
+
+#: ../framework/custom-meta.php:232
+msgid "25%"
+msgstr ""
+
+#: ../framework/custom-meta.php:233
+msgid "35%"
+msgstr ""
+
+#: ../framework/custom-meta.php:234
+msgid "40%"
+msgstr ""
+
+#: ../framework/custom-meta.php:235
+msgid "45%"
+msgstr ""
+
+#: ../framework/custom-meta.php:236
+msgid "50%"
+msgstr ""
+
+#: ../framework/custom-meta.php:237
+msgid "55%"
+msgstr ""
+
+#: ../framework/custom-meta.php:238
+msgid "60%"
+msgstr ""
+
+#: ../framework/custom-meta.php:239
+msgid "65%"
+msgstr ""
+
+#: ../framework/custom-meta.php:240
+msgid "70%"
+msgstr ""
+
+#: ../framework/custom-meta.php:241
+msgid "75%"
+msgstr ""
+
+#: ../framework/custom-meta.php:242
+msgid "80%"
+msgstr ""
+
+#: ../framework/custom-meta.php:243
+msgid "85%"
+msgstr ""
+
+#: ../framework/custom-meta.php:244
+msgid "90%"
+msgstr ""
+
+#: ../framework/custom-meta.php:245
+msgid "95%"
+msgstr ""
+
+#: ../framework/custom-meta.php:246
+msgid "100%"
+msgstr ""
+
+#: ../framework/custom-meta.php:294
+msgid "Disable Featured Image on Archive?"
+msgstr ""
+
+#: ../framework/custom-meta.php:311
+msgid ""
+"Disable Featured Image from showing on the index/archive/home whilst still "
+"being able to use it on this single post or page."
+msgstr ""
+
+#: ../framework/custom-meta.php:312
+msgid "No"
+msgstr ""
+
+#: ../framework/custom-meta.php:313
+msgid "Yes"
+msgstr ""
+
+#: ../framework/default.php:215
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../framework/default.php:221
+msgid " at "
+msgstr ""
+
+#: ../framework/default.php:221 ../framework/default.php:236
+msgid "(Edit)"
+msgstr ""
+
+#: ../framework/default.php:236
+msgid "Pingback:"
+msgstr ""
+
+#: ../framework/default.php:364
+msgid "Audio Link: "
+msgstr ""
+
+#: ../framework/default.php:367
+msgid "Video Post: "
+msgstr ""
+
+#: ../framework/default.php:370
+msgid "Link Post: "
+msgstr ""
+
+#: ../framework/default.php:373
+msgid "Quote Source: "
+msgstr ""
+
+#: ../framework/theme-options.php:18
+msgid "General Settings"
+msgstr ""
+
+#: ../framework/theme-options.php:36
+msgid "Auto Excerpt on Blog?"
+msgstr ""
+
+#: ../framework/theme-options.php:54
+msgid "Auto Excerpt Length on Blog (Words)"
+msgstr ""
+
+#: ../framework/theme-options.php:76
+msgid "Hide Plain Text logo?"
+msgstr ""
+
+#: ../framework/theme-options.php:94
+msgid "Hide Tagline?"
+msgstr ""
+
+#: ../framework/theme-options.php:112
+msgid "Hide Global Sidebar?"
+msgstr ""
+
+#: ../framework/theme-options.php:130
+msgid "Use Alternate Global Sidebar?"
+msgstr ""
+
+#: ../framework/theme-options.php:150
+msgid "Hide Lead Text on homepage?"
+msgstr ""
+
+#: ../framework/theme-options.php:168
+msgid ""
+"Use \"Subtle\" Layout for Posts &amp; Pages? (e.g. no big lead image on "
+"posts/pages with overlaid title)"
+msgstr ""
+
+#: ../framework/theme-options.php:187
+msgid "Center Header"
+msgstr ""
+
+#: ../framework/theme-options.php:205
+msgid "Use Black Social Share icons on posts?"
+msgstr ""
+
+#: ../framework/theme-options.php:223
+msgid "Hide Social Share on posts?"
+msgstr ""
+
+#: ../framework/theme-options.php:241
+msgid "Hide Comments?"
+msgstr ""
+
+#: ../framework/theme-options.php:260
+msgid "Enable Comments on Pages?"
+msgstr ""
+
+#: ../framework/theme-options.php:279
+msgid "Twitter Username"
+msgstr ""
+
+#: ../framework/theme-options.php:298
+msgid "Show Comment Count on Home/Archive?"
+msgstr ""
+
+#: ../framework/theme-options.php:316
+msgid "Menu Settings"
+msgstr ""
+
+#: ../framework/theme-options.php:335
+msgid "Use Standard Desktop Menu?"
+msgstr ""
+
+#: ../framework/theme-options.php:356
+msgid ""
+"Activate mobile menu at (only use in conjunction with \"Standard Desktop\" "
+"Menu)"
+msgstr ""
+
+#: ../framework/theme-options.php:379
+msgid "Hide Menu Icon?"
+msgstr ""
+
+#: ../framework/theme-options.php:398
+msgid "Amount of Recent Posts on Navigation Overlay"
+msgstr ""
+
+#: ../framework/theme-options.php:416
+msgid "Hide Recent Posts Title on Navigation Overlay?"
+msgstr ""
+
+#: ../framework/theme-options.php:434
+msgid "Hide Navigation Title on Navigation?"
+msgstr ""
+
+#: ../framework/theme-options.php:447
+msgid "Background & Border Colors"
+msgstr ""
+
+#: ../framework/theme-options.php:466
+msgid "Header Background Colour"
+msgstr ""
+
+#: ../framework/theme-options.php:486
+msgid "Site Navigation Overlay Background Color"
+msgstr ""
+
+#: ../framework/theme-options.php:507
+msgid "Page & Post Lead Background Color"
+msgstr ""
+
+#: ../framework/theme-options.php:527
+msgid "Footer Widgets Background"
+msgstr ""
+
+#: ../framework/theme-options.php:547
+msgid "Body Background"
+msgstr ""
+
+#: ../framework/theme-options.php:567
+msgid "Post background"
+msgstr ""
+
+#: ../framework/theme-options.php:588
+msgid "Footer background"
+msgstr ""
+
+#: ../framework/theme-options.php:610
+msgid "Button Color"
+msgstr ""
+
+#: ../framework/theme-options.php:631
+msgid "Button Hover Color"
+msgstr ""
+
+#: ../framework/theme-options.php:653
+msgid "Home Intro Background Color"
+msgstr ""
+
+#: ../framework/theme-options.php:674
+msgid "Link Format Background Color"
+msgstr ""
+
+#: ../framework/theme-options.php:695
+msgid "Gallery Format Background Color"
+msgstr ""
+
+#: ../framework/theme-options.php:715
+msgid "Comments title Background Color"
+msgstr ""
+
+#: ../framework/theme-options.php:736 ../framework/theme-options.php:756
+msgid "Archive/Index Post Image Background Color"
+msgstr ""
+
+#: ../framework/theme-options.php:780
+msgid "Border Color Blockquote"
+msgstr ""
+
+#: ../framework/theme-options.php:800
+msgid "Border Color"
+msgstr ""
+
+#: ../framework/theme-options.php:824
+msgid "Blog Title"
+msgstr ""
+
+#: ../framework/theme-options.php:844
+msgid "Blog Title Hover"
+msgstr ""
+
+#: ../framework/theme-options.php:864
+msgid "Blog Tagline"
+msgstr ""
+
+#: ../framework/theme-options.php:885
+msgid "Main Text"
+msgstr ""
+
+#: ../framework/theme-options.php:906
+msgid "Heading Colour"
+msgstr ""
+
+#: ../framework/theme-options.php:928
+msgid "Main Link"
+msgstr ""
+
+#: ../framework/theme-options.php:948
+msgid "Main Link Hover"
+msgstr ""
+
+#: ../framework/theme-options.php:969
+msgid "Meta Text"
+msgstr ""
+
+#: ../framework/theme-options.php:990
+msgid "Meta Text Link Hover"
+msgstr ""
+
+#: ../framework/theme-options.php:1015
+msgid "Archive Title Link"
+msgstr ""
+
+#: ../framework/theme-options.php:1035
+msgid "Archive Title Link Hover"
+msgstr ""
+
+#: ../framework/theme-options.php:1056
+msgid "Navigation Overlay Link"
+msgstr ""
+
+#: ../framework/theme-options.php:1078
+msgid "Navigation Overlay Link Hover"
+msgstr ""
+
+#: ../framework/theme-options.php:1099
+msgid "Ampersand Color"
+msgstr ""
+
+#: ../framework/theme-options.php:1120
+msgid "Page &amp; Post Lead Color"
+msgstr ""
+
+#: ../framework/theme-options.php:1140
+msgid "Page &amp; Post Lead Meta Hover Color"
+msgstr ""
+
+#: ../framework/theme-options.php:1160
+msgid "Menu Link/Icon Color"
+msgstr ""
+
+#: ../framework/theme-options.php:1181 ../framework/theme-options.php:1202
+msgid "Link Format Color"
+msgstr ""
+
+#: ../framework/theme-options.php:1222
+msgid "Commment Title Color"
+msgstr ""
+
+#: ../framework/theme-options.php:1244
+msgid "Footer Widget Link Color"
+msgstr ""
+
+#: ../framework/theme-options.php:1264
+msgid "Footer Widget Link Hover Color"
+msgstr ""
+
+#: ../framework/theme-options.php:1285
+msgid "Footer Text &amp; Footer Links"
+msgstr ""
+
+#: ../framework/theme-options.php:1305
+msgid "Footer Link Hover"
+msgstr ""
+
+#: ../framework/theme-options.php:1320
+msgid "Fonts"
+msgstr ""
+
+#: ../framework/theme-options.php:1337
+msgid "Main Font"
+msgstr ""
+
+#: ../framework/theme-options.php:1366
+msgid "Heading & Meta Font"
+msgstr ""
+
+#: ../framework/theme-options.php:1397
+msgid "Uppercase all \"Titles\"?"
+msgstr ""
+
+#: ../framework/theme-options.php:1410
+msgid "Fonts Advanced"
+msgstr ""
+
+#: ../framework/theme-options.php:1411
+msgid ""
+"We support Google web fonts, Typekit and Adobe Web fonts. Paste their code "
+"in to the Font Service Code block below then enter the font family as they "
+"tell you to in the Font Family textboxes for Heading &amp; Main. Finally "
+"choose your font-weight. <br /><br /><strong>You need to save and publish to "
+"view your changes</strong>."
+msgstr ""
+
+#: ../framework/theme-options.php:1457
+msgid "Main Font Family"
+msgstr ""
+
+#: ../framework/theme-options.php:1476
+msgid "Font Weight for Main"
+msgstr ""
+
+#: ../framework/theme-options.php:1505
+msgid "Font Weight for Headings & Meta"
+msgstr ""
+
+#: ../framework/theme-options.php:1534
+msgid "Italicise Main?"
+msgstr ""
+
+#: ../framework/theme-options.php:1552
+msgid "Italicise Heading &amp; Meta?"
+msgstr ""
+
+#: ../framework/theme-options.php:1571
+msgid "Heading &amp; Meta Font Family"
+msgstr ""
+
+#: ../framework/theme-options.php:1585
+msgid "Image Uploads"
+msgstr ""
+
+#: ../framework/theme-options.php:1606
+msgid "Logo (Retina)"
+msgstr ""
+
+#: ../framework/theme-options.php:1628
+msgid "Logo"
+msgstr ""
+
+#: ../framework/theme-options.php:1650
+msgid "Upload Favicon (32x32px)"
+msgstr ""
+
+#: ../framework/theme-options.php:1672
+msgid "Upload Apple Touch Icon (144x144px)"
+msgstr ""
+
+#: ../framework/theme-options.php:1693
+msgid "Post & Page Lead Image (over 1680x650 is ideal)"
+msgstr ""
+
+#: ../framework/theme-options.php:1714
+msgid "Body Background Tile"
+msgstr ""
+
+#: ../framework/theme-options.php:1730
+msgid "Image Settings"
+msgstr ""
+
+#: ../framework/theme-options.php:1731
+msgid ""
+"You can choose to override the featured image settings here. Set a width, "
+"height and hard crop. <strong> Do not include values e.g. just enter 1100 "
+"and not 1100px</strong>. Once done please install and run the <a href="
+"\"http://wordpress.org/plugins/regenerate-thumbnails/\" target=\"_blank"
+"\">Regenerate Thumbnails</a> plugin."
+msgstr ""
+
+#: ../framework/theme-options.php:1751
+msgid "Override image settings with below?"
+msgstr ""
+
+#: ../framework/theme-options.php:1769
+msgid "Set image width (default is 1100)"
+msgstr ""
+
+#: ../framework/theme-options.php:1788
+msgid "Set image height (leave 9999 for unfixed height)"
+msgstr ""
+
+#: ../framework/theme-options.php:1808
+msgid "Hard crop all images?"
+msgstr ""
+
+#: ../framework/theme-options.php:1827
+msgid "Center all featured images?"
+msgstr ""
+
+#: ../framework/theme-options.php:1897
+msgid "Custom Text"
+msgstr ""
+
+#: ../framework/theme-options.php:1961
+msgid "Navigation"
+msgstr ""
+
+#: ../framework/theme-options.php:1970
+msgid "Navigation Menu Overlay Title"
+msgstr ""
+
+#: ../framework/theme-options.php:1980
+msgid "10 Most recent posts"
+msgstr ""
+
+#: ../framework/theme-options.php:1989
+msgid "Recent Posts Menu Overlay Title"
+msgstr ""
+
+#: ../framework/theme-options.php:1998
+msgid "Menu"
+msgstr ""
+
+#: ../framework/theme-options.php:2007
+msgid "\"Menu\" Text"
+msgstr ""
+
+#: ../framework/theme-options.php:2017
+msgid "Logo Alt"
+msgstr ""
+
+#: ../framework/theme-options.php:2026
+msgid "Logo Alt Text"
+msgstr ""
+
+#: ../framework/theme-options.php:2036
+msgid "Logo Title"
+msgstr ""
+
+#: ../framework/theme-options.php:2045
+msgid "Logo Title Text"
+msgstr ""
+
+#: ../framework/theme-options.php:2068
+msgid "Custom CSS Block"
+msgstr ""
+
+#: ../framework/theme-options.php:2078
+msgid "Enter Your Custom CSS"
+msgstr ""
+
+#: ../framework/theme-options.php:2089
+msgid "Google Analytics JavaScript"
+msgstr ""
+
+#: ../framework/widgets.php:11
+msgid "Footer Widget Area"
+msgstr ""
+
+#: ../framework/widgets.php:22
+msgid "Sidebar Widget Area"
+msgstr ""
+
+#: ../framework/widgets.php:32
+msgid "Sidebar Widget Area (Page)"
+msgstr ""
+
+#: ../framework/widgets.php:42
+msgid "Social Footer Widget Area"
+msgstr ""
+
+#: ../framework/widgets.php:70
+msgid "Add your social links. "
+msgstr ""
+
+#: ../framework/widgets.php:74
+msgid "MeanThemes Social Widget"
+msgstr ""
+
+#: ../framework/widgets.php:136
+msgid "LinkedIn"
+msgstr ""
+
+#: ../framework/widgets.php:142
+msgid "Zerply"
+msgstr ""
+
+#: ../framework/widgets.php:145
+msgid "Vimeo"
+msgstr ""
+
+#: ../framework/widgets.php:148
+msgid "YouTube"
+msgstr ""
+
+#: ../framework/widgets.php:154
+msgid "Dribbble"
+msgstr ""
+
+#: ../framework/widgets.php:157
+msgid "Github"
+msgstr ""
+
+#: ../framework/widgets.php:160
+msgid "Instagram"
+msgstr ""
+
+#: ../framework/widgets.php:163
+msgid "Flickr"
+msgstr ""
+
+#: ../framework/widgets.php:166
+msgid "App.Net"
+msgstr ""
+
+#: ../framework/widgets.php:169
+msgid "Behance"
+msgstr ""
+
+#: ../framework/widgets.php:172
+msgid "Tumblr"
+msgstr ""
+
+#: ../framework/widgets.php:175
+msgid "Last.fm"
+msgstr ""
+
+#: ../framework/widgets.php:178
+msgid "SoundCloud"
+msgstr ""
+
+#: ../framework/widgets.php:181
+msgid "MixCloud"
+msgstr ""
+
+#: ../framework/widgets.php:184
+msgid "Spotify"
+msgstr ""
+
+#: ../framework/widgets.php:187
+msgid "Xing"
+msgstr ""
+
+#: ../framework/widgets.php:189
+msgid "Foursquare"
+msgstr ""
+
+#: ../framework/widgets.php:192
+msgid "rss"
+msgstr ""
+
+#: ../framework/widgets.php:273
+msgid "Please add Full URLs e.g. http://twitter.com/getmeanthemes"
+msgstr ""
+
+#: ../framework/widgets.php:276
+msgid "Title:"
+msgstr ""
+
+#: ../framework/widgets.php:284
+msgid "Description:"
+msgstr ""
+
+#: ../framework/widgets.php:289
+msgid "Twitter:"
+msgstr ""
+
+#: ../framework/widgets.php:294
+msgid "Facebook:"
+msgstr ""
+
+#: ../framework/widgets.php:299
+msgid "LinkedIn:"
+msgstr ""
+
+#: ../framework/widgets.php:304
+msgid "Google+:"
+msgstr ""
+
+#: ../framework/widgets.php:309
+msgid "Zerply:"
+msgstr ""
+
+#: ../framework/widgets.php:314
+msgid "Vimeo:"
+msgstr ""
+
+#: ../framework/widgets.php:319
+msgid "YouTube:"
+msgstr ""
+
+#: ../framework/widgets.php:324
+msgid "Pinterest:"
+msgstr ""
+
+#: ../framework/widgets.php:329
+msgid "Dribbble:"
+msgstr ""
+
+#: ../framework/widgets.php:334
+msgid "Github:"
+msgstr ""
+
+#: ../framework/widgets.php:339
+msgid "Instagram:"
+msgstr ""
+
+#: ../framework/widgets.php:344
+msgid "Flickr:"
+msgstr ""
+
+#: ../framework/widgets.php:349
+msgid "App.Net:"
+msgstr ""
+
+#: ../framework/widgets.php:354
+msgid "Behance:"
+msgstr ""
+
+#: ../framework/widgets.php:359
+msgid "Tumblr:"
+msgstr ""
+
+#: ../framework/widgets.php:364
+msgid "LastFM:"
+msgstr ""
+
+#: ../framework/widgets.php:369
+msgid "SoundCloud:"
+msgstr ""
+
+#: ../framework/widgets.php:374
+msgid "MixCloud:"
+msgstr ""
+
+#: ../framework/widgets.php:379
+msgid "Spotify:"
+msgstr ""
+
+#: ../framework/widgets.php:384
+msgid "Xing:"
+msgstr ""
+
+#: ../framework/widgets.php:389
+msgid "Foursquare:"
+msgstr ""
+
+#: ../framework/widgets.php:394
+msgid "RSS:"
+msgstr ""
+
+#: ../framework/widgets.php:401
+msgid "Open links in new window?"
+msgstr ""
+
+#: ../framework/widgets.php:406
+msgid "Use white icons?"
+msgstr ""
+
+#: ../header.php:109
+msgid "Go to Home"
+msgstr ""
+
+#: ../search.php:29
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../searchform.php:3
+msgid "Type and hit enter"
+msgstr ""
+
+#: ../searchform.php:4
+msgid "Search"
+msgstr ""

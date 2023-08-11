@@ -1,0 +1,154 @@
+/*
+Theme Name: ShowRoom WP
+Theme URI: https://franciscomat.com/showroom-wp
+Author: Francisco Mat
+Author URI: https://franciscomat.com
+Description: For portfolio porpouse
+License: GNU General Public License v2 or later
+*/
+
+@font-face {
+    font-family: 'dosisregular';
+    src: url('fonts/dosis-regular-webfont.eot');
+    src: url('fonts/dosis-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/dosis-regular-webfont.woff2') format('woff2'),
+         url('fonts/dosis-regular-webfont.woff') format('woff'),
+         url('fonts/dosis-regular-webfont.ttf') format('truetype'),
+         url('fonts/dosis-regular-webfont.svg#dosisregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'dosisbold';
+    src: url('fonts/dosis-bold-webfont.eot');
+    src: url('fonts/dosis-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/dosis-bold-webfont.woff2') format('woff2'),
+         url('fonts/dosis-bold-webfont.woff') format('woff'),
+         url('fonts/dosis-bold-webfont.ttf') format('truetype'),
+         url('fonts/dosis-bold-webfont.svg#dosisbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+	background-color: #EEE;
+	font-family: 'dosisregular';
+}
+header {
+	margin-top: 10px;
+	background-color: #ED1C24;
+	padding: 20px 5px;
+	font-family: 'dosisbold';
+}
+/*
+PRETO:#2A2A28;
+VERMELHO:#ED1C24;
+VERMELHO+ESCURO:#C50A21 CD172B;
+*/
+
+/* HEADER */
+#header-logo {
+	margin: 0 20px;
+}
+/* NAV MENU */
+#primary-navigation a {
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #FFF;
+}
+	.children {
+		background-color: #2A2A28 !important;
+	}
+	#primary-navigation a:hover {
+		background-color: #C50A21;
+	}
+	.current_page_item {
+		background-color: #C50A21;
+		border-bottom: 2px solid #FFF;
+	}
+	.icon-bar {
+		background: #FFF;
+	}
+	/*busca*/
+	#s {
+		border-radius: 0;
+		border: 0;
+		line-height: 45px;
+		margin-left: 10px;
+		background-image: url("imgs/buscar.png");
+		background-repeat: no-repeat;
+		background-position: 95% 15px;
+		padding: 0 30px 0 10px;
+	}
+
+/* HEADER EXTRA */
+#header-extra {
+	background-color: #2A2A28;
+	color: #FFF;
+	text-transform: uppercase;
+	font-family: 'dosisbold';
+}
+	.header-realce {
+		display: inline-block;
+		width: 142px;
+		float: left;
+		height: 30px;
+		line-height: 30px;
+		color: #FFF;
+		text-transform: uppercase;
+		background-image: url("imgs/detalhe-seta.png");
+		background-repeat: no-repeat;
+		font-size: 14px;
+		padding-left: 20px;
+	}
+
+	.wpp-list {
+		float: left;
+		
+		font-size: 14px;
+		/*height: 20px;
+		line-height: 20px;*/
+		text-transform: uppercase;
+		margin-bottom: 0 !important;
+	}
+	.wpp-list a {
+		color: #FFF;
+		
+		
+	}
+	.wpp-list li {
+		display: inline-block;
+		padding: 0 15px !important;
+		height: 25px;
+		line-height: 25px !important;
+	}
+	.wpp-views {
+		display: none;
+	}
+	.wpp-list li:hover .wpp-views {
+		display: initial;
+		color: #ED1C24;
+	}
+/*AJUSTES*/
+
+/*bootstrap subscribe default*/
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
+    background-color: #2A2A28 !important;
+}
+.dadropdownta-toggle:focus {
+	background-color: transparent !important;
+}
+.dropdown-menu {
+	background-color: #2A2A28;
+	border:0;
+	padding: 0;
+
+}
+.dropdown-menu a {
+	height: 50px;
+	line-height: 50px !important;
+}
+#header-advt {
+	margin-top: -25px;
+}

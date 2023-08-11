@@ -1,0 +1,2619 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Instamatic Automatic Post Generator\n"
+"POT-Creation-Date: 2019-04-17 19:02+0300\n"
+"PO-Revision-Date: 2019-04-17 19:02+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: instamatic-instagram-post-generator.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: instamatic-instagram-post-generator.php:145
+#, php-format
+msgid ""
+"The plugin is not registered. Automatic updating is disabled. Please "
+"purchase a license for it from <a href=\"%s\" target=\"_blank\">here</a> and "
+"register  the plugin from the 'Main Settings' menu using your purchase code. "
+"<a href=\"%s\" target=\"_blank\">How I find my purchase code?"
+msgstr ""
+
+#: instamatic-instagram-post-generator.php:161
+msgid "Activate Plugin License"
+msgstr ""
+
+#: instamatic-instagram-post-generator.php:182
+msgid "Main Settings"
+msgstr ""
+
+#: instamatic-instagram-post-generator.php:187
+msgid "Instagram to Posts"
+msgstr ""
+
+#: instamatic-instagram-post-generator.php:190
+msgid "Posts to Instagram"
+msgstr ""
+
+#: instamatic-instagram-post-generator.php:193
+msgid "Activity & Logging"
+msgstr ""
+
+#: instamatic-instagram-post-generator.php:268
+msgid "Support"
+msgstr ""
+
+#: instamatic-instagram-post-generator.php:276
+msgid "Settings"
+msgstr ""
+
+#: instamatic-instagram-post-generator.php:287
+msgid "Instamatic Automatic Post Generator Information"
+msgstr ""
+
+#: instamatic-instagram-post-generator.php:299
+msgid "Instamatic Cron"
+msgstr ""
+
+#: instamatic-instagram-post-generator.php:303
+msgid "Once A Minute"
+msgstr ""
+
+#: instamatic-instagram-post-generator.php:307
+msgid "Once Weekly"
+msgstr ""
+
+#: instamatic-instagram-post-generator.php:311
+msgid "Once Monthly"
+msgstr ""
+
+#: instamatic-instagram-post-generator.php:2844
+msgid ""
+"Post will be submitted respecting the configurations you made in the "
+"\\'Posts to Instagram\\' plugin menu section."
+msgstr ""
+
+#: instamatic-instagram-post-generator.php:2844
+msgid "Manually submit post now:"
+msgstr ""
+
+#: instamatic-instagram-post-generator.php:2844
+msgid "Post To Instagram Now!"
+msgstr ""
+
+#: instamatic-instagram-post-generator.php:2846
+msgid "Post Parent Rule:"
+msgstr ""
+
+#: instamatic-instagram-post-generator.php:2847
+msgid "Post Original Title:"
+msgstr ""
+
+#: instamatic-instagram-post-generator.php:2849
+msgid "Parent Feed Author:"
+msgstr ""
+
+#: instamatic-instagram-post-generator.php:2852
+msgid "Parent Feed Author URL:"
+msgstr ""
+
+#: instamatic-instagram-post-generator.php:2855
+msgid "Post Creation Date:"
+msgstr ""
+
+#: instamatic-instagram-post-generator.php:2858
+msgid "Post Categories:"
+msgstr ""
+
+#: instamatic-instagram-post-generator.php:2861
+msgid "Post Tags:"
+msgstr ""
+
+#: instamatic-instagram-post-generator.php:2864
+msgid "Featured Image:"
+msgstr ""
+
+#: instamatic-instagram-post-generator.php:2867
+msgid "Post Image:"
+msgstr ""
+
+#: instamatic-instagram-post-generator.php:2870
+msgid "Item Source URL Date:"
+msgstr ""
+
+#: instamatic-instagram-post-generator.php:2873
+msgid "Item Source URL:"
+msgstr ""
+
+#: instamatic-instagram-post-generator.php:2876
+msgid "Item Source Post ID:"
+msgstr ""
+
+#: instamatic-instagram-post-generator.php:2879
+msgid "Pingback/Trackback Status:"
+msgstr ""
+
+#: instamatic-instagram-post-generator.php:2882
+msgid "Comment Status:"
+msgstr ""
+
+#: instamatic-instagram-post-generator.php:2886
+msgid "This is not an automatically generated post."
+msgstr ""
+
+#: instamatic-instagram-post-generator.php:3078
+msgid "thumbnail"
+msgstr ""
+
+#: instamatic-instagram-post-generator.php:3500
+msgid "Read More"
+msgstr ""
+
+#: instamatic-instagram-post-generator.php:3567
+msgctxt "taxonomy general name"
+msgid "Post Source"
+msgstr ""
+
+#: instamatic-instagram-post-generator.php:3568
+msgctxt "taxonomy singular name"
+msgid "Post Source"
+msgstr ""
+
+#: instamatic-instagram-post-generator.php:3569
+msgid "Search Post Source"
+msgstr ""
+
+#: instamatic-instagram-post-generator.php:3570
+msgid "Popular Post Source"
+msgstr ""
+
+#: instamatic-instagram-post-generator.php:3571
+msgid "All Post Sources"
+msgstr ""
+
+#: instamatic-instagram-post-generator.php:3574
+msgid "Edit Post Source"
+msgstr ""
+
+#: instamatic-instagram-post-generator.php:3575
+msgid "Update Post Source"
+msgstr ""
+
+#: instamatic-instagram-post-generator.php:3576
+msgid "Add New Post Source"
+msgstr ""
+
+#: instamatic-instagram-post-generator.php:3577
+msgid "New Post Source Name"
+msgstr ""
+
+#: instamatic-instagram-post-generator.php:3578
+msgid "Separate Post Source with commas"
+msgstr ""
+
+#: instamatic-instagram-post-generator.php:3579
+msgid "Add or remove Post Source"
+msgstr ""
+
+#: instamatic-instagram-post-generator.php:3580
+msgid "Choose from the most used Post Source"
+msgstr ""
+
+#: instamatic-instagram-post-generator.php:3581
+msgid "No Post Sources found."
+msgstr ""
+
+#: instamatic-instagram-post-generator.php:3582
+msgid "Post Source"
+msgstr ""
+
+#: instamatic-instagram-post-generator.php:5591
+msgid ""
+"Please enable curl PHP extension. Please contact your hosting provider's "
+"support to help you in this matter."
+msgstr ""
+
+#: instamatic-instagram-post-generator.php:5596
+msgid "You are not allowed to activate plugins!"
+msgstr ""
+
+#: instamatic-instagram-post-generator.php:5604
+#, php-format
+msgid ""
+"This plugin can not be activated because it requires a PHP version greater "
+"than %1$s. Please update your PHP version before you activate it."
+msgstr ""
+
+#: instamatic-instagram-post-generator.php:5610
+#, php-format
+msgid ""
+"This plugin can not be activated because it requires a WordPress version "
+"greater than %1$s. Please go to Dashboard -> Updates to get the latest "
+"version of WordPress."
+msgstr ""
+
+#: res/instamatic-instagram-list.php:9
+msgid ""
+"Warning! allow_url_fopen not enabled in your php.ini. Posting to Instagram "
+"will not work until you do not enable it!"
+msgstr ""
+
+#: res/instamatic-instagram-list.php:83 res/instamatic-rules-list.php:22
+msgid "You must add a Instagram Password before you can use this feature!"
+msgstr ""
+
+#: res/instamatic-instagram-list.php:91 res/instamatic-rules-list.php:30
+msgid ""
+"You must add a Instagram User Name and Password before you can use this "
+"feature!"
+msgstr ""
+
+#: res/instamatic-instagram-list.php:98 res/instamatic-main.php:475
+#: res/instamatic-rules-list.php:45
+msgid "Settings saved."
+msgstr ""
+
+#: res/instamatic-instagram-list.php:107 res/instamatic-main.php:484
+msgid "Plugin registration failed!"
+msgstr ""
+
+#: res/instamatic-instagram-list.php:116 res/instamatic-main.php:493
+msgid "Plugin registration successful!"
+msgstr ""
+
+#: res/instamatic-instagram-list.php:128 res/instamatic-main.php:505
+msgid "Main Switch:"
+msgstr ""
+
+#: res/instamatic-instagram-list.php:132
+msgid ""
+"Enable or disable automatic posting to Instagram every time you publish a "
+"new post (manually or automatically). Please note that only jpg images can "
+"be submitted to Instagram. Also, these need to be with aspect ratios between "
+"1.91:1 and 4:5."
+msgstr ""
+
+#: res/instamatic-instagram-list.php:159
+msgid ""
+"Do you want delay posting with this amount of seconds from post publish? "
+"This will create a single cron job for each post (cron is a requirement for "
+"this to function). If you leave this field blank, posts will be "
+"automatically published on post creation."
+msgstr ""
+
+#: res/instamatic-instagram-list.php:163
+msgid "Delay Posting By (Seconds):"
+msgstr ""
+
+#: res/instamatic-instagram-list.php:176
+msgid ""
+"This option will allow you to select if you want to run posting in async "
+"mode. This means that each time you publish a post, the plugin will try to "
+"execute it's task in the background - it will no longer block new post "
+"posting, while it finishes it's job."
+msgstr ""
+
+#: res/instamatic-instagram-list.php:180
+msgid "Use Async Posting Method:"
+msgstr ""
+
+#: res/instamatic-instagram-list.php:196
+msgid ""
+"Choose the template of your Instagram posts. You can use the following "
+"shortcodes: %%featured_image%%, %%post_cats%%, %%post_tags%%, %%blog_title%"
+"%, %%smart_hashtags%%, %%author_name%%, %%post_link%%, %%random_sentence%%, %"
+"%random_sentence2%%, %%post_title%%, %%post_title_hashtags%%, %%post_content%"
+"%, %post_excerpt%%"
+msgstr ""
+
+#: res/instamatic-instagram-list.php:200
+msgid "Instagram Post Message Template:"
+msgstr ""
+
+#: res/instamatic-instagram-list.php:217 res/instamatic-instagram-list.php:277
+msgid ""
+"Do you want to disable automatically posting of WordPress 'posts' to "
+"Instagram?"
+msgstr ""
+
+#: res/instamatic-instagram-list.php:221
+msgid "Disable Autoposting of 'Posts':"
+msgstr ""
+
+#: res/instamatic-instagram-list.php:237
+msgid ""
+"Do you want to disable automatically posting of WordPress 'pages' to "
+"Instagram?"
+msgstr ""
+
+#: res/instamatic-instagram-list.php:241
+msgid "Disable Autoposting of 'Pages':"
+msgstr ""
+
+#: res/instamatic-instagram-list.php:257
+msgid ""
+"Do you want to disable automatically posting of WordPress 'custom post "
+"types' to Instagram?"
+msgstr ""
+
+#: res/instamatic-instagram-list.php:261
+msgid "Disable Autoposting of 'Custom Post Types':"
+msgstr ""
+
+#: res/instamatic-instagram-list.php:281
+msgid "Disable Autoposting of Selected Categories:"
+msgstr ""
+
+#: res/instamatic-instagram-list.php:282
+msgid "Show/Hide Categories List"
+msgstr ""
+
+#: res/instamatic-instagram-list.php:325
+msgid ""
+"Input the tags for which you want to disable posting. You can enter more "
+"tags, separated by comma. Ex: cars, vehicles, red, luxury. To disable this "
+"feature, leave this field blank."
+msgstr ""
+
+#: res/instamatic-instagram-list.php:329
+msgid "Disable Autoposting of Selected Tags:"
+msgstr ""
+
+#: res/instamatic-instagram-list.php:346
+msgid "Do you want to post videos when available?"
+msgstr ""
+
+#: res/instamatic-instagram-list.php:350
+msgid "Also Post Videos When Available:"
+msgstr ""
+
+#: res/instamatic-instagram-list.php:366
+msgid "Do you want to post only local videos (that reside on your host)?"
+msgstr ""
+
+#: res/instamatic-instagram-list.php:370
+msgid "Post Only Local Videos:"
+msgstr ""
+
+#: res/instamatic-instagram-list.php:383
+msgid "Help! Plugin configured and still no posts appearing on Instagram?"
+msgstr ""
+
+#: res/instamatic-instagram-list.php:387
+msgid ""
+"In this case you can try the following: Check Your username and password. "
+"Make sure they are correct. Also, if your Instagram account has advanced "
+"security features enabled, after you enter your credentials in the plugin, "
+"to make posting work, you have to log in to Instagram from your local "
+"browser.  Instagram will great you with a security message similar with the "
+"image attached to this email. You have to click 'THIS WAS ME' (to approve "
+"the plugin to log in to Instagram from your server's IP address) - if you "
+"don't click this, posting from your server will be fully banned on Instagram."
+msgstr ""
+
+#: res/instamatic-instagram-list.php:392 res/instamatic-rules-list.php:957
+msgid "Nested Shortcodes also supported!"
+msgstr ""
+
+#: res/instamatic-instagram-list.php:395 res/instamatic-main.php:1988
+#: res/instamatic-rules-list.php:954
+msgid "Save Settings"
+msgstr ""
+
+#: res/instamatic-logs.php:34
+msgid "System Info:"
+msgstr ""
+
+#: res/instamatic-logs.php:38
+msgid "Some general system information."
+msgstr ""
+
+#: res/instamatic-logs.php:46
+msgid "User Agent:"
+msgstr ""
+
+#: res/instamatic-logs.php:50
+msgid "Web Server:"
+msgstr ""
+
+#: res/instamatic-logs.php:54
+msgid "PHP Version:"
+msgstr ""
+
+#: res/instamatic-logs.php:58
+msgid "PHP Max POST Size:"
+msgstr ""
+
+#: res/instamatic-logs.php:62
+msgid "PHP Max Upload Size:"
+msgstr ""
+
+#: res/instamatic-logs.php:66
+msgid "PHP Memory Limit:"
+msgstr ""
+
+#: res/instamatic-logs.php:70
+msgid "PHP DateTime Class:"
+msgstr ""
+
+#: res/instamatic-logs.php:71 res/instamatic-logs.php:75
+msgid "Available"
+msgstr ""
+
+#: res/instamatic-logs.php:71 res/instamatic-logs.php:75
+msgid "Not available"
+msgstr ""
+
+#: res/instamatic-logs.php:74
+msgid "PHP Curl:"
+msgstr ""
+
+#: res/instamatic-logs.php:85
+msgid "Rules Currently Running:"
+msgstr ""
+
+#: res/instamatic-logs.php:89
+msgid "These rules are currently running on your server."
+msgstr ""
+
+#: res/instamatic-logs.php:111
+msgid "No rules are running right now"
+msgstr ""
+
+#: res/instamatic-logs.php:116
+msgid "Are you sure you want to clear the running list?"
+msgstr ""
+
+#: res/instamatic-logs.php:117
+msgid "Caution! This is for debugging purpose only!"
+msgstr ""
+
+#: res/instamatic-logs.php:117
+msgid "Clear Running Rules List"
+msgstr ""
+
+#: res/instamatic-logs.php:125 res/instamatic-logs.php:135
+msgid "Restore Plugin Default Settings"
+msgstr ""
+
+#: res/instamatic-logs.php:129
+msgid ""
+"Hit this button and the plugin settings will be restored to their default "
+"values. Warning! All settings will be lost!"
+msgstr ""
+
+#: res/instamatic-logs.php:135
+msgid "Are you sure you want to restore the default plugin settings?"
+msgstr ""
+
+#: res/instamatic-logs.php:141
+msgid "Delete All Posts Generated by this Plugin:"
+msgstr ""
+
+#: res/instamatic-logs.php:145
+msgid "Hit this button and all posts generated by this plugin will be deleted!"
+msgstr ""
+
+#: res/instamatic-logs.php:151
+msgid ""
+"Are you sure you want to delete all generated posts? This can take a while, "
+"please wait until it finishes."
+msgstr ""
+
+#: res/instamatic-logs.php:151
+msgid "Delete All Generated Posts"
+msgstr ""
+
+#: res/instamatic-logs.php:156
+msgid "Activity Log:"
+msgstr ""
+
+#: res/instamatic-logs.php:160
+msgid ""
+"This is the main log of your plugin. Here will be listed every single "
+"instance of the rules you run or are automatically run by schedule jobs (if "
+"you enable logging, in the plugin configuration)."
+msgstr ""
+
+#: res/instamatic-logs.php:174
+msgid "Log empty"
+msgstr ""
+
+#: res/instamatic-logs.php:180
+msgid "Are you sure you want to delete all logs?"
+msgstr ""
+
+#: res/instamatic-logs.php:181
+msgid "Delete Logs"
+msgstr ""
+
+#: res/instamatic-main.php:5 res/instamatic-main.php:861
+#: res/instamatic-main.php:1663 res/instamatic-rules-list.php:484
+#: res/instamatic-rules-list.php:539 res/instamatic-rules-list.php:1572
+#: res/instamatic-rules-list.php:1628
+msgid "Disabled"
+msgstr ""
+
+#: res/instamatic-main.php:6
+msgid "Afrikaans (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:7
+msgid "Albanian (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:8
+msgid "Arabic (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:9
+msgid "Amharic (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:10
+msgid "Armenian (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:11
+msgid "Belarusian (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:12
+msgid "Bulgarian (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:13
+msgid "Catalan (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:14
+msgid "Chinese Simplified (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:15
+msgid "Croatian (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:16
+msgid "Czech (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:17
+msgid "Danish (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:18
+msgid "Dutch (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:19
+msgid "English (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:20
+msgid "Estonian (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:21
+msgid "Filipino (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:22
+msgid "Finnish (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:23
+msgid "French (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:24
+msgid "Galician (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:25
+msgid "German (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:26
+msgid "Greek (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:27
+msgid "Hebrew (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:28
+msgid "Hindi (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:29
+msgid "Hungarian (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:30
+msgid "Icelandic (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:31
+msgid "Indonesian (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:32
+msgid "Irish (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:33
+msgid "Italian (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:34
+msgid "Japanese (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:35
+msgid "Korean (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:36
+msgid "Latvian (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:37
+msgid "Lithuanian (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:38
+msgid "Norwegian (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:39
+msgid "Macedonian (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:40
+msgid "Malay (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:41
+msgid "Maltese (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:42
+msgid "Persian (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:43
+msgid "Polish (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:44
+msgid "Portuguese (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:45
+msgid "Romanian (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:46
+msgid "Russian (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:47
+msgid "Serbian (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:48
+msgid "Slovak (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:49
+msgid "Slovenian (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:50
+msgid "Spanish (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:51 res/instamatic-main.php:105
+msgid "Swahili (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:52
+msgid "Swedish (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:53
+msgid "Thai (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:54
+msgid "Turkish (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:55
+msgid "Ukrainian (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:56
+msgid "Vietnamese (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:57
+msgid "Welsh (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:58
+msgid "Yiddish (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:59
+msgid "Tamil (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:60
+msgid "Azerbaijani (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:61
+msgid "Kannada (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:62
+msgid "Basque (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:63
+msgid "Bengali (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:64
+msgid "Latin (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:65
+msgid "Chinese Traditional (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:66
+msgid "Esperanto (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:67
+msgid "Georgian (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:68
+msgid "Telugu (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:69
+msgid "Gujarati (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:70
+msgid "Haitian Creole (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:71
+msgid "Urdu (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:72
+msgid "Burmese (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:73
+msgid "Bosnian (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:74
+msgid "Cebuano (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:75
+msgid "Chichewa (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:76
+msgid "Corsican (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:77
+msgid "Frisian (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:78
+msgid "Scottish Gaelic (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:79
+msgid "Hausa (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:80
+msgid "Hawaian (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:81
+msgid "Hmong (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:82
+msgid "Igbo (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:83
+msgid "Javanese (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:84
+msgid "Kazakh (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:85
+msgid "Khmer (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:86
+msgid "Kurdish (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:87
+msgid "Kyrgyz (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:88
+msgid "Lao (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:89
+msgid "Luxembourgish (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:90
+msgid "Malagasy (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:91
+msgid "Malayalam (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:92
+msgid "Maori (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:93
+msgid "Marathi (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:94
+msgid "Mongolian (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:95
+msgid "Nepali (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:96
+msgid "Pashto (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:97
+msgid "Punjabi (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:98
+msgid "Samoan (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:99
+msgid "Sesotho (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:100
+msgid "Shona (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:101
+msgid "Sindhi (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:102
+msgid "Sinhala (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:103
+msgid "Somali (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:104
+msgid "Sundanese (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:106
+msgid "Tajik (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:107
+msgid "Uzbek (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:108
+msgid "Xhosa (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:109
+msgid "Yoruba (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:110
+msgid "Zulu (Google Translate)"
+msgstr ""
+
+#: res/instamatic-main.php:510
+msgid "Enable or disable this plugin. This acts like a main switch."
+msgstr ""
+
+#: res/instamatic-main.php:540
+msgid "Plugin Registration Info - Automatic Updates Enabled:"
+msgstr ""
+
+#: res/instamatic-main.php:542
+msgid "Item Name:"
+msgstr ""
+
+#: res/instamatic-main.php:544
+msgid "Item ID:"
+msgstr ""
+
+#: res/instamatic-main.php:547
+msgid "Created At:"
+msgstr ""
+
+#: res/instamatic-main.php:550
+msgid "Buyer Name:"
+msgstr ""
+
+#: res/instamatic-main.php:553
+msgid "License Type:"
+msgstr ""
+
+#: res/instamatic-main.php:556
+msgid "Supported Until:"
+msgstr ""
+
+#: res/instamatic-main.php:564
+msgid ""
+"Automatic updates disabled. Activate plugin now, to enable automatic updates!"
+msgstr ""
+
+#: res/instamatic-main.php:572
+#, php-format
+msgid ""
+"Please input your Envato purchase code, to enable automatic updates in the "
+"plugin. To get your purchase code, please follow <a href=\"%s\" target="
+"\"_blank\">this tutorial</a>. Info submitted to the registration server "
+"consists of: purchase code, site URL, site name, admin email. All these data "
+"will be used strictly for registration purposes."
+msgstr ""
+
+#: res/instamatic-main.php:576
+msgid "Register Envato Purchase Code To Enable Automatic Updates:"
+msgstr ""
+
+#: res/instamatic-main.php:578
+msgid "Envato Purchase Code"
+msgstr ""
+
+#: res/instamatic-main.php:582
+msgid "Register Purchase Code"
+msgstr ""
+
+#: res/instamatic-main.php:599
+#, php-format
+msgid ""
+"Need help configuring this plugin? Please check out it's <a href=\"%s\" "
+"target=\"_blank\">video tutorial</a>."
+msgstr ""
+
+#: res/instamatic-main.php:601
+#, php-format
+msgid ""
+"Having issues with the plugin? Please be sure to check out our <a href=\"%s"
+"\" target=\"_blank\">knowledge-base</a> before you contact our support!"
+msgstr ""
+
+#: res/instamatic-main.php:602
+#, php-format
+msgid ""
+"Do you enjoy our plugin? Please give it a <a href=\"%s\" target=\"_blank"
+"\">rating</a>  on CodeCanyon, or even more: <a href=\"%s\" target=\"_blank"
+"\">support our innovative plugin development on Patreon</a>"
+msgstr ""
+
+#: res/instamatic-main.php:603
+msgid "Are you looking for a cool new theme that best fits this plugin?"
+msgstr ""
+
+#: res/instamatic-main.php:603
+msgid "Click here for our theme related recommendation"
+msgstr ""
+
+#: res/instamatic-main.php:614
+#, php-format
+msgid ""
+"Info: You have to create an Instagram account before filling the following "
+"details (if you do not have one). Please click <a href=\"%s\" target=\"_blank"
+"\">here</a> to create a new Instagram Account. <br/>Also, please note that "
+"after you inserted your credentials in the plugin, you must go to <a href="
+"\"%s\" target=\"_blank\">instagram.com</a> and login. You will be asked if "
+"you logged in from a different device recently. Approve that it was you, "
+"otherwise this plugin will not function."
+msgstr ""
+
+#: res/instamatic-main.php:626
+msgid "Insert your Instagram User Name."
+msgstr ""
+
+#: res/instamatic-main.php:630
+msgid "Instagram User Name:"
+msgstr ""
+
+#: res/instamatic-main.php:637
+msgid "Please insert your Instagram ID"
+msgstr ""
+
+#: res/instamatic-main.php:647
+msgid ""
+"Insert your Instagram User Password. Your password is stored securely, in an "
+"encrypted form."
+msgstr ""
+
+#: res/instamatic-main.php:651
+msgid "Instagram Password:"
+msgstr ""
+
+#: res/instamatic-main.php:658
+msgid "Please insert your Instagram Password"
+msgstr ""
+
+#: res/instamatic-main.php:678
+msgid ""
+"After you entered the User Name and Password, you can start creating rules:"
+msgstr ""
+
+#: res/instamatic-main.php:682 res/instamatic-main.php:694
+msgid "Blog Posts"
+msgstr ""
+
+#: res/instamatic-main.php:687
+msgid ""
+"Posts will be generated from the latest entries in Instagram public groups "
+"or pages. Note that private Instagram profiles are not supported and no "
+"posts will be generated from them (Instagram restriction)."
+msgstr ""
+
+#: res/instamatic-main.php:696
+msgid "using latest published posts from your blog"
+msgstr ""
+
+#: res/instamatic-main.php:700
+msgid ""
+"Instagram posts will be generated from the latest published blog posts. "
+"Posts will be posted by the Instagram user entered."
+msgstr ""
+
+#: res/instamatic-main.php:716
+msgid "Plugin Options:"
+msgstr ""
+
+#: res/instamatic-main.php:725
+msgid ""
+"Do you want to get more info about imported posts? Note that this will slow "
+"down rule importing considerably."
+msgstr ""
+
+#: res/instamatic-main.php:729
+msgid "Get More Information About Imported Posts:"
+msgstr ""
+
+#: res/instamatic-main.php:745
+msgid ""
+"Choose this option to import posts only once to this blog (also if the post "
+"was deleted after importing)."
+msgstr ""
+
+#: res/instamatic-main.php:749
+msgid "Import Posts Only Once:"
+msgstr ""
+
+#: res/instamatic-main.php:765
+msgid "Choose if you want to strip links from the generated post content."
+msgstr ""
+
+#: res/instamatic-main.php:769
+msgid "Strip Links From Generated Post Content:"
+msgstr ""
+
+#: res/instamatic-main.php:785
+msgid ""
+"Choose if you want to show an extended information metabox under every "
+"plugin generated post."
+msgstr ""
+
+#: res/instamatic-main.php:789
+msgid "Show Extended Item Information Metabox in Post:"
+msgstr ""
+
+#: res/instamatic-main.php:805
+msgid "Do you want to enable logging for rules?"
+msgstr ""
+
+#: res/instamatic-main.php:809
+msgid "Enable Logging for Rules:"
+msgstr ""
+
+#: res/instamatic-main.php:825
+msgid ""
+"Do you want to enable detailed logging for rules? Note that this will "
+"dramatically increase the size of the log this plugin generates."
+msgstr ""
+
+#: res/instamatic-main.php:829
+msgid "Enable Detailed Logging for Rules:"
+msgstr ""
+
+#: res/instamatic-main.php:847
+msgid "Choose if you want to automatically clear logs after a period of time."
+msgstr ""
+
+#: res/instamatic-main.php:851
+msgid "Automatically Clear Logs After:"
+msgstr ""
+
+#: res/instamatic-main.php:866
+msgid "Once a month"
+msgstr ""
+
+#: res/instamatic-main.php:871
+msgid "Once a week"
+msgstr ""
+
+#: res/instamatic-main.php:876
+msgid "Once a day"
+msgstr ""
+
+#: res/instamatic-main.php:881
+msgid "Twice a day"
+msgstr ""
+
+#: res/instamatic-main.php:886
+msgid "Once an hour"
+msgstr ""
+
+#: res/instamatic-main.php:897
+msgid ""
+"Set the timeout (in seconds) for every rule running. I recommend that you "
+"leave this field at it's default value (3600)."
+msgstr ""
+
+#: res/instamatic-main.php:901
+msgid "Timeout for Rule Running (seconds):"
+msgstr ""
+
+#: res/instamatic-main.php:906
+msgid "Input rule timeout in seconds"
+msgstr ""
+
+#: res/instamatic-main.php:918
+msgid ""
+"Choose if you want to receive a summary of the rule running in an email."
+msgstr ""
+
+#: res/instamatic-main.php:922
+msgid "Send Rule Running Summary in Email:"
+msgstr ""
+
+#: res/instamatic-main.php:938
+msgid ""
+"Input the email adress where you want to send the report. You can input more "
+"email addresses, separated by commas."
+msgstr ""
+
+#: res/instamatic-main.php:942
+msgid "Email Address:"
+msgstr ""
+
+#: res/instamatic-main.php:947
+msgid "Input a valid email adress"
+msgstr ""
+
+#: res/instamatic-main.php:959
+msgid ""
+"Define a custom comma separated list of custom post types from your "
+"WordPress installation, that will be used for each Instagram post type. The "
+"order of specifying post types must be: image, video. This will overwrite "
+"the 'Item Type' settings field from importing rule settings. To disable this "
+"feature, leave this field blank."
+msgstr ""
+
+#: res/instamatic-main.php:963
+msgid "Default WordPress Post Types For Instagram Post Types:"
+msgstr ""
+
+#: res/instamatic-main.php:970
+msgid "Please insert a list of custom post types"
+msgstr ""
+
+#: res/instamatic-main.php:980
+msgid ""
+"If you want to use a custom string for the 'Post Source' meta data assigned "
+"to posts, please input it here. If you will leave this blank, the default "
+"'Post Source' value will be assigned to posts."
+msgstr ""
+
+#: res/instamatic-main.php:984
+msgid "Custom 'Post Source' Post Meta Data:"
+msgstr ""
+
+#: res/instamatic-main.php:989
+msgid "Input a custom post source string"
+msgstr ""
+
+#: res/instamatic-main.php:999
+msgid ""
+"If you want to use a proxy to crawl webpages, input it's address here. "
+"Required format: IP Address/URL:port. You can input a comma separated list "
+"of proxies."
+msgstr ""
+
+#: res/instamatic-main.php:1003
+msgid "Web Proxy Address List:"
+msgstr ""
+
+#: res/instamatic-main.php:1008
+msgid "Input web proxy url"
+msgstr ""
+
+#: res/instamatic-main.php:1018
+msgid ""
+"If you want to use a proxy to crawl webpages, and it requires "
+"authentification, input it's authentification details here. Required format: "
+"username:password. You can input a comma separated list of users/passwords. "
+"If a proxy does not have a user/password, please leave it blank in the list. "
+"Example: user1:pass1,user2:pass2,,user4:pass4."
+msgstr ""
+
+#: res/instamatic-main.php:1022
+msgid "Web Proxy Authentification:"
+msgstr ""
+
+#: res/instamatic-main.php:1027
+msgid "Input web proxy auth"
+msgstr ""
+
+#: res/instamatic-main.php:1037
+msgid ""
+"Set the minimum word count for post titles. Items that have less than this "
+"count will not be published. To disable this feature, leave this field blank."
+msgstr ""
+
+#: res/instamatic-main.php:1041
+msgid "Minimum Title Word Count (Skip Post Otherwise):"
+msgstr ""
+
+#: res/instamatic-main.php:1046
+msgid "Input the minimum word count for the title"
+msgstr ""
+
+#: res/instamatic-main.php:1058
+msgid ""
+"Set the maximum word count for post titles. Items that have more than this "
+"count will not be published. To disable this feature, leave this field blank."
+msgstr ""
+
+#: res/instamatic-main.php:1062
+msgid "Maximum Title Word Count (Skip Post Otherwise):"
+msgstr ""
+
+#: res/instamatic-main.php:1067
+msgid "Input the maximum word count for the title"
+msgstr ""
+
+#: res/instamatic-main.php:1079
+msgid ""
+"Set the minimum word count for post content. Items that have less than this "
+"count will not be published. To disable this feature, leave this field blank."
+msgstr ""
+
+#: res/instamatic-main.php:1083
+msgid "Minimum Content Word Count (Skip Post Otherwise):"
+msgstr ""
+
+#: res/instamatic-main.php:1088
+msgid "Input the minimum word count for the content"
+msgstr ""
+
+#: res/instamatic-main.php:1100
+msgid ""
+"Set the maximum word count for post content. Items that have more than this "
+"count will not be published. To disable this feature, leave this field blank."
+msgstr ""
+
+#: res/instamatic-main.php:1104
+msgid "Maximum Content Word Count (Skip Post Otherwise):"
+msgstr ""
+
+#: res/instamatic-main.php:1109
+msgid "Input the maximum word count for the content"
+msgstr ""
+
+#: res/instamatic-main.php:1121
+msgid ""
+"Do not include posts that's title or content contains at least one of these "
+"words. Separate words by comma. To disable this feature, leave this field "
+"blank."
+msgstr ""
+
+#: res/instamatic-main.php:1125
+msgid "Banned Words List:"
+msgstr ""
+
+#: res/instamatic-main.php:1128
+msgid "Do not generate posts that contain at least one of these words"
+msgstr ""
+
+#: res/instamatic-main.php:1140
+msgid ""
+"Do not include posts that's title or content does not contain at least one "
+"of these words. Separate words by comma. To disable this feature, leave this "
+"field blank."
+msgstr ""
+
+#: res/instamatic-main.php:1144
+msgid "Required Words List:"
+msgstr ""
+
+#: res/instamatic-main.php:1147
+msgid "Do not generate posts unless they contain all of these words"
+msgstr ""
+
+#: res/instamatic-main.php:1159
+msgid ""
+"Click this option if your want to set the featured image from the remote "
+"image location. This settings can save disk space, but beware that if the "
+"remote image gets deleted, your featured image will also be broken."
+msgstr ""
+
+#: res/instamatic-main.php:1163
+msgid "Do Not Copy Featured Image Locally:"
+msgstr ""
+
+#: res/instamatic-main.php:1179
+msgid ""
+"Resize the image that was assigned to be the featured image to the width "
+"specified in this text field (in pixels). If you want to disable this "
+"feature, leave this field blank."
+msgstr ""
+
+#: res/instamatic-main.php:1183
+msgid "Featured Image Resize Width:"
+msgstr ""
+
+#: res/instamatic-main.php:1188
+msgid "Please insert the desired width for featured images"
+msgstr ""
+
+#: res/instamatic-main.php:1198
+msgid ""
+"Resize the image that was assigned to be the featured image to the height "
+"specified in this text field (in pixels). If you want to disable this "
+"feature, leave this field blank."
+msgstr ""
+
+#: res/instamatic-main.php:1202
+msgid "Featured Image Resize Height:"
+msgstr ""
+
+#: res/instamatic-main.php:1207
+msgid "Please insert the desired height for featured images"
+msgstr ""
+
+#: res/instamatic-main.php:1217
+msgid ""
+"Strip HTML elements from final content that have this IDs. You can insert "
+"more IDs, separeted by comma. To disable this feature, leave this field "
+"blank."
+msgstr ""
+
+#: res/instamatic-main.php:1221
+msgid "Strip HTML Elements from Final Content by ID:"
+msgstr ""
+
+#: res/instamatic-main.php:1224
+msgid "Ids list"
+msgstr ""
+
+#: res/instamatic-main.php:1236
+msgid ""
+"Strip HTML elements from final content that have this class. You can insert "
+"more classes, separeted by comma. To disable this feature, leave this field "
+"blank."
+msgstr ""
+
+#: res/instamatic-main.php:1240
+msgid "Strip HTML Elements from Final Content by Class:"
+msgstr ""
+
+#: res/instamatic-main.php:1243
+msgid "Class list"
+msgstr ""
+
+#: res/instamatic-main.php:1255 res/instamatic-main.php:1275
+#: res/instamatic-main.php:1295
+#, php-format
+msgid ""
+"Insert your Bitly API generic access token. To register at Bitly, please "
+"visit <a href='%s' target='_blank'>this link</a>. To get a generic access "
+"token, please click the menu icon on the top right of the web (after you log "
+"in) -> click the '>' sign next to your account name -> click the 'Generic "
+"Access Token' menu entry -> enter your password in the 'Password' field and "
+"click 'Generate Token'. Copy the resulting token here. To lean more about "
+"this, please check <a href='%s' target='_blank'>this video</a>."
+msgstr ""
+
+#: res/instamatic-main.php:1259
+msgid "Shorten Imported URLs To WordPress Using Bitly:"
+msgstr ""
+
+#: res/instamatic-main.php:1279
+msgid "Shorten Exported URLs To Instagram Using Bitly:"
+msgstr ""
+
+#: res/instamatic-main.php:1299
+msgid "Bitly API key:"
+msgstr ""
+
+#: res/instamatic-main.php:1304
+msgid "Please insert your Bitly API key"
+msgstr ""
+
+#: res/instamatic-main.php:1314
+msgid "Choose if you want to skip posts that do not have images."
+msgstr ""
+
+#: res/instamatic-main.php:1318
+msgid "Skip Posts That Do Not Have Images:"
+msgstr ""
+
+#: res/instamatic-main.php:1334
+msgid ""
+"Skip these Instagram post types when inserting blog posts. Valid values are: "
+"image and video. To disable this feature, leave this textfield blank."
+msgstr ""
+
+#: res/instamatic-main.php:1338
+msgid "Instagram Post Types to Skip:"
+msgstr ""
+
+#: res/instamatic-main.php:1345
+msgid "Please insert the Instagram post types to skip"
+msgstr ""
+
+#: res/instamatic-main.php:1355
+msgid "Choose if you want to skip posts that are older than a selected date."
+msgstr ""
+
+#: res/instamatic-main.php:1359
+msgid "Skip Posts Older Than a Selected Date:"
+msgstr ""
+
+#: res/instamatic-main.php:1375
+msgid "Select the date prior which you want to skip posts."
+msgstr ""
+
+#: res/instamatic-main.php:1379
+msgid "Select the Date for Old Posts:"
+msgstr ""
+
+#: res/instamatic-main.php:1384
+msgid "Day:"
+msgstr ""
+
+#: res/instamatic-main.php:1511
+msgid "Month:"
+msgstr ""
+
+#: res/instamatic-main.php:1516
+msgid "January"
+msgstr ""
+
+#: res/instamatic-main.php:1520
+msgid "February"
+msgstr ""
+
+#: res/instamatic-main.php:1524
+msgid "March"
+msgstr ""
+
+#: res/instamatic-main.php:1528
+msgid "April"
+msgstr ""
+
+#: res/instamatic-main.php:1532
+msgid "May"
+msgstr ""
+
+#: res/instamatic-main.php:1536
+msgid "June"
+msgstr ""
+
+#: res/instamatic-main.php:1540
+msgid "July"
+msgstr ""
+
+#: res/instamatic-main.php:1544
+msgid "August"
+msgstr ""
+
+#: res/instamatic-main.php:1548
+msgid "September"
+msgstr ""
+
+#: res/instamatic-main.php:1552
+msgid "October"
+msgstr ""
+
+#: res/instamatic-main.php:1556
+msgid "November"
+msgstr ""
+
+#: res/instamatic-main.php:1560
+msgid "December"
+msgstr ""
+
+#: res/instamatic-main.php:1562
+msgid "Year:"
+msgstr ""
+
+#: res/instamatic-main.php:1564
+msgid "year"
+msgstr ""
+
+#: res/instamatic-main.php:1574
+msgid ""
+"Do you want to automatically translate generated content using Google "
+"Translate?"
+msgstr ""
+
+#: res/instamatic-main.php:1578
+msgid "Automatically Translate Content To:"
+msgstr ""
+
+#: res/instamatic-main.php:1578
+msgid "Info:"
+msgstr ""
+
+#: res/instamatic-main.php:1578
+msgid "for translation, the plugin also supports WPML."
+msgstr ""
+
+#: res/instamatic-main.php:1578
+msgid "Get WPML now!"
+msgstr ""
+
+#: res/instamatic-main.php:1605
+msgid "Select the source language for the translation."
+msgstr ""
+
+#: res/instamatic-main.php:1609
+msgid "Translation Source Language:"
+msgstr ""
+
+#: res/instamatic-main.php:1633
+msgid "Don't have an 'The Best Spinner' account yet? Click here to get one:"
+msgstr ""
+
+#: res/instamatic-main.php:1633 res/instamatic-main.php:1636
+#: res/instamatic-main.php:1639
+msgid "get a new account now!"
+msgstr ""
+
+#: res/instamatic-main.php:1636
+msgid "Don't have an 'WordAI' account yet? Click here to get one:"
+msgstr ""
+
+#: res/instamatic-main.php:1639
+msgid "Don't have an 'SpinRewriter' account yet? Click here to get one:"
+msgstr ""
+
+#: res/instamatic-main.php:1649
+msgid ""
+"Do you want to randomize text by changing words of a text with synonyms "
+"using one of the listed methods? Note that this is an experimental feature "
+"and can in some instances drastically increase the rule running time!"
+msgstr ""
+
+#: res/instamatic-main.php:1653
+msgid "Spin Text Using Word Synonyms (for automatically generated posts only):"
+msgstr ""
+
+#: res/instamatic-main.php:1670 res/instamatic-main.php:1678
+#: res/instamatic-main.php:1686
+msgid "High Quality - Paid"
+msgstr ""
+
+#: res/instamatic-main.php:1693
+msgid "Built-in - Medium Quality - Free"
+msgstr ""
+
+#: res/instamatic-main.php:1700 res/instamatic-main.php:1707
+msgid "Low Quality - Free"
+msgstr ""
+
+#: res/instamatic-main.php:1718
+msgid "Insert your user name on premium spinner service."
+msgstr ""
+
+#: res/instamatic-main.php:1722
+msgid "Premium Spinner Service User Name/Email:"
+msgstr ""
+
+#: res/instamatic-main.php:1729
+msgid "Please insert your premium text spinner service user name"
+msgstr ""
+
+#: res/instamatic-main.php:1739
+msgid "Insert your password for the selected premium spinner service."
+msgstr ""
+
+#: res/instamatic-main.php:1743
+msgid "Premium Spinner Service Password/API Key:"
+msgstr ""
+
+#: res/instamatic-main.php:1750
+msgid "Please insert your premium text spinner service password"
+msgstr ""
+
+#: res/instamatic-main.php:1764
+msgid "Random Sentence Generator Settings:"
+msgstr ""
+
+#: res/instamatic-main.php:1773 res/instamatic-main.php:1792
+#, php-format
+msgid ""
+"Insert some sentences from which you want to get one at random. You can also "
+"use variables defined below. %something ==> is a variable. Each sentence "
+"must be separated by a new line."
+msgstr ""
+
+#: res/instamatic-main.php:1777
+#, php-format
+msgid "First List of Possible Sentences (%%random_sentence%%):"
+msgstr ""
+
+#: res/instamatic-main.php:1780
+msgid "Please insert the first list of sentences"
+msgstr ""
+
+#: res/instamatic-main.php:1796
+#, php-format
+msgid "Second List of Possible Sentences (%%random_sentence2%%):"
+msgstr ""
+
+#: res/instamatic-main.php:1799
+msgid "Please insert the second list of sentences"
+msgstr ""
+
+#: res/instamatic-main.php:1811
+msgid ""
+"Insert some variables you wish to be exchanged for different instances of "
+"one sentence. Please format this list as follows:<br/>\n"
+"                                    Variablename => Variables (seperated by "
+"semicolon)<br/>Example:<br/>adjective => clever;interesting;smart;huge;"
+"astonishing;unbelievable;nice;adorable;beautiful;elegant;fancy;glamorous;"
+"magnificent;helpful;awesome<br/>"
+msgstr ""
+
+#: res/instamatic-main.php:1816
+msgid "List of Possible Variables:"
+msgstr ""
+
+#: res/instamatic-main.php:1819
+msgid "Please insert the list of variables"
+msgstr ""
+
+#: res/instamatic-main.php:1834
+msgid "Custom HTML Code/ Ad Code:"
+msgstr ""
+
+#: res/instamatic-main.php:1843
+#, php-format
+msgid ""
+"Insert a custom HTML code that will replace the %%custom_html%% variable. "
+"This can be anything, even an Ad code."
+msgstr ""
+
+#: res/instamatic-main.php:1847
+msgid "Custom HTML Code #1:"
+msgstr ""
+
+#: res/instamatic-main.php:1850
+msgid "Custom HTML #1"
+msgstr ""
+
+#: res/instamatic-main.php:1862
+#, php-format
+msgid ""
+"Insert a custom HTML code that will replace the %%custom_html2%% variable. "
+"This can be anything, even an Ad code."
+msgstr ""
+
+#: res/instamatic-main.php:1866
+msgid "Custom HTML Code #2:"
+msgstr ""
+
+#: res/instamatic-main.php:1869
+msgid "Custom HTML #2"
+msgstr ""
+
+#: res/instamatic-main.php:1877
+msgid "Affiliate Keyword Replacer Tool Settings:"
+msgstr ""
+
+#: res/instamatic-main.php:1883 res/instamatic-rules-list.php:58
+msgid "ID"
+msgstr ""
+
+#: res/instamatic-main.php:1887
+msgid "This is the ID of the rule."
+msgstr ""
+
+#: res/instamatic-main.php:1893 res/instamatic-rules-list.php:156
+msgid "Del"
+msgstr ""
+
+#: res/instamatic-main.php:1897 res/instamatic-rules-list.php:160
+msgid "Do you want to delete this rule?"
+msgstr ""
+
+#: res/instamatic-main.php:1903
+msgid "Search Keyword"
+msgstr ""
+
+#: res/instamatic-main.php:1907
+msgid "This keyword will be replaced with a link you define."
+msgstr ""
+
+#: res/instamatic-main.php:1913
+msgid "Replacement Keyword"
+msgstr ""
+
+#: res/instamatic-main.php:1917
+msgid ""
+"This keyword will replace the search keyword you define. Leave this field "
+"blank if you only want to add an URL to the specified keyword."
+msgstr ""
+
+#: res/instamatic-main.php:1923
+msgid "Link to Add"
+msgstr ""
+
+#: res/instamatic-main.php:1927
+msgid ""
+"Define the link you want to appear the defined keyword. Leave this field "
+"blank if you only want to replace the specified keyword without linking from "
+"it."
+msgstr ""
+
+#: res/instamatic-main.php:1975
+msgid "Please insert the keyword to be replaced"
+msgstr ""
+
+#: res/instamatic-main.php:1976
+msgid "Please insert the keyword to replace the search keyword"
+msgstr ""
+
+#: res/instamatic-main.php:1977
+msgid "Please insert the link to be added to the keyword"
+msgstr ""
+
+#: res/instamatic-main.php:1991
+msgid "Available shortcode:"
+msgstr ""
+
+#: res/instamatic-main.php:1994
+msgid "Available shortcodes:"
+msgstr ""
+
+#: res/instamatic-main.php:1994
+msgid "to include a list that contains only posts imported by this plugin, and"
+msgstr ""
+
+#: res/instamatic-main.php:1994
+msgid "to include a WordPress like post listing. Usage:"
+msgstr ""
+
+#: res/instamatic-main.php:1995
+msgid "Example:"
+msgstr ""
+
+#: res/instamatic-main.php:1996
+msgid "Example 2:"
+msgstr ""
+
+#: res/instamatic-main.php:2031
+msgid "Input the keyword to be replaced. This field is required"
+msgstr ""
+
+#: res/instamatic-main.php:2032
+msgid "Input the replacement word"
+msgstr ""
+
+#: res/instamatic-main.php:2033
+msgid "Input the URL to be added"
+msgstr ""
+
+#: res/instamatic-rules-list.php:62
+msgid "This is the ID of the rule. "
+msgstr ""
+
+#: res/instamatic-rules-list.php:68
+msgid "Query Type"
+msgstr ""
+
+#: res/instamatic-rules-list.php:72
+msgid ""
+"Select the type of your query. WARNING! The photos on Instagram are owned by "
+"the users. In a case like this you would have to get permission from the "
+"owners of the photo, the people who posted them, because they might be the "
+"ones that could file a lawsuit. I strongly suggest asking the actual owner/"
+"photographers for permission first."
+msgstr ""
+
+#: res/instamatic-rules-list.php:78
+msgid "Query Parameter"
+msgstr ""
+
+#: res/instamatic-rules-list.php:82
+#, php-format
+msgid ""
+"For the 'Media from user' query type, get simply input the username that you "
+"want to get content from, ex: sfatfarma, for this user: %s. For the location "
+"query type, get the location ID by navigating to your desired location <a "
+"href='%s' target='_blank'>here</a> and copying the numeric ID parameter from "
+"the URL."
+msgstr ""
+
+#: res/instamatic-rules-list.php:88
+msgid "Schedule"
+msgstr ""
+
+#: res/instamatic-rules-list.php:95
+msgid ""
+"Select the interval in minutes after which you want this rule to run. "
+"Defined in minutes."
+msgstr ""
+
+#: res/instamatic-rules-list.php:99
+msgid ""
+"Select the interval in hours after which you want this rule to run. Defined "
+"in hours."
+msgstr ""
+
+#: res/instamatic-rules-list.php:106
+msgid "Max # Posts"
+msgstr ""
+
+#: res/instamatic-rules-list.php:110
+msgid ""
+"Select the maximum number of posts that this rule can create at once. 0-100 "
+"interval allowed."
+msgstr ""
+
+#: res/instamatic-rules-list.php:116
+msgid "Post Status"
+msgstr ""
+
+#: res/instamatic-rules-list.php:120
+msgid ""
+"Select the status that you want for the automatically generated posts to "
+"have."
+msgstr ""
+
+#: res/instamatic-rules-list.php:126
+msgid "Item Type"
+msgstr ""
+
+#: res/instamatic-rules-list.php:130
+msgid "Select the type (post/page) for your automatically generated item."
+msgstr ""
+
+#: res/instamatic-rules-list.php:136
+msgid "Post Author"
+msgstr ""
+
+#: res/instamatic-rules-list.php:140
+msgid ""
+"Select the author that you want to assign for the automatically generated "
+"posts."
+msgstr ""
+
+#: res/instamatic-rules-list.php:146
+msgid "More Options"
+msgstr ""
+
+#: res/instamatic-rules-list.php:150
+msgid "Shows advanced settings for this rule."
+msgstr ""
+
+#: res/instamatic-rules-list.php:166
+msgid "Active"
+msgstr ""
+
+#: res/instamatic-rules-list.php:170
+msgid ""
+"Do you want to enable this rule? You can deactivate any rule (you don't have "
+"to delete them to deactivate them)."
+msgstr ""
+
+#: res/instamatic-rules-list.php:178
+msgid "Info"
+msgstr ""
+
+#: res/instamatic-rules-list.php:182
+msgid "The number of items (posts, pages) this rule has generated so far."
+msgstr ""
+
+#: res/instamatic-rules-list.php:188
+msgid "Actions"
+msgstr ""
+
+#: res/instamatic-rules-list.php:192
+msgid ""
+"Do you want to run this rule now? Note that only one instance of a rule is "
+"allowed at once."
+msgstr ""
+
+#: res/instamatic-rules-list.php:299 res/instamatic-rules-list.php:1333
+msgid "Media from User"
+msgstr ""
+
+#: res/instamatic-rules-list.php:300 res/instamatic-rules-list.php:1338
+msgid "Media by URL"
+msgstr ""
+
+#: res/instamatic-rules-list.php:301 res/instamatic-rules-list.php:1343
+msgid "Latest Media by Tag"
+msgstr ""
+
+#: res/instamatic-rules-list.php:302 res/instamatic-rules-list.php:1348
+msgid "Top Media by Tag"
+msgstr ""
+
+#: res/instamatic-rules-list.php:303 res/instamatic-rules-list.php:1353
+msgid "Latest Media by Location ID"
+msgstr ""
+
+#: res/instamatic-rules-list.php:304 res/instamatic-rules-list.php:1358
+msgid "Top Media by Location ID"
+msgstr ""
+
+#: res/instamatic-rules-list.php:312 res/instamatic-rules-list.php:1368
+msgid "Pending -> Moderate"
+msgstr ""
+
+#: res/instamatic-rules-list.php:313 res/instamatic-rules-list.php:1373
+msgid "Draft -> Moderate"
+msgstr ""
+
+#: res/instamatic-rules-list.php:314 res/instamatic-rules-list.php:1378
+msgid "Published"
+msgstr ""
+
+#: res/instamatic-rules-list.php:315 res/instamatic-rules-list.php:1383
+msgid "Private"
+msgstr ""
+
+#: res/instamatic-rules-list.php:316 res/instamatic-rules-list.php:1388
+msgid "Trash"
+msgstr ""
+
+#: res/instamatic-rules-list.php:350
+msgid "New Rule"
+msgstr ""
+
+#: res/instamatic-rules-list.php:350 res/instamatic-rules-list.php:1415
+msgid "Advanced Settings"
+msgstr ""
+
+#: res/instamatic-rules-list.php:361
+#, php-format
+msgid ""
+"Set the title of the generated posts for user rules. You can use the "
+"following shortcodes: %%random_sentence%%, %%random_sentence2%%, %%item_title"
+"%%, %%item_description%%, %%item_content%%, %%item_cat%%, %%item_tags%%"
+msgstr ""
+
+#: res/instamatic-rules-list.php:365
+msgid "Generated Post Title:"
+msgstr ""
+
+#: res/instamatic-rules-list.php:378 res/instamatic-rules-list.php:1435
+#, php-format
+msgid ""
+"Set the content of the generated posts for user rules. You can use the "
+"following shortcodes: %%likes_count%%, %%location_id%%, %%location_name%%, "
+"%%comments_count%%, %%author%%, %%author_link%%, %%custom_html%%, "
+"%%custom_html2%%, %%random_sentence%%, %%random_sentence2%%, %%item_title%%, "
+"%%item_description%%, %%item_content%%, %%item_content_plain_text%%, "
+"%%item_url%%, %%item_cat%%, %%item_tags%%, %%item_read_more_button%%, "
+"%%item_show_all_media%%, %%item_show_image%%, %%item_show_video%%, "
+"%%item_show_media%%, %%item_image_URL%%, %%post_video_embed%%, "
+"%%post_media_embed%%, %%post_image_embed%%"
+msgstr ""
+
+#: res/instamatic-rules-list.php:382
+msgid "Generated Post Content:"
+msgstr ""
+
+#: res/instamatic-rules-list.php:395
+msgid ""
+"If your template supports 'Post Formats', than you can select one here. If "
+"not, leave this at it's default value."
+msgstr ""
+
+#: res/instamatic-rules-list.php:399
+msgid "Generated Post Format:"
+msgstr ""
+
+#: res/instamatic-rules-list.php:403 res/instamatic-rules-list.php:1457
+msgid "Standard"
+msgstr ""
+
+#: res/instamatic-rules-list.php:404 res/instamatic-rules-list.php:1462
+msgid "Aside"
+msgstr ""
+
+#: res/instamatic-rules-list.php:405 res/instamatic-rules-list.php:1467
+msgid "Gallery"
+msgstr ""
+
+#: res/instamatic-rules-list.php:406 res/instamatic-rules-list.php:1472
+msgid "Link"
+msgstr ""
+
+#: res/instamatic-rules-list.php:407 res/instamatic-rules-list.php:1477
+msgid "Image"
+msgstr ""
+
+#: res/instamatic-rules-list.php:408 res/instamatic-rules-list.php:1482
+msgid "Quote"
+msgstr ""
+
+#: res/instamatic-rules-list.php:409 res/instamatic-rules-list.php:1487
+msgid "Status"
+msgstr ""
+
+#: res/instamatic-rules-list.php:410 res/instamatic-rules-list.php:1492
+msgid "Video"
+msgstr ""
+
+#: res/instamatic-rules-list.php:411 res/instamatic-rules-list.php:1497
+msgid "Audio"
+msgstr ""
+
+#: res/instamatic-rules-list.php:412 res/instamatic-rules-list.php:1502
+msgid "Chat"
+msgstr ""
+
+#: res/instamatic-rules-list.php:423
+msgid "Do you want to set generated post's date from Instagram post's date?"
+msgstr ""
+
+#: res/instamatic-rules-list.php:427
+msgid "Use Instagram Post's Date:"
+msgstr ""
+
+#: res/instamatic-rules-list.php:440 res/instamatic-rules-list.php:1524
+msgid ""
+"Select the post category that you want for the automatically generated posts "
+"to have."
+msgstr ""
+
+#: res/instamatic-rules-list.php:444
+msgid "Additional Post Category:"
+msgstr ""
+
+#: res/instamatic-rules-list.php:448 res/instamatic-rules-list.php:1543
+msgid "Do Not Add a Category"
+msgstr ""
+
+#: res/instamatic-rules-list.php:476
+msgid ""
+"Do you want to automatically add post categories from the Instagram items?"
+msgstr ""
+
+#: res/instamatic-rules-list.php:480
+msgid "Auto Add Categories:"
+msgstr ""
+
+#: res/instamatic-rules-list.php:485 res/instamatic-rules-list.php:540
+#: res/instamatic-rules-list.php:1576 res/instamatic-rules-list.php:1632
+msgid "HashTags"
+msgstr ""
+
+#: res/instamatic-rules-list.php:486 res/instamatic-rules-list.php:541
+#: res/instamatic-rules-list.php:1580 res/instamatic-rules-list.php:1636
+msgid "Content"
+msgstr ""
+
+#: res/instamatic-rules-list.php:487 res/instamatic-rules-list.php:542
+#: res/instamatic-rules-list.php:1584 res/instamatic-rules-list.php:1640
+msgid "Both"
+msgstr ""
+
+#: res/instamatic-rules-list.php:497 res/instamatic-rules-list.php:1589
+msgid ""
+"Select the auto created categories parent category id. If you leave this "
+"field blank, automatically created categories will be a root category (no "
+"parent)."
+msgstr ""
+
+#: res/instamatic-rules-list.php:501
+msgid "Auto Created Categories Parent Category ID:"
+msgstr ""
+
+#: res/instamatic-rules-list.php:514
+msgid ""
+"This feature will try to remove the WordPress's default post category. This "
+"may fail in case no additional categories are added, because WordPress "
+"requires at least one post category for every post."
+msgstr ""
+
+#: res/instamatic-rules-list.php:518
+msgid "Remove WP Default Post Category:"
+msgstr ""
+
+#: res/instamatic-rules-list.php:531
+msgid "Do you want to automatically add post tags from the Instagram items?"
+msgstr ""
+
+#: res/instamatic-rules-list.php:535
+msgid "Auto Add Tags:"
+msgstr ""
+
+#: res/instamatic-rules-list.php:552 res/instamatic-rules-list.php:1645
+msgid ""
+"Select the post tags that you want for the automatically generated posts to "
+"have."
+msgstr ""
+
+#: res/instamatic-rules-list.php:556
+msgid "Additional Post Tags:"
+msgstr ""
+
+#: res/instamatic-rules-list.php:569 res/instamatic-rules-list.php:1657
+msgid "Do you want to enable comments for the generated posts?"
+msgstr ""
+
+#: res/instamatic-rules-list.php:573
+msgid "Enable Comments For Posts:"
+msgstr ""
+
+#: res/instamatic-rules-list.php:586
+msgid "Do you want to enable pingbacks/trackbacks for the generated posts?"
+msgstr ""
+
+#: res/instamatic-rules-list.php:590
+msgid "Enable Pingback/Trackback:"
+msgstr ""
+
+#: res/instamatic-rules-list.php:603 res/instamatic-rules-list.php:1689
+msgid ""
+"Do you want to set featured image for generated post (to the first image "
+"that was found in the post)?"
+msgstr ""
+
+#: res/instamatic-rules-list.php:607
+msgid "Auto Get Featured Image:"
+msgstr ""
+
+#: res/instamatic-rules-list.php:619 res/instamatic-rules-list.php:1704
+msgid ""
+"Insert a comma separated list of links to valid images that will be set "
+"randomly for the featured image for the posts that do not have a valid image "
+"attached or if you disabled automatical featured image generation. You can "
+"also use image numeric IDs from images found in the Media Gallery. To "
+"disable this feature, leave this field blank."
+msgstr ""
+
+#: res/instamatic-rules-list.php:623
+msgid "Default Featured Image List:"
+msgstr ""
+
+#: res/instamatic-rules-list.php:636 res/instamatic-rules-list.php:1714
+msgid ""
+"Do you want to automatically generate post comments from item's comments "
+"feed?"
+msgstr ""
+
+#: res/instamatic-rules-list.php:640
+msgid "Import Comments:"
+msgstr ""
+
+#: res/instamatic-rules-list.php:646 res/instamatic-rules-list.php:1726
+msgid "Do Not Import Comments"
+msgstr ""
+
+#: res/instamatic-rules-list.php:652 res/instamatic-rules-list.php:1738
+msgid "Random Number"
+msgstr ""
+
+#: res/instamatic-rules-list.php:663 res/instamatic-rules-list.php:1745
+msgid ""
+"Select the post default title (if Instagram post has no usable description)."
+msgstr ""
+
+#: res/instamatic-rules-list.php:667
+msgid "Default Post Title:"
+msgstr ""
+
+#: res/instamatic-rules-list.php:680 res/instamatic-rules-list.php:1757
+msgid "Do you want to strip emojis from the generated post content?"
+msgstr ""
+
+#: res/instamatic-rules-list.php:684
+msgid "Remove Emojis from Content:"
+msgstr ""
+
+#: res/instamatic-rules-list.php:711
+msgid "No info."
+msgstr ""
+
+#: res/instamatic-rules-list.php:723 res/instamatic-rules-list.php:1892
+msgid "Select an Action"
+msgstr ""
+
+#: res/instamatic-rules-list.php:724 res/instamatic-rules-list.php:1893
+msgid "Run This Rule Now"
+msgstr ""
+
+#: res/instamatic-rules-list.php:725 res/instamatic-rules-list.php:1894
+msgid "Move All Posts To Trash"
+msgstr ""
+
+#: res/instamatic-rules-list.php:726 res/instamatic-rules-list.php:1895
+msgid "Duplicate This Rule"
+msgstr ""
+
+#: res/instamatic-rules-list.php:727 res/instamatic-rules-list.php:1896
+msgid "Permanently Delete All Posts"
+msgstr ""
+
+#: res/instamatic-rules-list.php:949
+msgid "First Page"
+msgstr ""
+
+#: res/instamatic-rules-list.php:949
+msgid "Previous Page"
+msgstr ""
+
+#: res/instamatic-rules-list.php:949
+msgid "Page"
+msgstr ""
+
+#: res/instamatic-rules-list.php:949
+msgid "of"
+msgstr ""
+
+#: res/instamatic-rules-list.php:949
+msgid "Rules Per Page:"
+msgstr ""
+
+#: res/instamatic-rules-list.php:949
+msgid "Next Page"
+msgstr ""
+
+#: res/instamatic-rules-list.php:949
+msgid "Last Page"
+msgstr ""
+
+#: res/instamatic-rules-list.php:957
+msgid "Confused about rule running status icons?"
+msgstr ""
+
+#: res/instamatic-rules-list.php:957
+msgid "More info"
+msgstr ""
+
+#: res/instamatic-rules-list.php:962
+msgid "In Progress"
+msgstr ""
+
+#: res/instamatic-rules-list.php:962
+msgid "Importing is Running"
+msgstr ""
+
+#: res/instamatic-rules-list.php:966
+msgid "Success"
+msgstr ""
+
+#: res/instamatic-rules-list.php:966
+msgid "New Posts Created"
+msgstr ""
+
+#: res/instamatic-rules-list.php:970
+msgid "Failed"
+msgstr ""
+
+#: res/instamatic-rules-list.php:970
+msgid "An Error Occurred."
+msgstr ""
+
+#: res/instamatic-rules-list.php:970
+msgid "Please check 'Activity and Logging' plugin menu for details."
+msgstr ""
+
+#: res/instamatic-rules-list.php:974
+msgid "No Change - No New Posts Created"
+msgstr ""
+
+#: res/instamatic-rules-list.php:974
+msgid "Possible reasons:"
+msgstr ""
+
+#: res/instamatic-rules-list.php:980
+msgid ""
+"Already all posts are published that match your search and posts will be "
+"posted when new content will be available"
+msgstr ""
+
+#: res/instamatic-rules-list.php:981
+msgid "Some restrictions you defined in the plugin's 'Main Settings'"
+msgstr ""
+
+#: res/instamatic-rules-list.php:981
+msgid ""
+"example: 'Minimum Content Word Count', 'Maximum Content Word Count', "
+"'Minimum Title Word Count', 'Maximum Title Word Count', 'Banned Words List', "
+"'Reuired Words List', 'Skip Posts Without Images'"
+msgstr ""
+
+#: res/instamatic-rules-list.php:981
+msgid "prevent posting of new posts."
+msgstr ""
+
+#: res/instamatic-rules-list.php:1415
+msgid "Rule"
+msgstr ""
+
+#: res/instamatic-rules-list.php:1423
+#, php-format
+msgid ""
+"Set the title of the generated posts for user rules. You can use the "
+"following shortcodes:  %%random_sentence%%, %%random_sentence2%%, "
+"%%item_title%%, %%item_description%%, %%item_content%%, %%item_cat%%, "
+"%%item_tags%%"
+msgstr ""
+
+#: res/instamatic-rules-list.php:1426
+msgid "Generated Post Title"
+msgstr ""
+
+#: res/instamatic-rules-list.php:1438
+msgid "Generated Post Content"
+msgstr ""
+
+#: res/instamatic-rules-list.php:1447
+msgid ""
+"If your template supports \"Post Formats\", than you can select one here. If "
+"not, leave this at it's default value."
+msgstr ""
+
+#: res/instamatic-rules-list.php:1450
+msgid "Generated Post Format"
+msgstr ""
+
+#: res/instamatic-rules-list.php:1508
+msgid ""
+"Do you want to set generated post\\'s date from Instagram post\\'s date?"
+msgstr ""
+
+#: res/instamatic-rules-list.php:1511
+msgid "Use Instagram Post\\'s Date"
+msgstr ""
+
+#: res/instamatic-rules-list.php:1527
+msgid "Additional Post Category"
+msgstr ""
+
+#: res/instamatic-rules-list.php:1561
+msgid "Do you want to automatically add post categories from the feed items?"
+msgstr ""
+
+#: res/instamatic-rules-list.php:1564
+msgid "Auto Add Categories"
+msgstr ""
+
+#: res/instamatic-rules-list.php:1592
+msgid "Auto Created Categories Parent Category ID"
+msgstr ""
+
+#: res/instamatic-rules-list.php:1601
+msgid ""
+"This feature will try to remove the WordPress\\'s default post category. "
+"This may fail in case no additional categories are added, because WordPress "
+"requires at least one post category for every post."
+msgstr ""
+
+#: res/instamatic-rules-list.php:1604
+msgid "Remove WP Default Post Category"
+msgstr ""
+
+#: res/instamatic-rules-list.php:1618
+msgid "Do you want to automatically add post tags from the feed items?"
+msgstr ""
+
+#: res/instamatic-rules-list.php:1621
+msgid "Auto Add Tags"
+msgstr ""
+
+#: res/instamatic-rules-list.php:1648
+msgid "Additional Post Tags"
+msgstr ""
+
+#: res/instamatic-rules-list.php:1660
+msgid "Enable Comments For Posts"
+msgstr ""
+
+#: res/instamatic-rules-list.php:1673
+msgid "Do you want to enable pingbacks and trackbacks for the generated posts?"
+msgstr ""
+
+#: res/instamatic-rules-list.php:1676
+msgid "Enable Pingback/Trackback"
+msgstr ""
+
+#: res/instamatic-rules-list.php:1692
+msgid "Auto Get Featured Image"
+msgstr ""
+
+#: res/instamatic-rules-list.php:1707
+msgid "Default Featured Image List"
+msgstr ""
+
+#: res/instamatic-rules-list.php:1717
+msgid "Import Comments"
+msgstr ""
+
+#: res/instamatic-rules-list.php:1748
+msgid "Default Post Title"
+msgstr ""
+
+#: res/instamatic-rules-list.php:1760
+msgid "Remove Emojis from Content"
+msgstr ""
+
+#: res/instamatic-rules-list.php:1788
+msgid ""
+"Shortcode for this rule<br/>(to cross-post from this plugin in other "
+"plugins):"
+msgstr ""
+
+#: res/instamatic-rules-list.php:1788
+msgid "Posts Generated:"
+msgstr ""
+
+#: res/instamatic-rules-list.php:1791 res/instamatic-rules-list.php:1795
+msgid "View Generated Posts"
+msgstr ""
+
+#: res/instamatic-rules-list.php:1798
+msgid "Last Run: "
+msgstr ""
+
+#: res/instamatic-rules-list.php:1804
+msgid "Next Run: "
+msgstr ""
+
+#: res/instamatic-rules-list.php:1815
+msgid "WP-CRON Disabled. Rules will not automatically run!"
+msgstr ""
+
+#: res/instamatic-rules-list.php:1839
+msgctxt "Date Time Format1"
+msgid "Y-m-d H:i:s"
+msgstr ""
+
+#: res/instamatic-rules-list.php:1855
+msgid "Rule Disabled"
+msgstr ""
+
+#: res/instamatic-rules-list.php:1858
+msgid "Local Time: "
+msgstr ""
+
+#: update-checker/Puc/v4/Plugin/UpdateChecker.php:363
+#: update-checker/Puc/v4p4/Plugin/UpdateChecker.php:400
+msgid "Check for updates"
+msgstr ""
+
+#: update-checker/Puc/v4/Plugin/UpdateChecker.php:409
+msgid "This plugin is up to date."
+msgstr ""
+
+#: update-checker/Puc/v4/Plugin/UpdateChecker.php:411
+msgid "A new version of this plugin is available."
+msgstr ""
+
+#: update-checker/Puc/v4/Plugin/UpdateChecker.php:413
+#: update-checker/Puc/v4p4/Plugin/UpdateChecker.php:563
+#, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr ""
+
+#: update-checker/Puc/v4/Vcs/PluginUpdateChecker.php:83
+#: update-checker/Puc/v4p4/Vcs/PluginUpdateChecker.php:98
+msgid "There is no changelog available."
+msgstr ""
+
+#: update-checker/Puc/v4p4/Plugin/UpdateChecker.php:437
+msgid "View details"
+msgstr ""
+
+#: update-checker/Puc/v4p4/Plugin/UpdateChecker.php:460
+#, php-format
+msgid "More information about %s"
+msgstr ""
+
+#: update-checker/Puc/v4p4/Plugin/UpdateChecker.php:553
+#, php-format
+msgctxt "the plugin title"
+msgid "The %s plugin is up to date."
+msgstr ""
+
+#: update-checker/Puc/v4p4/Plugin/UpdateChecker.php:555
+#, php-format
+msgctxt "the plugin title"
+msgid "A new version of the %s plugin is available."
+msgstr ""
+
+#: update-checker/Puc/v4p4/Plugin/UpdateChecker.php:557
+#, php-format
+msgctxt "the plugin title"
+msgid "Could not determine if updates are available for %s."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Instamatic Automatic Post Generator"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "//codecanyon.net/user/coderevolution/portfolio"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"This plugin will generate content for you, even in your sleep using "
+"Instagram public group feeds."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "CodeRevolution"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "//codecanyon.net/user/coderevolution"
+msgstr ""

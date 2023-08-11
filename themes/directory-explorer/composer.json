@@ -1,0 +1,17 @@
+{
+	"name": "f5sites/directory-explorer",
+	"description": "Imitates classic windows folders and files views, but for wordpress posts (dw-minion child). WordPress F5 Sites DEV projects",
+	"version": "0.1",
+	"type": "wordpress-theme",
+	"authors": [
+		{
+			"name": "Francisco Matelli Matulovic",
+			"email": "francisco@f5sites.com",
+			"homepage": "http://franciscomat.com"
+		}
+	],
+	"require": {
+    		"composer/installers": "~1.0",
+	        "php": ">=5.2.4"
+        }
+}

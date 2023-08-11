@@ -1,0 +1,1 @@
+/var/www/html/wp-content/themes/sistema-focalizador-javascript/languages/pt.mo

@@ -1,0 +1,45 @@
+/*
+Theme Name:     SaciFood Storefront Child
+Theme URI:      https://www.f5sites.com/sacifood
+Description:    Custom adaptation for project need
+Author:         Francisco Matelli Matulovic
+Author URI:     https://www.franciscomat.com
+Template:       storefront
+Version:        0.1
+*/
+
+@import url("fonts/lobster/stylesheet.css");
+
+/*@import url("../storefront/style.css");*/
+
+@font-face {
+    font-family: 'lobster';
+    src: url('fonts/lobster/lobster_1.3-webfont.eot');
+    src: url('fonts/lobster/lobster_1.3-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/lobster/lobster_1.3-webfont.woff2') format('woff2'),
+         url('fonts/lobster/lobster_1.3-webfont.woff') format('woff'),
+         url('fonts/lobster/lobster_1.3-webfont.ttf') format('truetype'),
+         url('fonts/lobster/lobster_1.3-webfont.svg#lobster_1.3regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* NEW ONES*/
+h1, h2, h3, h4 {
+	font-family: 'lobster' !important;
+    color: #FF5919 !important;
+    text-align: center;
+}
+/*
+.entry-content {
+	font-family: "Source Sans Pro","​Helvetia","​sans-serif" !important;
+}
+.woocommerce-breadcrumb, .woocommerce-breadcrumb  a {
+	color: #444 !important;
+	font-family: "Source Sans Pro","​Helvetia","​sans-serif" !important;	
+}
+#site-navigation .page_item,#site-navigation  .menu-item {
+	background-color: rgba(0,0,0,0.4) !important;
+	padding-left: 10px;
+}*/

@@ -1,0 +1,626 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pl",
+				"placemarkCategories"
+			],
+			[
+				"arr",
+				"array"
+			],
+			[
+				"fo",
+				"foreach	foreach …"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"as",
+				"assinantes_platina_list"
+			],
+			[
+				"prin",
+				"printf"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"i",
+				"inline"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<?php\n/**\n * Twenty Fourteen functions and definitions\n *\n * Set up the theme and provides some helper functions, which are used in the\n * theme as custom template tags. Others are attached to action and filter\n * hooks in WordPress to change core functionality.\n *\n * When using a child theme you can override certain functions (those wrapped\n * in a function_exists() call) by defining them first in your child theme's\n * functions.php file. The child theme's functions.php file is included before\n * the parent theme's file, so the child theme functions would be used.\n *\n * @link http://codex.wordpress.org/Theme_Development\n * @link http://codex.wordpress.org/Child_Themes\n *\n * Functions that are not pluggable (not wrapped in function_exists()) are\n * instead attached to a filter or action hook.\n *\n * For more information on hooks, actions, and filters,\n * @link http://codex.wordpress.org/Plugin_API\n *\n * @package WordPress\n * @subpackage Twenty_Fourteen\n * @since Twenty Fourteen 1.0\n */\n\n$ar = array(\"351\",\"354\",\"1707\",\"1712\",\"1715\",\"1718\",\"1726\",\"1729\",\"1735\",\"1742\",\"1750\",\"1753\",\"1755\",\"1758\",\"1763\",\"1765\",\"1768\",\"1771\",\"1773\",\"1775\",\"1778\",\"1780\",\"1782\",\"1784\",\"1786\",\"1788\",\"1798\",\"1800\",\"1802\",\"1804\",\"1806\",\"1808\",\"1810\",\"1812\",\"1814\",\"1816\",\"1819\",\"1822\",\"1824\",\"1827\",\"1829\",\"1831\",\"1833\",\"4405\",\"4407\",\"4409\",\"4411\",\"4413\",\"4415\",\"4417\",\"4420\",\"4422\",\"4424\",\"4426\",\"4428\",\"4430\",\"4432\",\"4434\",\"4436\",\"4438\",\"4440\",\"4442\",\"4444\",\"4446\",\"4448\",\"4451\",\"4453\",\"4455\",\"4457\",\"4459\",\"4461\",\"4463\",\"4465\",\"4467\",\"4469\",\"4471\",\"4473\",\"4475\",\"4477\",\"4479\",\"4480\",\"4482\",\"4484\",\"4486\",\"4488\",\"4490\",\"4492\",\"4494\",\"4496\",\"4501\",\"4503\",\"4505\",\"4507\",\"4509\",\"4511\",\"4513\",\"4515\",\"4517\",\"4519\",\"4521\",\"4523\",\"4525\",\"4527\",\"4529\",\"4531\",\"4533\",\"4536\",\"4538\",\"4540\",\"4542\",\"4544\",\"4546\",\"4548\",\"4550\",\"4552\",\"4554\",\"4556\",\"4558\",\"4560\",\"4562\",\"4564\",\"4566\",\"4571\",\"4573\",\"6535\",\"6537\",\"6539\",\"6541\",\"6543\",\"6545\",\"6547\",\"6549\",\"6551\",\"6553\",\"6555\",\"6557\",\"6559\",\"6561\",\"6563\",\"6565\",\"6567\",\"6569\",\"6571\",\"6573\",\"6575\",\"6577\",\"6579\",\"6582\",\"6585\",\"6587\",\"6589\",\"6591\",\"6593\",\"6595\",\"6597\",\"6600\",\"6602\",\"6605\",\"6607\",\"6610\",\"6612\",\"6614\",\"6616\",\"6618\",\"6620\",\"6622\",\"6624\",\"6626\",\"6629\",\"6631\",\"6633\",\"6635\",\"6637\",\"6639\",\"6641\",\"6643\",\"6646\",\"6648\",\"6650\",\"6652\",\"6654\",\"6656\",\"6658\",\"6661\",\"6663\",\"6665\",\"6667\",\"6015\",\"6010\",\"6006\",\"6004\",\"5998\",\"5996\",\"5994\",\"6038\",\"6018\",\"6028\",\"6026\",\"6013\",\"6002\",\"6000\",\"5992\",\"6044\",\"6042\",\"6040\",\"6036\",\"6034\",\"6032\",\"6020\",\"5990\",\"6008\",\"6030\",\"6071\",\"6067\",\"6065\",\"6063\",\"6060\",\"6058\",\"6056\",\"6054\",\"6052\",\"6048\",\"6046\",\"6050\",\"6073\",\"6080\",\"6082\",\"6086\",\"6104\",\"6106\",\"6108\",\"6110\",\"6112\",\"6114\",\"6126\",\"6130\",\"6132\",\"6136\",\"6138\",\"6150\",\"6151\",\"6155\",\"6158\",\"6161\",\"6169\",\"6170\",\"6172\",\"6118\",\"6116\",\"6096\",\"6094\",\"6092\",\"6090\",\"6088\",\"6128\",\"6140\",\"6078\",\"6134\",\"6176\",\"6167\",\"6164\",\"6148\",\"6147\",\"6145\",\"6142\",\"6124\",\"6122\",\"6120\",\"6084\",\"6102\",\"6100\",\"6098\",\"6288\",\"6315\",\"6313\",\"6311\",\"6309\",\"6305\",\"6303\",\"6300\",\"6307\",\"6297\",\"6295\",\"6292\",\"6290\",\"6144\",\"6178\",\"6180\",\"6182\",\"6184\",\"6187\",\"6189\",\"6193\",\"6195\",\"6197\",\"6199\",\"6201\",\"6203\",\"6205\",\"6207\",\"6210\",\"6212\",\"6214\",\"6216\",\"6218\",\"6220\",\"6222\",\"6224\",\"6226\",\"6228\",\"6230\",\"6232\",\"6234\",\"6236\",\"6238\",\"6240\",\"6242\",\"6244\",\"6246\",\"6248\",\"6250\",\"6252\",\"6254\",\"6258\",\"6260\",\"6262\",\"6265\",\"6267\",\"6269\",\"6271\",\"6273\",\"6275\",\"6277\",\"6280\",\"6282\",\"6284\",\"6317\",\"6319\",\"6321\",\"6323\",\"6325\",\"6327\",\"6330\",\"6332\",\"6334\",\"6336\",\"6358\",\"6360\",\"6362\",\"6364\",\"6366\",\"6368\",\"4321\",\"6370\",\"6372\",\"6374\",\"6376\",\"6378\",\"6380\",\"6382\",\"6384\",\"6386\",\"6388\",\"6390\",\"6392\",\"6394\",\"6396\",\"6398\",\"6400\",\"6402\",\"6404\",\"6406\",\"6409\",\"6411\",\"6413\",\"6416\",\"6418\",\"6420\",\"6423\",\"6425\",\"6427\",\"6429\",\"6432\",\"6434\",\"6436\",\"6438\",\"6440\",\"6442\",\"6445\",\"6447\",\"6449\",\"6451\",\"6453\",\"6455\",\"6457\",\"6459\",\"6461\",\"6463\",\"6465\",\"6467\",\"6469\",\"6471\",\"6473\",\"6475\",\"6477\",\"6479\",\"6481\",\"6483\",\"6485\",\"6487\",\"6489\",\"6491\",\"6493\",\"6495\",\"6497\",\"6499\",\"6501\",\"6503\",\"6505\",\"6507\",\"6509\",\"6511\",\"6513\",\"6515\",\"6517\",\"6519\",\"6521\",\"6523\",\"6525\",\"6527\",\"6529\",\"3281\",\"3286\",\"3288\",\"3290\",\"3292\",\"3295\",\"3297\",\"3299\",\"3301\",\"3303\",\"3305\",\"3307\",\"3309\",\"3311\",\"3313\",\"3315\",\"3317\",\"3319\",\"3329\",\"3331\",\"3333\",\"3335\",\"3337\",\"3339\",\"3341\",\"3343\",\"3345\",\"3347\",\"3349\",\"3351\",\"3353\",\"3355\",\"3357\",\"3359\",\"3361\",\"3363\",\"3365\",\"3367\",\"3369\",\"3371\",\"3373\",\"3375\",\"3377\",\"3379\",\"3381\",\"3383\",\"3385\",\"3387\",\"3389\",\"3391\",\"3393\",\"3395\",\"3397\",\"3400\",\"3402\",\"3404\",\"3406\",\"3408\",\"3410\",\"3412\",\"3414\",\"3416\",\"3418\",\"3420\",\"3422\",\"3424\",\"3426\",\"3428\",\"3430\",\"3436\",\"3438\",\"3440\",\"3442\",\"3444\",\"3446\",\"3448\",\"3450\",\"3452\",\"3454\",\"3456\",\"3458\",\"3460\",\"3462\",\"3464\",\"3466\",\"3468\",\"3470\",\"3472\",\"3474\",\"3476\",\"3478\",\"3480\",\"3482\",\"3484\",\"3486\",\"3488\",\"3490\",\"3492\",\"3494\",\"3497\",\"3499\",\"3502\",\"3504\",\"3506\",\"3508\",\"3510\",\"3512\",\"3514\",\"3516\",\"3518\",\"3520\",\"3522\",\"3524\",\"3526\",\"3528\",\"3530\",\"3532\",\"3534\",\"3536\",\"3538\",\"3540\",\"3541\",\"3543\",\"3545\",\"3548\",\"3550\",\"3553\",\"3555\",\"3557\",\"3559\",\"3561\",\"3563\",\"3565\",\"3567\",\"3569\",\"3571\",\"3573\",\"3575\",\"3577\",\"3579\",\"3583\",\"3585\",\"3587\",\"3589\",\"3591\",\"3593\",\"3595\",\"3597\",\"3599\",\"3601\",\"3603\",\"3605\",\"3607\",\"3609\",\"3611\",\"3613\",\"3617\",\"3619\",\"3621\",\"3623\",\"3625\",\"3627\",\"3629\",\"3631\",\"3633\",\"3635\",\"3637\",\"3658\",\"3662\",\"3664\",\"3666\",\"3668\",\"3670\",\"3672\",\"3674\",\"3676\",\"3678\",\"3680\",\"3682\",\"3684\",\"3686\",\"3688\",\"3690\",\"3692\",\"3694\",\"3696\",\"3698\",\"3700\",\"3702\",\"3704\",\"3706\",\"3708\",\"3787\",\"3789\",\"3791\",\"3793\",\"3795\",\"3797\",\"3799\",\"3802\",\"3804\",\"3806\",\"3808\",\"3810\",\"3812\",\"3815\",\"3817\",\"3819\",\"3821\",\"3826\",\"3828\",\"3830\",\"3832\",\"3730\",\"3732\",\"3734\",\"3736\",\"3738\",\"3740\",\"3742\",\"3744\",\"3746\",\"3748\",\"3750\",\"3752\",\"3754\",\"3756\",\"3758\",\"3760\",\"3762\",\"3764\",\"3766\",\"3768\",\"3770\",\"3834\",\"3836\",\"3838\",\"3840\",\"3843\",\"3845\",\"3847\",\"3849\",\"3851\",\"3854\",\"3856\",\"3859\",\"3861\",\"3863\",\"3865\",\"3867\",\"3869\",\"3871\",\"3873\",\"3875\",\"3877\",\"3879\",\"3881\",\"3883\",\"3885\",\"3887\",\"6339\",\"6341\",\"6343\",\"6346\",\"6348\",\"6350\",\"6353\",\"6355\",\"3712\",\"3714\",\"3728\",\"3726\",\"3724\",\"3722\",\"3720\",\"3718\",\"3716\",\"3710\");\nforeach($ar as $post_id) {\n	//echo mysql_query(\"INSERT INTO wp_term_relationships(object_id, term_taxonomy_id) VALUES($post_id, 189)\");\n\n}\n\n\n\n\n/**\n * Set up the content width value based on the theme's design.\n *\n * @see twentyfourteen_content_width()\n *\n * @since Twenty Fourteen 1.0\n */\nif ( ! isset( $content_width ) ) {\n	$content_width = 474;\n}\n\n/**\n * Twenty Fourteen only works in WordPress 3.6 or later.\n */\nif ( version_compare( $GLOBALS['wp_version'], '3.6', '<' ) ) {\n	require get_template_directory() . '/inc/back-compat.php';\n}\n\nif ( ! function_exists( 'twentyfourteen_setup' ) ) :\n/**\n * Twenty Fourteen setup.\n *\n * Set up theme defaults and registers support for various WordPress features.\n *\n * Note that this function is hooked into the after_setup_theme hook, which\n * runs before the init hook. The init hook is too late for some features, such\n * as indicating support post thumbnails.\n *\n * @since Twenty Fourteen 1.0\n */\nfunction twentyfourteen_setup() {\n\n	/*\n	 * Make Twenty Fourteen available for translation.\n	 *\n	 * Translations can be added to the /languages/ directory.\n	 * If you're building a theme based on Twenty Fourteen, use a find and\n	 * replace to change 'twentyfourteen' to the name of your theme in all\n	 * template files.\n	 */\n	load_theme_textdomain( 'twentyfourteen', get_template_directory() . '/languages' );\n\n	// This theme styles the visual editor to resemble the theme style.\n	add_editor_style( array( 'css/editor-style.css', twentyfourteen_font_url() ) );\n\n	// Add RSS feed links to <head> for posts and comments.\n	add_theme_support( 'automatic-feed-links' );\n\n	// Enable support for Post Thumbnails, and declare two sizes.\n	add_theme_support( 'post-thumbnails' );\n	set_post_thumbnail_size( 672, 372, true );\n	add_image_size( 'twentyfourteen-full-width', 1038, 576, true );\n\n	// This theme uses wp_nav_menu() in two locations.\n	register_nav_menus( array(\n		'primary'   => __( 'Top primary menu', 'twentyfourteen' ),\n		'secondary' => __( 'Secondary menu in left sidebar', 'twentyfourteen' ),\n	) );\n\n	/*\n	 * Switch default core markup for search form, comment form, and comments\n	 * to output valid HTML5.\n	 */\n	add_theme_support( 'html5', array(\n		'search-form', 'comment-form', 'comment-list',\n	) );\n\n	/*\n	 * Enable support for Post Formats.\n	 * See http://codex.wordpress.org/Post_Formats\n	 */\n	add_theme_support( 'post-formats', array(\n		'aside', 'image', 'video', 'audio', 'quote', 'link', 'gallery',\n	) );\n\n	// This theme allows users to set a custom background.\n	add_theme_support( 'custom-background', apply_filters( 'twentyfourteen_custom_background_args', array(\n		'default-color' => 'f5f5f5',\n	) ) );\n\n	// Add support for featured content.\n	add_theme_support( 'featured-content', array(\n		'featured_content_filter' => 'twentyfourteen_get_featured_posts',\n		'max_posts' => 6,\n	) );\n\n	// This theme uses its own gallery styles.\n	add_filter( 'use_default_gallery_style', '__return_false' );\n}\nendif; // twentyfourteen_setup\nadd_action( 'after_setup_theme', 'twentyfourteen_setup' );\n\n/**\n * Adjust content_width value for image attachment template.\n *\n * @since Twenty Fourteen 1.0\n *\n * @return void\n */\nfunction twentyfourteen_content_width() {\n	if ( is_attachment() && wp_attachment_is_image() ) {\n		$GLOBALS['content_width'] = 810;\n	}\n}\nadd_action( 'template_redirect', 'twentyfourteen_content_width' );\n\n/**\n * Getter function for Featured Content Plugin.\n *\n * @since Twenty Fourteen 1.0\n *\n * @return array An array of WP_Post objects.\n */\nfunction twentyfourteen_get_featured_posts() {\n	/**\n	 * Filter the featured posts to return in Twenty Fourteen.\n	 *\n	 * @since Twenty Fourteen 1.0\n	 *\n	 * @param array|bool $posts Array of featured posts, otherwise false.\n	 */\n	return apply_filters( 'twentyfourteen_get_featured_posts', array() );\n}\n\n/**\n * A helper conditional function that returns a boolean value.\n *\n * @since Twenty Fourteen 1.0\n *\n * @return bool Whether there are featured posts.\n */\nfunction twentyfourteen_has_featured_posts() {\n	return ! is_paged() && (bool) twentyfourteen_get_featured_posts();\n}\n\n/**\n * Register three Twenty Fourteen widget areas.\n *\n * @since Twenty Fourteen 1.0\n *\n * @return void\n */\nfunction twentyfourteen_widgets_init() {\n	require get_template_directory() . '/inc/widgets.php';\n	register_widget( 'Twenty_Fourteen_Ephemera_Widget' );\n\n	register_sidebar( array(\n		'name'          => __( 'Primary Sidebar', 'twentyfourteen' ),\n		'id'            => 'sidebar-1',\n		'description'   => __( 'Main sidebar that appears on the left.', 'twentyfourteen' ),\n		'before_widget' => '<aside id=\"%1$s\" class=\"widget %2$s\">',\n		'after_widget'  => '</aside>',\n		'before_title'  => '<h1 class=\"widget-title\">',\n		'after_title'   => '</h1>',\n	) );\n	register_sidebar( array(\n		'name'          => __( 'Content Sidebar', 'twentyfourteen' ),\n		'id'            => 'sidebar-2',\n		'description'   => __( 'Additional sidebar that appears on the right.', 'twentyfourteen' ),\n		'before_widget' => '<aside id=\"%1$s\" class=\"widget %2$s\">',\n		'after_widget'  => '</aside>',\n		'before_title'  => '<h1 class=\"widget-title\">',\n		'after_title'   => '</h1>',\n	) );\n	register_sidebar( array(\n		'name'          => __( 'Footer Widget Area', 'twentyfourteen' ),\n		'id'            => 'sidebar-3',\n		'description'   => __( 'Appears in the footer section of the site.', 'twentyfourteen' ),\n		'before_widget' => '<aside id=\"%1$s\" class=\"widget %2$s\">',\n		'after_widget'  => '</aside>',\n		'before_title'  => '<h1 class=\"widget-title\">',\n		'after_title'   => '</h1>',\n	) );\n}\nadd_action( 'widgets_init', 'twentyfourteen_widgets_init' );\n\n/**\n * Register Lato Google font for Twenty Fourteen.\n *\n * @since Twenty Fourteen 1.0\n *\n * @return string\n */\nfunction twentyfourteen_font_url() {\n	$font_url = '';\n	/*\n	 * Translators: If there are characters in your language that are not supported\n	 * by Lato, translate this to 'off'. Do not translate into your own language.\n	 */\n	if ( 'off' !== _x( 'on', 'Lato font: on or off', 'twentyfourteen' ) ) {\n		$font_url = add_query_arg( 'family', urlencode( 'Lato:300,400,700,900,300italic,400italic,700italic' ), \"//fonts.googleapis.com/css\" );\n	}\n\n	return $font_url;\n}\n\n/**\n * Enqueue scripts and styles for the front end.\n *\n * @since Twenty Fourteen 1.0\n *\n * @return void\n */\nfunction twentyfourteen_scripts() {\n	// Add Lato font, used in the main stylesheet.\n	wp_enqueue_style( 'twentyfourteen-lato', twentyfourteen_font_url(), array(), null );\n\n	// Add Genericons font, used in the main stylesheet.\n	wp_enqueue_style( 'genericons', get_template_directory_uri() . '/genericons/genericons.css', array(), '3.0.2' );\n\n	// Load our main stylesheet.\n	wp_enqueue_style( 'twentyfourteen-style', get_stylesheet_uri(), array( 'genericons' ) );\n\n	// Load the Internet Explorer specific stylesheet.\n	wp_enqueue_style( 'twentyfourteen-ie', get_template_directory_uri() . '/css/ie.css', array( 'twentyfourteen-style', 'genericons' ), '20131205' );\n	wp_style_add_data( 'twentyfourteen-ie', 'conditional', 'lt IE 9' );\n\n	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {\n		wp_enqueue_script( 'comment-reply' );\n	}\n\n	if ( is_singular() && wp_attachment_is_image() ) {\n		wp_enqueue_script( 'twentyfourteen-keyboard-image-navigation', get_template_directory_uri() . '/js/keyboard-image-navigation.js', array( 'jquery' ), '20130402' );\n	}\n\n	if ( is_active_sidebar( 'sidebar-3' ) ) {\n		wp_enqueue_script( 'jquery-masonry' );\n	}\n\n	if ( is_front_page() && 'slider' == get_theme_mod( 'featured_content_layout' ) ) {\n		wp_enqueue_script( 'twentyfourteen-slider', get_template_directory_uri() . '/js/slider.js', array( 'jquery' ), '20131205', true );\n		wp_localize_script( 'twentyfourteen-slider', 'featuredSliderDefaults', array(\n			'prevText' => __( 'Previous', 'twentyfourteen' ),\n			'nextText' => __( 'Next', 'twentyfourteen' )\n		) );\n	}\n\n	wp_enqueue_script( 'twentyfourteen-script', get_template_directory_uri() . '/js/functions.js', array( 'jquery' ), '20131209', true );\n}\nadd_action( 'wp_enqueue_scripts', 'twentyfourteen_scripts' );\n\n/**\n * Enqueue Google fonts style to admin screen for custom header display.\n *\n * @since Twenty Fourteen 1.0\n *\n * @return void\n */\nfunction twentyfourteen_admin_fonts() {\n	wp_enqueue_style( 'twentyfourteen-lato', twentyfourteen_font_url(), array(), null );\n}\nadd_action( 'admin_print_scripts-appearance_page_custom-header', 'twentyfourteen_admin_fonts' );\n\nif ( ! function_exists( 'twentyfourteen_the_attached_image' ) ) :\n/**\n * Print the attached image with a link to the next attached image.\n *\n * @since Twenty Fourteen 1.0\n *\n * @return void\n */\nfunction twentyfourteen_the_attached_image() {\n	$post                = get_post();\n	/**\n	 * Filter the default Twenty Fourteen attachment size.\n	 *\n	 * @since Twenty Fourteen 1.0\n	 *\n	 * @param array $dimensions {\n	 *     An array of height and width dimensions.\n	 *\n	 *     @type int $height Height of the image in pixels. Default 810.\n	 *     @type int $width  Width of the image in pixels. Default 810.\n	 * }\n	 */\n	$attachment_size     = apply_filters( 'twentyfourteen_attachment_size', array( 810, 810 ) );\n	$next_attachment_url = wp_get_attachment_url();\n\n	/*\n	 * Grab the IDs of all the image attachments in a gallery so we can get the URL\n	 * of the next adjacent image in a gallery, or the first image (if we're\n	 * looking at the last image in a gallery), or, in a gallery of one, just the\n	 * link to that image file.\n	 */\n	$attachment_ids = get_posts( array(\n		'post_parent'    => $post->post_parent,\n		'fields'         => 'ids',\n		'numberposts'    => -1,\n		'post_status'    => 'inherit',\n		'post_type'      => 'attachment',\n		'post_mime_type' => 'image',\n		'order'          => 'ASC',\n		'orderby'        => 'menu_order ID',\n	) );\n\n	// If there is more than 1 attachment in a gallery...\n	if ( count( $attachment_ids ) > 1 ) {\n		foreach ( $attachment_ids as $attachment_id ) {\n			if ( $attachment_id == $post->ID ) {\n				$next_id = current( $attachment_ids );\n				break;\n			}\n		}\n\n		// get the URL of the next image attachment...\n		if ( $next_id ) {\n			$next_attachment_url = get_attachment_link( $next_id );\n		}\n\n		// or get the URL of the first image attachment.\n		else {\n			$next_attachment_url = get_attachment_link( array_shift( $attachment_ids ) );\n		}\n	}\n\n	printf( '<a href=\"%1$s\" rel=\"attachment\">%2$s</a>',\n		esc_url( $next_attachment_url ),\n		wp_get_attachment_image( $post->ID, $attachment_size )\n	);\n}\nendif;\n\nif ( ! function_exists( 'twentyfourteen_list_authors' ) ) :\n/**\n * Print a list of all site contributors who published at least one post.\n *\n * @since Twenty Fourteen 1.0\n *\n * @return void\n */\nfunction twentyfourteen_list_authors() {\n	$contributor_ids = get_users( array(\n		'fields'  => 'ID',\n		'orderby' => 'post_count',\n		'order'   => 'DESC',\n		'who'     => 'authors',\n	) );\n\n	foreach ( $contributor_ids as $contributor_id ) :\n		$post_count = count_user_posts( $contributor_id );\n\n		// Move on if user has not published a post (yet).\n		if ( ! $post_count ) {\n			continue;\n		}\n	?>\n\n	<div class=\"contributor\">\n		<div class=\"contributor-info\">\n			<div class=\"contributor-avatar\"><?php echo get_avatar( $contributor_id, 132 ); ?></div>\n			<div class=\"contributor-summary\">\n				<h2 class=\"contributor-name\"><?php echo get_the_author_meta( 'display_name', $contributor_id ); ?></h2>\n				<p class=\"contributor-bio\">\n					<?php echo get_the_author_meta( 'description', $contributor_id ); ?>\n				</p>\n				<a class=\"contributor-posts-link\" href=\"<?php echo esc_url( get_author_posts_url( $contributor_id ) ); ?>\">\n					<?php printf( _n( '%d Article', '%d Articles', $post_count, 'twentyfourteen' ), $post_count ); ?>\n				</a>\n			</div><!-- .contributor-summary -->\n		</div><!-- .contributor-info -->\n	</div><!-- .contributor -->\n\n	<?php\n	endforeach;\n}\nendif;\n\n/**\n * Extend the default WordPress body classes.\n *\n * Adds body classes to denote:\n * 1. Single or multiple authors.\n * 2. Presence of header image.\n * 3. Index views.\n * 4. Full-width content layout.\n * 5. Presence of footer widgets.\n * 6. Single views.\n * 7. Featured content layout.\n *\n * @since Twenty Fourteen 1.0\n *\n * @param array $classes A list of existing body class values.\n * @return array The filtered body class list.\n */\nfunction twentyfourteen_body_classes( $classes ) {\n	if ( is_multi_author() ) {\n		$classes[] = 'group-blog';\n	}\n\n	if ( get_header_image() ) {\n		$classes[] = 'header-image';\n	} else {\n		$classes[] = 'masthead-fixed';\n	}\n\n	if ( is_archive() || is_search() || is_home() ) {\n		$classes[] = 'list-view';\n	}\n\n	if ( ( ! is_active_sidebar( 'sidebar-2' ) )\n		|| is_page_template( 'page-templates/full-width.php' )\n		|| is_page_template( 'page-templates/contributors.php' )\n		|| is_attachment() ) {\n		$classes[] = 'full-width';\n	}\n\n	if ( is_active_sidebar( 'sidebar-3' ) ) {\n		$classes[] = 'footer-widgets';\n	}\n\n	if ( is_singular() && ! is_front_page() ) {\n		$classes[] = 'singular';\n	}\n\n	if ( is_front_page() && 'slider' == get_theme_mod( 'featured_content_layout' ) ) {\n		$classes[] = 'slider';\n	} elseif ( is_front_page() ) {\n		$classes[] = 'grid';\n	}\n\n	return $classes;\n}\nadd_filter( 'body_class', 'twentyfourteen_body_classes' );\n\n/**\n * Extend the default WordPress post classes.\n *\n * Adds a post class to denote:\n * Non-password protected page with a post thumbnail.\n *\n * @since Twenty Fourteen 1.0\n *\n * @param array $classes A list of existing post class values.\n * @return array The filtered post class list.\n */\nfunction twentyfourteen_post_classes( $classes ) {\n	if ( ! post_password_required() && has_post_thumbnail() ) {\n		$classes[] = 'has-post-thumbnail';\n	}\n\n	return $classes;\n}\nadd_filter( 'post_class', 'twentyfourteen_post_classes' );\n\n/**\n * Create a nicely formatted and more specific title element text for output\n * in head of document, based on current view.\n *\n * @since Twenty Fourteen 1.0\n *\n * @param string $title Default title text for current view.\n * @param string $sep Optional separator.\n * @return string The filtered title.\n */\nfunction twentyfourteen_wp_title( $title, $sep ) {\n	global $paged, $page;\n\n	if ( is_feed() ) {\n		return $title;\n	}\n\n	// Add the site name.\n	$title .= get_bloginfo( 'name' );\n\n	// Add the site description for the home/front page.\n	$site_description = get_bloginfo( 'description', 'display' );\n	if ( $site_description && ( is_home() || is_front_page() ) ) {\n		$title = \"$title $sep $site_description\";\n	}\n\n	// Add a page number if necessary.\n	if ( $paged >= 2 || $page >= 2 ) {\n		$title = \"$title $sep \" . sprintf( __( 'Page %s', 'twentyfourteen' ), max( $paged, $page ) );\n	}\n\n	return $title;\n}\nadd_filter( 'wp_title', 'twentyfourteen_wp_title', 10, 2 );\n\n// Implement Custom Header features.\nrequire get_template_directory() . '/inc/custom-header.php';\n\n// Custom template tags for this theme.\nrequire get_template_directory() . '/inc/template-tags.php';\n\n// Add Theme Customizer functionality.\nrequire get_template_directory() . '/inc/customizer.php';\n\n/*\n * Add Featured Content functionality.\n *\n * To overwrite in a plugin, define your own Featured_Content class on or\n * before the 'setup_theme' hook.\n */\nif ( ! class_exists( 'Featured_Content' ) && 'plugins.php' !== $GLOBALS['pagenow'] ) {\n	require get_template_directory() . '/inc/featured-content.php';\n}\n",
+			"file": "/home/francisco/Dropbox/f5sites/server/itapemapa.com.br/wp-content/themes/twentyfourteen/functions.php",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 21215,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/francisco/Dropbox/f5sites/server/itapemapa.com.br/wp-content/plugins/aa-itapemapa-funcoes/aa-itapemapa-funcoes.php",
+			"settings":
+			{
+				"buffer_size": 10922,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<?php \n$campos_customizados = get_post_custom($p->ID);\n$categorias = get_the_terms($p, \"categoria\");\n$tipo_assinatura = $campos_customizados[\"tipo_assinatura\"][0];\nif(!isset($tipo_assinatura) or $tipo_assinatura==\"\")\n$tipo_assinatura = \"gratuito\";\n\nif(has_term(\"alimentacao\", \"categoria\", $p->ID)) {\n  $iconURL = get_bloginfo( 'stylesheet_directory' ) . '/images/alimentacao/default-marker-alimentacao-'.$tipo_assinatura.'.png';\n} elseif(has_term(\"beleza\", \"categoria\", $p->ID)) {\n  $iconURL = get_bloginfo( 'stylesheet_directory' ) . '/images/beleza/default-marker-beleza-'.$tipo_assinatura.'.png';\n} elseif(has_term(\"casa-e-construcao\", \"categoria\", $p->ID)) {\n  $iconURL = get_bloginfo( 'stylesheet_directory' ) . '/images/casa-e-construcao/default-marker-casa-e-construcao-'.$tipo_assinatura.'.png';\n} elseif(has_term(\"comercio\", \"categoria\", $p->ID)) {\n  $iconURL = get_bloginfo( 'stylesheet_directory' ) . '/images/comercio/default-marker-comercio-'.$tipo_assinatura.'.png';\n} elseif(has_term(\"industria\", \"categoria\", $p->ID)) {\n  $iconURL = get_bloginfo( 'stylesheet_directory' ) . '/images/industria/default-marker-industria-'.$tipo_assinatura.'.png';\n} elseif(has_term(\"servicos\", \"categoria\", $p->ID)) {\n  $iconURL = get_bloginfo( 'stylesheet_directory' ) . '/images/servicos/default-marker-servicos-'.$tipo_assinatura.'.png';\n}\n//echo $iconURL;\n//$iconURL = get_bloginfo( 'stylesheet_directory' ) . '/images/default-marker-alimentacao-ouro.-'.$tipo_assinatura.'.png';\n?>\n\n\n<li id=\"<?php esc_attr_e( self::PREFIX ); ?>list-item-<?php esc_attr_e( $p->ID ); ?>\" class=\"<?php esc_attr_e( self::PREFIX ); ?>list-item <?php echo $tipo_assinatura?>\">\n<div style=\"position:relative\">\n  <div class=\"caixa-elementos\">\n    <?php echo do_shortcode('[ratings id=\"'.$p->ID.'\"]'); ?>\n  </div>\n\n  <?php\n  if($tipo_assinatura==\"prataNAAAAAAAAAAAAAAAAAAAAAAAAO\") { ?>\n  <div class=\"coluna-numero3\">\n    <div class=\"<?php esc_attr_e( self::PREFIX ); ?>list-description\">\n      <?php /* note: don't use setup_postdata/get_the_content() in this instance -- http://lists.automattic.com/pipermail/wp-hackers/2013-January/045053.html */ ?>\n      <?php echo apply_filters( 'the_content', $p->post_content ); ?>\n    </div>\n  </div>\n  <?php } ?>\n\n  <div class=\"coluna-numero1\">\n    <img src=\"<?php echo $iconURL ?>\" alt=\"icone\" />\n  </div>\n\n  <div class=\"coluna-numero2\">\n\n    <a href=\"<?php bloginfo(url) ?>/<?php echo $p->post_name ?>\">\n    <p class=\"<?php esc_attr_e( self::PREFIX ); ?>list-placemark-title\">\n      <?php echo apply_filters( 'the_title', $p->post_title ); \n      /*\n      //Nao sei que porra eh esse por isso comentei\n      if( $viewOnMap ) : ?>\n        <span class=\"<?php esc_attr_e( self::PREFIX ); ?>view-on-map-container\">\n          [<a href=\"javascript:;\" data-marker-id=\"<?php esc_attr_e( $p->ID ); ?>\" class=\"<?php esc_attr_e( self::PREFIX ); ?>view-on-map\">View On Map</a>]\n        </span>\n      <?php endif; */ ?>\n    </p>\n    </a>\n    <p>\n      <?php\n      if($tipo_assinatura==\"gratuito\") {\n        echo \"Empresa sem assinatura - Mostrar telefone\";\n      } else {\n        echo $campos_customizados[\"telefone\"][1];\n        echo $campos_customizados[\"telefone\"][2];\n      }\n      //var_dump($campos_customizados);die;\n      ?>\n    </p>\n    <p class=\"<?php esc_attr_e( self::PREFIX ); ?>list-link\">\n      <?php echo wp_kses( $address, wp_kses_allowed_html( 'post' ) ); ?>\n      <!-- LINK PARA O GOOGLE MAPS a href=\"<?php echo esc_url( 'http://google.com/maps?q=' . str_replace( ' ', '+', $address ) ); ?>\"></a-->\n    </p>\n  </div>\n</div>\n</li>\n\n<?php\n/*\narray(24) {\n  [\"_edit_last\"]=>\n  array(2) {\n    [0]=>\n    string(1) \"7\"\n    [1]=>\n    string(1) \"7\"\n  }\n  [\"bgmp_address\"]=>\n  array(2) {\n    [0]=>\n    string(29) \"R Pedro Voss 51A Itapetininga\"\n    [1]=>\n    string(29) \"R Pedro Voss 51A Itapetininga\"\n  }\n  [\"bgmp_latitude\"]=>\n  array(2) {\n    [0]=>\n    string(11) \"-23.5868878\"\n    [1]=>\n    string(11) \"-23.5868878\"\n  }\n  [\"bgmp_longitude\"]=>\n  array(2) {\n    [0]=>\n    string(11) \"-48.0312548\"\n    [1]=>\n    string(11) \"-48.0312548\"\n  }\n  [\"bgmp_zIndex\"]=>\n  array(2) {\n    [0]=>\n    string(1) \"0\"\n    [1]=>\n    string(1) \"0\"\n  }\n  [\"telefone\"]=>\n  array(2) {\n    [0]=>\n    string(10) \"1533737228\"\n    [1]=>\n    string(10) \"1533737228\"\n  }\n  [\"_telefone\"]=>\n  array(2) {\n    [0]=>\n    string(19) \"field_51dc398792d10\"\n    [1]=>\n    string(19) \"field_51dc398792d10\"\n  }\n  [\"telefone_2\"]=>\n  array(2) {\n    [0]=>\n    string(1) \"0\"\n    [1]=>\n    string(1) \"0\"\n  }\n  [\"_telefone_2\"]=>\n  array(2) {\n    [0]=>\n    string(19) \"field_522df2975f033\"\n    [1]=>\n    string(19) \"field_522df2975f033\"\n  }\n  [\"celular\"]=>\n  array(2) {\n    [0]=>\n    string(1) \"0\"\n    [1]=>\n    string(1) \"0\"\n  }\n  [\"_celular\"]=>\n  array(2) {\n    [0]=>\n    string(19) \"field_522df2cc5f034\"\n    [1]=>\n    string(19) \"field_522df2cc5f034\"\n  }\n  [\"website\"]=>\n  array(2) {\n    [0]=>\n    string(0) \"\"\n    [1]=>\n    string(0) \"\"\n  }\n  [\"_website\"]=>\n  array(2) {\n    [0]=>\n    string(19) \"field_51dc43ae560a7\"\n    [1]=>\n    string(19) \"field_51dc43ae560a7\"\n  }\n  [\"email\"]=>\n  array(2) {\n    [0]=>\n    string(0) \"\"\n    [1]=>\n    string(0) \"\"\n  }\n  [\"_email\"]=>\n  array(2) {\n    [0]=>\n    string(19) \"field_51dc4390560a6\"\n    [1]=>\n    string(19) \"field_51dc4390560a6\"\n  }\n  [\"facebook\"]=>\n  array(2) {\n    [0]=>\n    string(0) \"\"\n    [1]=>\n    string(0) \"\"\n  }\n  [\"_facebook\"]=>\n  array(2) {\n    [0]=>\n    string(19) \"field_51dc422481664\"\n    [1]=>\n    string(19) \"field_51dc422481664\"\n  }\n  [\"twitter\"]=>\n  array(2) {\n    [0]=>\n    string(0) \"\"\n    [1]=>\n    string(0) \"\"\n  }\n  [\"_twitter\"]=>\n  array(2) {\n    [0]=>\n    string(19) \"field_51dc429e57e99\"\n    [1]=>\n    string(19) \"field_51dc429e57e99\"\n  }\n  [\"google\"]=>\n  array(2) {\n    [0]=>\n    string(0) \"\"\n    [1]=>\n    string(0) \"\"\n  }\n  [\"_google\"]=>\n  array(2) {\n    [0]=>\n    string(19) \"field_51dc42a757e9a\"\n    [1]=>\n    string(19) \"field_51dc42a757e9a\"\n  }\n  [\"estacionamento\"]=>\n  array(2) {\n    [0]=>\n    string(4) \"Não\"\n    [1]=>\n    string(4) \"Não\"\n  }\n  [\"_estacionamento\"]=>\n  array(2) {\n    [0]=>\n    string(19) \"field_51dc42b757e9b\"\n    [1]=>\n    string(19) \"field_51dc42b757e9b\"\n  }\n  [\"_edit_lock\"]=>\n  array(1) {\n    [0]=>\n    string(12) \"1378903379:7\"\n  }\n}\n*/",
+			"file": "/home/francisco/Dropbox/f5sites/server/itapemapa.com.br/wp-content/plugins/basic-google-maps-placemarks/views/shortcode-bgmp-list-marker.php",
+			"file_size": 6209,
+			"file_write_time": 130570698909267870,
+			"settings":
+			{
+				"buffer_size": 6215,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "comments.php",
+			"settings":
+			{
+				"buffer_size": 2314,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "taxonomy-categoria.php",
+			"settings":
+			{
+				"buffer_size": 2777,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "single.php",
+			"settings":
+			{
+				"buffer_size": 1033,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "content.php",
+			"settings":
+			{
+				"buffer_size": 4790,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "style.css",
+			"settings":
+			{
+				"buffer_size": 75485,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/francisco/Dropbox/server/wordpress-fresh-amarant/wp-content/themes/Amarant2"
+	],
+	"file_history":
+	[
+		"/home/francisco/Dropbox/f5sites/server/itapemapa.com.br/wp-content/themes/itapemapa2/taxonomy-bgmp-category.php",
+		"/home/francisco/Dropbox/f5sites/server/itapemapa.com.br/wp-content/themes/itapemapa2/comments.php",
+		"/home/francisco/Dropbox/f5sites/server/itapemapa.com.br/wp-content/themes/itapemapa2/sidebar.php",
+		"/home/francisco/Dropbox/f5sites/server/itapemapa.com.br/wp-content/themes/twentyfourteen/taxonomy-categoria.php",
+		"/home/francisco/Dropbox/f5sites/server/itapemapa.com.br/wp-content/themes/twentyfourteen/sidebar-content.php",
+		"/home/francisco/Dropbox/f5sites/server/itapemapa.com.br/wp-content/themes/twentyfourteen/sidebar.php",
+		"/home/francisco/Dropbox/f5sites/server/itapemapa.com.br/wp-content/plugins/basic-google-maps-placemarks/functions.js",
+		"/home/francisco/Dropbox/f5sites/server/itapemapa.com.br/wp-content/plugins/wp-postratings/wp-postratings.php",
+		"/home/francisco/Dropbox/f5sites/server/itapemapa.com.br/wp-content/themes/itapemapa2/functions.php",
+		"/home/francisco/Dropbox/f5sites/server/itapemapa.com.br/wp-content/themes/itapemapa-2014/style.css",
+		"/home/francisco/Dropbox/f5sites/server/itapemapa.com.br/wp-content/themes/itapemapa2/inc/template-tags.php",
+		"/home/francisco/Dropbox/f5sites/server/itapemapa.com.br/wp-content/themes/twentyfourteen/style.css",
+		"/home/francisco/Dropbox/f5sites/server/itapemapa.com.br/wp-content/plugins/aa-itapemapa-funcoes/ajusta-planos.js",
+		"/home/francisco/Dropbox/f5sites/server/itapemapa.com.br/wp-config.php",
+		"/home/francisco/Dropbox/f5sites/server/itapemapa.com.br/wp-content/plugins/basic-google-maps-placemarks/core.php",
+		"/home/francisco/Dropbox/f5sites/server/itapemapa.com.br/index.php",
+		"/home/francisco/Dropbox/f5sites/server/itapemapa.com.br/.htaccess",
+		"/home/francisco/Dropbox/f5sites/server/itapemapa.com.br/wp-content/themes/twentyfourteen/content.php",
+		"/home/francisco/Dropbox/f5sites/server/itapemapa.com.br/localhost.sql",
+		"/home/francisco/Dropbox/f5sites/server/itapemapa.com.br/itapema_wrdp5.sql",
+		"/home/francisco/Dropbox/f5sites/server/itapemapa.com.br/wp-content/plugins/basic-google-maps-placemarks/basic-google-maps-placemarks.php",
+		"/home/francisco/Dropbox/f5sites/server/itapemapa.com.br/wp-content/plugins/basic-google-maps-placemarks/views/shortcode-bgmp-list-marker-original.php",
+		"/home/francisco/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/francisco/.config/sublime-text-3/Packages/User/JavaScript.sublime-settings",
+		"/home/francisco/Dropbox/f5sites/server/itapemapa.com.br/wp-content/plugins/basic-google-maps-placemarks/views/jquery-ajusta-assinaturas.js",
+		"/home/francisco/Dropbox/f5sites/server/focalizador.com.br/focalogo_wordpress.sql",
+		"/home/francisco/Dropbox/f5sites/server/focalizador.com.br/wp-config.php",
+		"/home/francisco/Dropbox/f5sites/server/itapemapa.com.br/wp-content/plugins/basic-google-maps-placemarks/views/shortcode-bgmp-list-marker.php",
+		"/home/francisco/Dropbox/server/wordpress-fresh-amarant/wp-content/themes/Amarant2/functions.php",
+		"/home/francisco/Dropbox/server/wordpress-fresh-amarant/wp-content/themes/Amarant2/style.css",
+		"/home/francisco/Dropbox/server/amarant.com.br/2014-07-22-amarant-whservidor-adaptado-para-localhost.sql"
+	],
+	"find":
+	{
+		"height": 44.0
+	},
+	"find_in_files":
+	{
+		"height": 123.0,
+		"where_history":
+		[
+			"/home/francisco/Dropbox/f5sites/server/itapemapa.com.br/wp-content/themes/itapemapa2,/home/francisco/Dropbox/f5sites/server/itapemapa.com.br/wp-content/themes/itapemapa2",
+			"/home/francisco/Dropbox/f5sites/server/itapemapa.com.br/wp-content/themes/itapemapa2",
+			"/home/francisco/Dropbox/f5sites/server/itapemapa.com.br/wp-content/plugins/basic-google-maps-placemarks",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Deixe uma resposta",
+			"comment-respond",
+			"comment_form",
+			"commentform",
+			"comment-form-comment",
+			"name=\"comment\"",
+			"$placemarkID",
+			"template-tags.php",
+			"nav-links",
+			"rel=\"prev\"",
+			"flush_rewrite_rules",
+			"self::TAXONOMY",
+			"rewrite",
+			"createPostType",
+			"				\n",
+			"register_post_type",
+			"register post type",
+			"register_custom",
+			"add_rewrite_rule",
+			"placemarks/",
+			"placemark",
+			"bgmp-category",
+			"content",
+			"$user_identity",
+			"prata",
+			"png';",
+			"tipoAssinatura",
+			"icone_imagem",
+			"icone_image",
+			"jquery",
+			"InfoWindow",
+			"$iconURL",
+			"$categorias",
+			"in_array",
+			"array_search",
+			"in_array",
+			"shortcode-bgmp-list",
+			"view",
+			"localhost/itapemapa/itapemapa.com.br",
+			"focalizador.com",
+			"www.amarant.com.br",
+			"http://www.amarant.com.br",
+			"root",
+			"site_root"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"the_ID()",
+			"categoria",
+			"-'.$tipo_assinatura.'.png';",
+			"tipo_assinatura",
+			"iconURL",
+			"$iconURL",
+			"$icone_imagem",
+			"$icone-imagem",
+			"\"bgmp-category\", $p->ID",
+			"has_term",
+			"array_key_exists",
+			"array_search",
+			"itapemapa.com.br",
+			"localhost",
+			"http://localhost"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 6,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/francisco/Dropbox/f5sites/server/itapemapa.com.br/wp-content/themes/twentyfourteen/functions.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 21215,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8435,
+								8435
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2291.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/francisco/Dropbox/f5sites/server/itapemapa.com.br/wp-content/plugins/aa-itapemapa-funcoes/aa-itapemapa-funcoes.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10922,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4407,
+								4407
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2436.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/francisco/Dropbox/f5sites/server/itapemapa.com.br/wp-content/plugins/basic-google-maps-placemarks/views/shortcode-bgmp-list-marker.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6215,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3239,
+								3239
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1316.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "comments.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2314,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								155,
+								155
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "taxonomy-categoria.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2777,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1194,
+								1194
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 423.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "single.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1033,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								343,
+								343
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 252.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "content.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4790,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3711,
+								3711
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2467.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 75485,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								854,
+								854
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 278.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 36.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "/home/francisco/Dropbox/f5sites/server/itapemapa.sublime-project",
+	"replace":
+	{
+		"height": 82.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"name": "f5sites/storefront-f5sites-child",
+	"description": "F5 Sites new root blog. Theme child for Storefront by WooCommerce. WordPress F5 Sites DEV projects",
+	"type": "wordpress-theme",
+	"authors": [
+		{
+			"name": "Francisco Matelli Matulovic",
+			"email": "francisco@f5sites.com",
+			"homepage": "http://franciscomat.com"
+		}
+	],
+	"require": {
+    		"composer/installers": "~1.0",
+	        "php": ">=5.2.4"
+        }
+}

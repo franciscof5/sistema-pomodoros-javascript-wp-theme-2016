@@ -1,0 +1,206 @@
+
+@import url("//hortical.f5sites.com/wp-content/plugins/global-gallery/css/frontend.min.css?ver=5.412");
+@import url("//hortical.f5sites.com/wp-content/plugins/global-gallery/js/jquery.galleria/themes/ggallery/galleria.ggallery_minimal.css?ver=5.412");
+@import url("//hortical.f5sites.com/wp-content/plugins/global-gallery/js/slick/slick-gg.css?ver=5.412");
+
+
+/* preloader */
+            .ggl_1, .ggl_2, .ggl_3, .ggl_4 {
+                background-color: #888888;
+                width: 12px;
+                height: 12px;
+                position: absolute;
+                top: 0;
+                left: 0;
+                
+                -webkit-transform-origin: 	0 50%;
+                -ms-transform-origin: 		0 50%;
+                transform-origin: 			0 50%;	
+                
+                -webkit-animation: 	gg_loader 1.7s infinite ease-in-out;
+                animation: 			gg_loader 1.7s infinite ease-in-out;
+                
+                -webkit-transform: 	rotateX(90deg);
+                -ms-transform: 		rotateX(90deg);
+                transform: 			rotateX(90deg);	
+            }
+            .ggl_2 {
+                top: 0;
+                left: 14px;
+                -webkit-animation-delay: 0.2s;
+                animation-delay: 0.2s;
+            }
+            .ggl_3 {
+                top: 14px;
+                left: 14px;
+                -webkit-animation-delay: 0.4s;
+                animation-delay: 0.4s;
+            }
+            .ggl_4 {
+                top: 14px;
+                left: 0px;
+                -webkit-animation-delay: 0.6s;
+                animation-delay: 0.6s;
+            }
+            @-webkit-keyframes gg_loader {
+                20%, 80%, 100% {-webkit-transform: rotateX(90deg);}
+                40%, 60% {-webkit-transform: rotateX(0deg);}
+            }
+            @keyframes gg_loader {
+                20%, 80%, 100% {transform: rotateX(90deg);}
+                40%, 60% {transform: rotateX(0deg);}
+            }
+            
+
+
+/* image border, radius and shadow */
+.gg_standard_gallery .gg_img,
+.gg_masonry_gallery .gg_img_inner,
+.gg_string_gallery .gg_img,
+.gg_coll_img {
+	border: none    
+    	
+	}
+
+
+
+
+/* collections - texts under images */
+.gg_coll_img .gg_main_overlay_under .gg_img_title_under {
+	color: #444444;
+}
+.gg_coll_img .gg_main_overlay_under .gg_img_descr_under {
+	color: #555555;
+}
+
+/* collection filters + back to collection button */
+.gg_filter {
+	text-align: left;
+    padding: 0px 0px;
+}
+.gg_filter a.ggf,
+.gg_coll_back_to_new_style {	
+	color: #444444;
+}
+.gg_filter a.ggf:hover,
+.gg_coll_back_to_new_style:hover {	
+	color: #666666 !important;
+}
+.gg_filter a.ggf.gg_cats_selected,
+.gg_filter a.ggf.gg_cats_selected:hover {	
+	color: #222222 !important;
+}
+.gg_new_filters a.ggf,
+.gg_coll_back_to_new_style {	
+	background-color: #ffffff;
+    border: 1px solid #999999;
+    border-radius: 2px;
+    
+        margin-left: 0px !important;
+    }
+.gg_new_filters a.ggf:hover,
+.gg_coll_back_to_new_style:hover {	
+	background-color: #ffffff;
+    border: 1px solid #666666;
+}
+.gg_new_filters a.ggf.gg_cats_selected,
+.gg_new_filters a.ggf.gg_cats_selected:hover {	
+	background-color: #ffffff;
+    border: 1px solid #555555;
+}
+
+
+
+/* ************************************************** */
+
+/* standard gallery images */
+.gg_standard_gallery .gg_img {
+	margin-right: 2px;
+    margin-bottom: 2px;
+}
+
+/* masonry gallery images */
+.gg_masonry_gallery .gg_img {
+	    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 0px;
+}
+
+/* photostring gallery images */
+.gg_string_gallery .gg_img {
+	margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+/* collection images */
+.gg_coll_img_wrap {
+	margin-bottom: 15px;
+	padding-right: 7px;
+    padding-left: 8px;
+}
+
+/* carousel */
+.gg_car_item_wrap {
+	padding-right: 7px;
+	padding-left: 7px;
+    padding-top: 5px;
+	padding-bottom: 5px;
+}
+.gg_carousel_wrap.slick-slider {
+	margin-bottom: 55px;
+}
+
+/* pagination button alignment */
+.gg_paginate {
+	text-align: center;
+}
+
+
+/* ************************************************** */
+
+
+
+.gg_galleria_slider_wrap .galleria-thumbnails .galleria-image {
+	width: 60px !important;
+}
+.gg_galleria_slider_wrap .galleria-thumbnails .galleria-image,
+.gg_galleria_slider_wrap .galleria-thumbnails-container {
+     height: 40px !important;
+}
+.gg_galleria_slider_wrap.gg_galleria_slider_show_thumbs {
+	padding-bottom: 54px !important;	
+}
+.gg_galleria_slider_show_thumbs .galleria-thumbnails-container {
+	bottom: -52px !important;		
+}
+/* ************************************************** */
+	
+                .lcl_zoomin_oc.lcl_pre_show #lcl_window,
+            .lcl_zoomin_oc.lcl_is_closing #lcl_window {
+                opacity: 0 !important;
+                
+                -webkit-transform: scale(0.05) translateZ(0) !important;
+                transform: scale(0.05) translateZ(0) !important;		
+            }
+            .lcl_zoomin_oc.lcl_is_closing #lcl_overlay {
+                opacity: 0 !important;
+            }
+            }
+
+
+// lightcase lightbox 
+else if(get_option('gg_lightbox') == 'lightcase') : ?>
+/* ************************************************** */
+
+.gg_lc_ol#lightcase-overlay {
+	background-color: #000000 !important;
+    
+    
+		background-image: url(https://hortical.f5sites.com/wp-content/plugins/global-gallery/js/lightboxes/lcweb.lightbox/img/patterns/.png) !important;
+		background-position: top left !important;
+		background-repeat: repeat !important;
+		}
+
+
+
+

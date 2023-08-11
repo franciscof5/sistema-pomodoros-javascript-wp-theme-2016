@@ -1,0 +1,16 @@
+{
+	"name": "f5sites/twentythirteen-cursowp",
+	"description": "CursoWP custom theme with just few changes for CURSOWP.COM.BR. WordPress F5 Sites DEV projects",
+	"type": "wordpress-theme",
+	"authors": [
+		{
+			"name": "Francisco Matelli Matulovic",
+			"email": "francisco@f5sites.com",
+			"homepage": "http://franciscomat.com"
+		}
+	],
+	"require": {
+    		"composer/installers": "~1.0",
+	        "php": ">=5.2.4"
+        }
+}

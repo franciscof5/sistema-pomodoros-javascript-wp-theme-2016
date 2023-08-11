@@ -1,0 +1,3649 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Global Gallery - admin panel\n"
+"POT-Creation-Date: 2017-04-15 11:24+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: LCweb\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../admin_ajax.php:192 ../admin_ajax.php:295
+#: ../classes/gg_img_fetcher.php:500 ../classes/gg_img_fetcher.php:524
+#: ../gallery_builder.php:595
+msgid "No images found"
+msgstr ""
+
+#: ../admin_ajax.php:228
+msgid "Previous images"
+msgstr ""
+
+#: ../admin_ajax.php:234 ../admin_ajax.php:236
+msgid "images per page"
+msgstr ""
+
+#: ../admin_ajax.php:240
+msgid "Next images"
+msgstr ""
+
+#: ../admin_ajax.php:305 ../gallery_builder.php:554 ../gallery_builder.php:618
+msgid "click to enlarge"
+msgstr ""
+
+#: ../admin_ajax.php:323 ../admin_ajax.php:688 ../collections_manager.php:197
+#: ../gallery_builder.php:575 ../gallery_builder.php:636
+#: ../gallery_builder.php:1020
+msgid "No link"
+msgstr ""
+
+#: ../admin_ajax.php:571
+msgid "Add Collection Galleries"
+msgstr ""
+
+#: ../admin_ajax.php:578 ../admin_menu.php:66 ../admin_menu.php:80
+msgid "Gallery Categories"
+msgstr ""
+
+#: ../admin_ajax.php:580
+msgid "Select gallery categories"
+msgstr ""
+
+#: ../admin_ajax.php:581 ../functions.php:402 ../functions.php:414
+msgid "All"
+msgstr ""
+
+#: ../admin_ajax.php:601
+msgid "Select galleries"
+msgstr ""
+
+#: ../admin_ajax.php:602
+msgid "search galleries"
+msgstr ""
+
+#: ../admin_ajax.php:604 ../classes/gg_builder_sources_hub.php:509
+msgid "search"
+msgstr ""
+
+#: ../admin_ajax.php:605
+msgid "cancel"
+msgstr ""
+
+#: ../admin_ajax.php:607 ../collections_manager.php:117
+msgid "expand"
+msgstr ""
+
+#: ../admin_ajax.php:614 ../admin_menu.php:37 ../collections_manager.php:147
+#: ../tinymce_btn.php:58
+msgid "No galleries found"
+msgstr "Nessuna galleria trovata"
+
+#: ../admin_ajax.php:628
+msgid "Collection Builder"
+msgstr ""
+
+#: ../admin_ajax.php:655
+msgid "No categories associated"
+msgstr ""
+
+#: ../admin_ajax.php:670 ../collections_manager.php:181
+msgid "edit gallery"
+msgstr ""
+
+#: ../admin_ajax.php:673
+#: ../builders_integration/cs_elements/carousel/controls.php:84
+#: ../builders_integration/cs_elements/collection/controls.php:32
+#: ../builders_integration/cs_elements/gallery/controls.php:24
+#: ../builders_integration/cs_elements/slider/controls.php:66
+#: ../builders_integration/visual_composer.php:79
+#: ../builders_integration/visual_composer.php:153
+#: ../builders_integration/visual_composer.php:215
+#: ../builders_integration/visual_composer.php:335
+#: ../collections_manager.php:184
+msgid "Random display?"
+msgstr ""
+
+#: ../admin_ajax.php:677 ../collections_manager.php:188
+#: ../wp_gallery_manag.php:231
+msgid "Use watermark?"
+msgstr ""
+
+#: ../admin_ajax.php:681 ../collections_manager.php:191
+msgid "Categories"
+msgstr ""
+
+#: ../admin_ajax.php:686 ../collections_manager.php:195
+msgid "Image link"
+msgstr ""
+
+#: ../admin_ajax.php:689 ../collections_manager.php:198
+#: ../gallery_builder.php:576 ../gallery_builder.php:1020
+msgid "To a page"
+msgstr ""
+
+#: ../admin_ajax.php:690 ../collections_manager.php:199
+#: ../gallery_builder.php:577 ../gallery_builder.php:1020
+msgid "Custom link"
+msgstr ""
+
+#: ../admin_ajax.php:695 ../collections_manager.php:204
+msgid "Gallery description"
+msgstr ""
+
+#: ../admin_ajax.php:707
+msgid "No galleries selected"
+msgstr ""
+
+#: ../admin_ajax.php:742
+msgid "add to collection"
+msgstr ""
+
+#: ../admin_menu.php:8 ../admin_menu.php:104 ../admin_menu.php:118
+#: ../tinymce_btn.php:64
+msgid "Collections"
+msgstr ""
+
+#: ../admin_menu.php:9
+msgid "Settings"
+msgstr ""
+
+#: ../admin_menu.php:29 ../tinymce_btn.php:63
+msgid "Galleries"
+msgstr ""
+
+#: ../admin_menu.php:30
+#: ../builders_integration/cs_elements/carousel/controls.php:27
+#: ../builders_integration/cs_elements/gallery/controls.php:13
+#: ../builders_integration/cs_elements/gallery/definition.php:11
+#: ../builders_integration/cs_elements/slider/controls.php:13
+#: ../builders_integration/visual_composer.php:69
+#: ../builders_integration/visual_composer.php:113
+#: ../builders_integration/visual_composer.php:189
+#: ../builders_integration/visual_composer.php:280 ../tinymce_btn.php:72
+#: ../wp_gallery_manag.php:87 ../wp_gallery_manag.php:88
+#: ../wp_gallery_manag.php:89 ../wp_gallery_manag.php:90
+msgid "Gallery"
+msgstr ""
+
+#: ../admin_menu.php:31 ../admin_menu.php:32
+msgid "Add New Gallery"
+msgstr "Aggiungi Galleria"
+
+#: ../admin_menu.php:33
+msgid "Edit Gallery"
+msgstr ""
+
+#: ../admin_menu.php:34
+msgid "New Gallery"
+msgstr ""
+
+#: ../admin_menu.php:35
+msgid "View Gallery"
+msgstr ""
+
+#: ../admin_menu.php:36
+msgid "Search Galleries"
+msgstr ""
+
+#: ../admin_menu.php:38
+#, fuzzy
+msgid "No galleries found in Trash"
+msgstr "Nessuna galleria trovata"
+
+#: ../admin_menu.php:39
+msgid "Parent Gallery:"
+msgstr ""
+
+#: ../admin_menu.php:40 ../wp_gallery_manag.php:11
+msgid "Global Gallery"
+msgstr ""
+
+#: ../admin_menu.php:67
+msgid "Gallery Category"
+msgstr ""
+
+#: ../admin_menu.php:68
+msgid "Search Gallery Categories"
+msgstr ""
+
+#: ../admin_menu.php:70
+msgid "All Gallery Categories"
+msgstr ""
+
+#: ../admin_menu.php:71
+msgid "Parent Gallery Category"
+msgstr ""
+
+#: ../admin_menu.php:72
+msgid "Parent Gallery Category:"
+msgstr ""
+
+#: ../admin_menu.php:73
+msgid "Edit Gallery Category"
+msgstr ""
+
+#: ../admin_menu.php:74
+msgid "Update Gallery Category"
+msgstr ""
+
+#: ../admin_menu.php:75
+msgid "Add New Gallery Category"
+msgstr ""
+
+#: ../admin_menu.php:76
+msgid "New Gallery Category"
+msgstr ""
+
+#: ../admin_menu.php:77 ../connect_hub_tax.php:22
+msgid "Separate item categories with commas"
+msgstr ""
+
+#: ../admin_menu.php:78
+msgid "Add or remove Gallery Categories"
+msgstr ""
+
+#: ../admin_menu.php:79
+msgid "Choose from most used Gallery Categories"
+msgstr ""
+
+#: ../admin_menu.php:105
+#: ../builders_integration/cs_elements/collection/controls.php:13
+#: ../builders_integration/cs_elements/collection/definition.php:11
+#: ../builders_integration/visual_composer.php:134
+#: ../builders_integration/visual_composer.php:167 ../tinymce_btn.php:119
+msgid "Collection"
+msgstr ""
+
+#: ../admin_menu.php:106
+#, fuzzy
+msgid "Search Collections"
+msgstr "Seleziona una collezione"
+
+#: ../admin_menu.php:107
+#, fuzzy
+msgid "Popular Collections"
+msgstr "Seleziona una collezione"
+
+#: ../admin_menu.php:108
+#, fuzzy
+msgid "All Collections"
+msgstr "Seleziona una collezione"
+
+#: ../admin_menu.php:109
+#, fuzzy
+msgid "Parent Collection"
+msgstr "Seleziona una collezione"
+
+#: ../admin_menu.php:110
+#, fuzzy
+msgid "Parent Collection:"
+msgstr "Seleziona una collezione"
+
+#: ../admin_menu.php:111
+#, fuzzy
+msgid "Edit Collection"
+msgstr "Seleziona una collezione"
+
+#: ../admin_menu.php:112
+#, fuzzy
+msgid "Update Collection"
+msgstr "Seleziona una collezione"
+
+#: ../admin_menu.php:113
+msgid "Add New Collection"
+msgstr ""
+
+#: ../admin_menu.php:114
+#, fuzzy
+msgid "New Collection"
+msgstr "Seleziona una collezione"
+
+#: ../admin_menu.php:115
+msgid "Separate grids with commas"
+msgstr ""
+
+#: ../admin_menu.php:116
+msgid "Add or remove Collections"
+msgstr ""
+
+#: ../admin_menu.php:117
+msgid "Choose from most used Collections"
+msgstr ""
+
+#: ../admin_menu.php:145 ../admin_menu.php:146 ../admin_menu.php:148
+msgid "Gallery updated"
+msgstr ""
+
+#: ../admin_menu.php:147
+msgid "Gallery deleted"
+msgstr ""
+
+#: ../admin_menu.php:150
+#, php-format
+msgid "Gallery restored to revision from %s"
+msgstr ""
+
+#: ../admin_menu.php:151
+msgid "Gallery published"
+msgstr ""
+
+#: ../admin_menu.php:152
+msgid "Gallery saved"
+msgstr ""
+
+#: ../admin_menu.php:153
+msgid "Gallery submitted"
+msgstr ""
+
+#: ../admin_menu.php:154
+#, php-format
+msgid "Gallery scheduled for: <strong>%1$s</strong>"
+msgstr ""
+
+#: ../admin_menu.php:154
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: ../admin_menu.php:155
+msgid "Gallery draft updated"
+msgstr ""
+
+#: ../admin_menu.php:220
+msgid "Title"
+msgstr ""
+
+#: ../admin_menu.php:222
+msgid "Source"
+msgstr ""
+
+#: ../admin_menu.php:223
+msgid "Layout"
+msgstr ""
+
+#: ../admin_menu.php:224
+msgid "Pagination"
+msgstr ""
+
+#: ../admin_menu.php:225
+msgid "Auto Population"
+msgstr ""
+
+#: ../admin_menu.php:226
+msgid "Images"
+msgstr ""
+
+#: ../admin_menu.php:227
+msgid "Date"
+msgstr ""
+
+#: ../admin_menu.php:257
+#: ../builders_integration/cs_elements/carousel/controls.php:106
+#: ../builders_integration/cs_elements/slider/controls.php:88
+#: ../builders_integration/visual_composer.php:236
+#: ../builders_integration/visual_composer.php:356 ../gallery_builder.php:322
+#: ../tinymce_btn.php:208 ../tinymce_btn.php:303 ../wp_gallery_manag.php:75
+#: ../wp_gallery_manag.php:141 ../wp_gallery_manag.php:184
+msgid "Yes"
+msgstr ""
+
+#: ../admin_menu.php:258
+#: ../builders_integration/cs_elements/carousel/controls.php:107
+#: ../builders_integration/cs_elements/slider/controls.php:89
+#: ../builders_integration/visual_composer.php:237
+#: ../builders_integration/visual_composer.php:357 ../gallery_builder.php:323
+#: ../tinymce_btn.php:209 ../tinymce_btn.php:304 ../wp_gallery_manag.php:76
+#: ../wp_gallery_manag.php:142 ../wp_gallery_manag.php:185
+msgid "No"
+msgstr ""
+
+#: ../builders_integration/cornerstone.php:50
+#: ../builders_integration/visual_composer.php:40 ../tinymce_btn.php:45
+#: ../wp_gallery_manag.php:214
+msgid "default one"
+msgstr ""
+
+#: ../builders_integration/cornerstone.php:63
+#: ../builders_integration/visual_composer.php:48 ../tinymce_btn.php:42
+#: ../wp_gallery_manag.php:212
+msgid "Custom Overlay"
+msgstr ""
+
+#: ../builders_integration/cs_elements/carousel/controls.php:38
+msgid "Images Height (in pixels)"
+msgstr ""
+
+#: ../builders_integration/cs_elements/carousel/controls.php:39
+#: ../builders_integration/visual_composer.php:292
+msgid "Carousel images height in pixels"
+msgstr ""
+
+#: ../builders_integration/cs_elements/carousel/controls.php:46
+#: ../builders_integration/visual_composer.php:297 ../wp_gallery_manag.php:154
+msgid "Images per time"
+msgstr ""
+
+#: ../builders_integration/cs_elements/carousel/controls.php:47
+#: ../builders_integration/visual_composer.php:301 ../tinymce_btn.php:255
+msgid "Choose how many images to show per time"
+msgstr ""
+
+#: ../builders_integration/cs_elements/carousel/controls.php:57
+#: ../builders_integration/visual_composer.php:306 ../tinymce_btn.php:258
+#: ../wp_gallery_manag.php:161
+msgid "Rows"
+msgstr ""
+
+#: ../builders_integration/cs_elements/carousel/controls.php:58
+#: ../builders_integration/visual_composer.php:310 ../tinymce_btn.php:268
+msgid "Choose how many image rows to use"
+msgstr ""
+
+#: ../builders_integration/cs_elements/carousel/controls.php:68
+#: ../builders_integration/visual_composer.php:317 ../tinymce_btn.php:271
+msgid "Multiple Scroll?"
+msgstr ""
+
+#: ../builders_integration/cs_elements/carousel/controls.php:69
+#: ../builders_integration/visual_composer.php:319 ../tinymce_btn.php:275
+msgid "Slides multiple images per time"
+msgstr ""
+
+#: ../builders_integration/cs_elements/carousel/controls.php:76
+#: ../builders_integration/visual_composer.php:326 ../tinymce_btn.php:278
+#: ../wp_gallery_manag.php:173
+msgid "Center mode?"
+msgstr ""
+
+#: ../builders_integration/cs_elements/carousel/controls.php:77
+#: ../builders_integration/visual_composer.php:328 ../tinymce_btn.php:282
+msgid "Enables center display mode"
+msgstr ""
+
+#: ../builders_integration/cs_elements/carousel/controls.php:85
+#: ../builders_integration/cs_elements/collection/controls.php:33
+#: ../builders_integration/cs_elements/gallery/controls.php:25
+#: ../builders_integration/cs_elements/slider/controls.php:67
+#: ../builders_integration/visual_composer.php:81
+#: ../builders_integration/visual_composer.php:217
+#: ../builders_integration/visual_composer.php:337 ../tinymce_btn.php:88
+#: ../tinymce_btn.php:194 ../tinymce_btn.php:289
+msgid "Display images randomly"
+msgstr ""
+
+#: ../builders_integration/cs_elements/carousel/controls.php:92
+#: ../builders_integration/cs_elements/gallery/controls.php:32
+#: ../builders_integration/cs_elements/slider/controls.php:74
+#: ../builders_integration/visual_composer.php:88
+#: ../builders_integration/visual_composer.php:224
+#: ../builders_integration/visual_composer.php:344 ../tinymce_btn.php:91
+msgid "Use Watermark?"
+msgstr ""
+
+#: ../builders_integration/cs_elements/carousel/controls.php:93
+#: ../builders_integration/cs_elements/gallery/controls.php:33
+#: ../builders_integration/cs_elements/slider/controls.php:75
+#: ../builders_integration/visual_composer.php:90
+#: ../builders_integration/visual_composer.php:226
+#: ../builders_integration/visual_composer.php:346 ../tinymce_btn.php:95
+#: ../tinymce_btn.php:201 ../tinymce_btn.php:296
+msgid "Apply watermark to images (if available)"
+msgstr ""
+
+#: ../builders_integration/cs_elements/carousel/controls.php:100
+#: ../builders_integration/cs_elements/slider/controls.php:82
+#: ../builders_integration/visual_composer.php:231
+#: ../builders_integration/visual_composer.php:351
+msgid "Autoplay"
+msgstr ""
+
+#: ../builders_integration/cs_elements/carousel/controls.php:105
+#: ../builders_integration/cs_elements/slider/controls.php:87
+#: ../builders_integration/visual_composer.php:235
+#: ../builders_integration/visual_composer.php:355
+msgid "(as default)"
+msgstr ""
+
+#: ../builders_integration/cs_elements/carousel/definition.php:11
+#: ../builders_integration/visual_composer.php:369 ../tinymce_btn.php:66
+#: ../wp_gallery_manag.php:93
+msgid "Carousel"
+msgstr ""
+
+#: ../builders_integration/cs_elements/collection/controls.php:24
+#: ../builders_integration/visual_composer.php:144 ../tinymce_btn.php:132
+msgid "Allow Filters?"
+msgstr ""
+
+#: ../builders_integration/cs_elements/collection/controls.php:25
+#: ../builders_integration/visual_composer.php:146 ../tinymce_btn.php:136
+msgid "Allow galleries filtering by category"
+msgstr ""
+
+#: ../builders_integration/cs_elements/gallery/controls.php:40
+#: ../builders_integration/visual_composer.php:95 ../tinymce_btn.php:98
+#: ../wp_gallery_manag.php:196
+msgid "Pagination System"
+msgstr ""
+
+#: ../builders_integration/cs_elements/gallery/controls.php:45
+#: ../builders_integration/visual_composer.php:99 ../tinymce_btn.php:101
+msgid "Auto - follow global settings"
+msgstr ""
+
+#: ../builders_integration/cs_elements/gallery/controls.php:46
+#: ../builders_integration/visual_composer.php:100 ../functions.php:496
+#: ../tinymce_btn.php:102
+msgid "Standard"
+msgstr ""
+
+#: ../builders_integration/cs_elements/gallery/controls.php:47
+#: ../builders_integration/visual_composer.php:101 ../functions.php:497
+#: ../tinymce_btn.php:103
+msgid "Infinite scroll"
+msgstr ""
+
+#: ../builders_integration/cs_elements/slider/controls.php:24
+#: ../builders_integration/visual_composer.php:197
+msgid "Width"
+msgstr ""
+
+#: ../builders_integration/cs_elements/slider/controls.php:25
+#: ../builders_integration/visual_composer.php:200
+msgid "Define slider's width"
+msgstr ""
+
+#: ../builders_integration/cs_elements/slider/controls.php:31
+msgid "Width Unit"
+msgstr ""
+
+#: ../builders_integration/cs_elements/slider/controls.php:45
+#: ../builders_integration/visual_composer.php:205
+msgid "Height"
+msgstr ""
+
+#: ../builders_integration/cs_elements/slider/controls.php:46
+#: ../builders_integration/visual_composer.php:208
+msgid "Define slider's height (percentage is related to width)"
+msgstr ""
+
+#: ../builders_integration/cs_elements/slider/controls.php:52
+msgid "Height Unit"
+msgstr ""
+
+#: ../builders_integration/cs_elements/slider/definition.php:11
+#: ../builders_integration/visual_composer.php:245 ../tinymce_btn.php:65
+#: ../wp_gallery_manag.php:92
+msgid "Slider"
+msgstr ""
+
+#: ../builders_integration/visual_composer.php:73
+#: ../builders_integration/visual_composer.php:193
+#: ../builders_integration/visual_composer.php:284
+#: ../classes/gg_builder_sources_hub.php:480 ../tinymce_btn.php:74
+#: ../tinymce_btn.php:159 ../tinymce_btn.php:227
+msgid "Select a gallery"
+msgstr ""
+
+#: ../builders_integration/visual_composer.php:114
+msgid "Displays a gallery"
+msgstr ""
+
+#: ../builders_integration/visual_composer.php:138
+#: ../collections_manager.php:47 ../collections_manager.php:439
+#: ../tinymce_btn.php:121
+msgid "Select a collection"
+msgstr "Seleziona una collezione"
+
+#: ../builders_integration/visual_composer.php:155 ../tinymce_btn.php:143
+msgid "Display galleries randomly"
+msgstr ""
+
+#: ../builders_integration/visual_composer.php:168
+msgid "Displays a galleries collection"
+msgstr ""
+
+#: ../builders_integration/visual_composer.php:246
+msgid "Displays an image slider"
+msgstr ""
+
+#: ../builders_integration/visual_composer.php:288 ../tinymce_btn.php:237
+msgid "Images Height"
+msgstr ""
+
+#: ../builders_integration/visual_composer.php:370
+msgid "Displays an image carousel"
+msgstr ""
+
+#: ../classes/easy_wp_thumbs.php:668 ../classes/easy_wp_thumbs_force.php:668
+msgid ""
+"<strong>ERROR:</strong> There was an error connecting to the server, Please "
+"verify the settings are correct."
+msgstr ""
+
+#: ../classes/easy_wp_thumbs.php:693 ../classes/easy_wp_thumbs_force.php:693
+msgid "Confirm the cache file deletion?"
+msgstr ""
+
+#: ../classes/easy_wp_thumbs.php:721 ../classes/easy_wp_thumbs_force.php:721
+msgid "Clean cache"
+msgstr ""
+
+#: ../classes/easy_wp_thumbs.php:723 ../classes/easy_wp_thumbs_force.php:723
+msgid "Connection Information"
+msgstr ""
+
+#: ../classes/easy_wp_thumbs.php:724 ../classes/easy_wp_thumbs_force.php:724
+msgid "Your system is set up properly"
+msgstr ""
+
+#: ../classes/easy_wp_thumbs.php:824 ../classes/easy_wp_thumbs_force.php:824
+msgid "Error creating the cache directory"
+msgstr ""
+
+#: ../classes/easy_wp_thumbs.php:839 ../classes/easy_wp_thumbs_force.php:839
+msgid "Error creating the test file"
+msgstr ""
+
+#: ../classes/easy_wp_thumbs.php:958 ../classes/easy_wp_thumbs_force.php:958
+msgid "Cache folder doesn't exists"
+msgstr ""
+
+#: ../classes/easy_wp_thumbs.php:974 ../classes/easy_wp_thumbs_force.php:974
+msgid "01 - WP_filesystem - connection failed"
+msgstr ""
+
+#: ../classes/easy_wp_thumbs.php:991 ../classes/easy_wp_thumbs_force.php:991
+msgid "Filename or contents are missing"
+msgstr ""
+
+#: ../classes/easy_wp_thumbs.php:1003 ../classes/easy_wp_thumbs.php:1008
+#: ../classes/easy_wp_thumbs_force.php:1003
+#: ../classes/easy_wp_thumbs_force.php:1008
+msgid "02 - WP_filesystem - connection failed"
+msgstr ""
+
+#: ../classes/easy_wp_thumbs.php:1017 ../classes/easy_wp_thumbs_force.php:1017
+msgid "Error creating the file"
+msgstr ""
+
+#: ../classes/easy_wp_thumbs.php:1144 ../classes/easy_wp_thumbs_force.php:1144
+msgid "WP image not found or invalid image path"
+msgstr ""
+
+#: ../classes/easy_wp_thumbs.php:1156 ../classes/easy_wp_thumbs_force.php:1156
+msgid "File extension not supported"
+msgstr ""
+
+#: ../classes/easy_wp_thumbs.php:1493 ../classes/easy_wp_thumbs_force.php:1493
+msgid "thumb creation failed"
+msgstr ""
+
+#: ../classes/gg_builder_sources_hub.php:88 ../gallery_builder.php:935
+msgid "Select gallery type and fill in data to get images"
+msgstr ""
+
+#: ../classes/gg_builder_sources_hub.php:190
+#: ../classes/gg_builder_sources_hub.php:216
+#: ../classes/gg_builder_sources_hub.php:265
+#: ../classes/gg_builder_sources_hub.php:332
+#: ../classes/gg_builder_sources_hub.php:368
+#: ../classes/gg_builder_sources_hub.php:400
+#: ../classes/gg_builder_sources_hub.php:475
+msgid "Images Source"
+msgstr ""
+
+#: ../classes/gg_builder_sources_hub.php:193
+msgid "Choose category"
+msgstr ""
+
+#: ../classes/gg_builder_sources_hub.php:195
+#: ../classes/gg_builder_sources_hub.php:221
+msgid "Select a category"
+msgstr ""
+
+#: ../classes/gg_builder_sources_hub.php:205
+msgid "Choose posts category to use as images source"
+msgstr ""
+
+#: ../classes/gg_builder_sources_hub.php:219
+msgid "Choose post type and taxonomy"
+msgstr ""
+
+#: ../classes/gg_builder_sources_hub.php:244
+msgid "Choose term"
+msgstr ""
+
+#: ../classes/gg_builder_sources_hub.php:262
+#: ../classes/gg_builder_sources_hub.php:364
+#: ../classes/source_helpers/gdrive_integration.php:262
+msgid "No albums found"
+msgstr ""
+
+#: ../classes/gg_builder_sources_hub.php:268
+#: ../classes/gg_builder_sources_hub.php:335
+msgid "Choose an album"
+msgstr ""
+
+#: ../classes/gg_builder_sources_hub.php:270
+#: ../classes/gg_builder_sources_hub.php:337
+#: ../classes/gg_builder_sources_hub.php:373
+#: ../classes/gg_builder_sources_hub.php:405
+msgid "Select an album"
+msgstr ""
+
+#: ../classes/gg_builder_sources_hub.php:280
+msgid "Choose the gallery to use as image source"
+msgstr ""
+
+#: ../classes/gg_builder_sources_hub.php:291
+msgid "ID not found - please insert a valid set URL"
+msgstr ""
+
+#: ../classes/gg_builder_sources_hub.php:293
+msgid "Username not found - please insert a valid profile URL"
+msgstr ""
+
+#: ../classes/gg_builder_sources_hub.php:295
+msgid "No tag found - please insert a valid tag URL"
+msgstr ""
+
+#: ../classes/gg_builder_sources_hub.php:304
+msgid "Please insert a valid Instagram Token"
+msgstr ""
+
+#: ../classes/gg_builder_sources_hub.php:318
+msgid "Invalid URL - please insert a valid board URL"
+msgstr ""
+
+#: ../classes/gg_builder_sources_hub.php:361
+#: ../classes/gg_builder_sources_hub.php:396 ../classes/gg_img_fetcher.php:477
+msgid "Connection error"
+msgstr ""
+
+#: ../classes/gg_builder_sources_hub.php:371
+#: ../classes/gg_builder_sources_hub.php:403
+msgid "Choose an Album"
+msgstr ""
+
+#: ../classes/gg_builder_sources_hub.php:383
+#: ../classes/gg_builder_sources_hub.php:415
+msgid "Choose the album to use as image source"
+msgstr ""
+
+#: ../classes/gg_builder_sources_hub.php:454
+msgid "Please use a valid username or hashtag"
+msgstr ""
+
+#: ../classes/gg_builder_sources_hub.php:460
+msgid "Invalid URL - please insert a valid blog URL"
+msgstr ""
+
+#: ../classes/gg_builder_sources_hub.php:466
+msgid "Invalid URL - please insert a valid user URL"
+msgstr ""
+
+#: ../classes/gg_builder_sources_hub.php:478
+msgid "Choose Gallery"
+msgstr ""
+
+#: ../classes/gg_builder_sources_hub.php:490
+msgid "Choose the nextGEN gallery to use as image source"
+msgstr ""
+
+#: ../classes/gg_builder_sources_hub.php:497
+msgid "Invalid URL - please insert a valid feed URL"
+msgstr ""
+
+#: ../classes/gg_builder_sources_hub.php:505
+#: ../classes/gg_builder_sources_hub.php:515
+msgid "Add to Gallery"
+msgstr ""
+
+#: ../classes/gg_builder_sources_hub.php:506
+#: ../classes/gg_builder_sources_hub.php:517
+msgid "Choose images"
+msgstr ""
+
+#: ../classes/gg_builder_sources_hub.php:506
+msgid "Manage Images"
+msgstr ""
+
+#: ../classes/gg_builder_sources_hub.php:510
+#: ../classes/gg_builder_sources_hub.php:518
+#, fuzzy
+msgid "Select all"
+msgstr "Seleziona una collezione"
+
+#: ../classes/gg_connections_hub.php:51
+msgid "delete connection"
+msgstr ""
+
+#: ../classes/gg_connections_hub.php:59
+msgid "no connections"
+msgstr ""
+
+#: ../classes/gg_connections_hub.php:64
+msgid "add connection"
+msgstr ""
+
+#: ../classes/gg_connections_hub.php:86 ../classes/gg_connections_hub.php:291
+msgid "Connection Name"
+msgstr ""
+
+#: ../classes/gg_connections_hub.php:94
+msgid "Select connetion type"
+msgstr ""
+
+#: ../classes/gg_connections_hub.php:96
+msgid "Facebook page"
+msgstr ""
+
+#: ../classes/gg_connections_hub.php:97
+msgid "Facebook profile"
+msgstr ""
+
+#: ../classes/gg_connections_hub.php:102 ../classes/gg_connections_hub.php:298
+#: ../gallery_builder.php:851
+msgid "Page URL"
+msgstr ""
+
+#: ../classes/gg_connections_hub.php:106
+msgid "Facebook Token"
+msgstr ""
+
+#: ../classes/gg_connections_hub.php:108
+msgid "Get your Facebook token"
+msgstr ""
+
+#: ../classes/gg_connections_hub.php:133 ../classes/gg_connections_hub.php:151
+#: ../classes/gg_connections_hub.php:305 ../classes/gg_connections_hub.php:310
+msgid "Google Username"
+msgstr ""
+
+#: ../classes/gg_connections_hub.php:137 ../classes/gg_connections_hub.php:155
+#: ../classes/gg_connections_hub.php:306 ../classes/gg_connections_hub.php:311
+msgid "Google Token"
+msgstr ""
+
+#: ../classes/gg_connections_hub.php:139
+msgid "Get your Google+ token"
+msgstr ""
+
+#: ../classes/gg_connections_hub.php:157
+msgid "Get your Google Drive token"
+msgstr ""
+
+#: ../classes/gg_connections_hub.php:167
+msgid "submit"
+msgstr ""
+
+#: ../classes/gg_connections_hub.php:214
+msgid "No connections for this source"
+msgstr ""
+
+#: ../classes/gg_connections_hub.php:218
+msgid "Choose connection"
+msgstr ""
+
+#: ../classes/gg_connections_hub.php:219
+msgid "Select a connection"
+msgstr ""
+
+#: ../classes/gg_connections_hub.php:232
+msgid "manage connections"
+msgstr ""
+
+#: ../classes/gg_connections_hub.php:295 ../classes/gg_connections_hub.php:300
+msgid "Connection type"
+msgstr ""
+
+#: ../classes/gg_connections_hub.php:345
+msgid "Page not found - check the URL"
+msgstr ""
+
+#: ../classes/gg_connections_hub.php:360 ../classes/gg_connections_hub.php:376
+msgid "Username already used in another connection"
+msgstr ""
+
+#: ../classes/gg_connections_hub.php:368 ../classes/gg_connections_hub.php:384
+msgid "Connection failed - Check username and access token"
+msgstr ""
+
+#: ../classes/gg_connections_hub.php:407
+#: ../classes/source_helpers/dropbox_functions.php:38
+#: ../classes/source_helpers/dropbox_functions.php:56
+#: ../classes/source_helpers/dropbox_functions.php:89
+msgid "Connection error. Try using a new token"
+msgstr ""
+
+#: ../classes/gg_connections_hub.php:455
+msgid "no data to store"
+msgstr ""
+
+#: ../classes/gg_img_fetcher.php:280
+msgid "Error connecting to Flickr"
+msgstr ""
+
+#: ../classes/gg_img_fetcher.php:283
+msgid "Connection Error - check your URL"
+msgstr ""
+
+#: ../classes/gg_img_fetcher.php:284
+msgid "Invalid data - check your URL"
+msgstr ""
+
+#: ../classes/gg_img_fetcher.php:326
+msgid "Connection Error - check your board URL"
+msgstr ""
+
+#: ../classes/gg_img_fetcher.php:327 ../classes/gg_img_fetcher.php:688
+msgid "Your server doesn't support SimpleXML"
+msgstr ""
+
+#: ../classes/gg_img_fetcher.php:365
+msgid "Error connecting to Facebook"
+msgstr ""
+
+#: ../classes/gg_img_fetcher.php:404 ../functions.php:1009
+msgid "Error connecting to Instagram"
+msgstr ""
+
+#: ../classes/gg_img_fetcher.php:407
+msgid "Connection Error - Check your token"
+msgstr ""
+
+#: ../classes/gg_img_fetcher.php:497
+msgid "Profile not found"
+msgstr ""
+
+#: ../classes/gg_img_fetcher.php:576
+msgid "Error connecting to Tumblr"
+msgstr ""
+
+#: ../classes/gg_img_fetcher.php:579
+msgid "Connection Error - Check your blog URL"
+msgstr ""
+
+#: ../classes/gg_img_fetcher.php:621
+msgid "Error connecting to 500px"
+msgstr ""
+
+#: ../classes/gg_img_fetcher.php:624
+msgid "Connection Error - Check your User URL"
+msgstr ""
+
+#: ../classes/gg_img_fetcher.php:650
+msgid "Gallery does not exist. Check in nextGen Gallery panel"
+msgstr ""
+
+#: ../classes/gg_img_fetcher.php:692
+msgid "Error retrieving the feed"
+msgstr ""
+
+#: ../classes/lc_plugin_auto_updater.php:239
+msgid "Visit plugin site"
+msgstr ""
+
+#: ../classes/lc_plugin_auto_updater.php:244
+msgid "Updater active"
+msgstr ""
+
+#: ../classes/lc_plugin_auto_updater.php:244
+msgid "Setup updater"
+msgstr ""
+
+#: ../classes/lc_plugin_auto_updater.php:325
+msgid "Unknown error"
+msgstr ""
+
+#: ../classes/lc_plugin_auto_updater.php:362
+msgid "Automatic Updates - Purchase Validation"
+msgstr ""
+
+#: ../classes/lc_plugin_auto_updater.php:364
+msgid "how to get purchase code?"
+msgstr ""
+
+#: ../classes/lc_plugin_auto_updater.php:370
+msgid "Envato username"
+msgstr ""
+
+#: ../classes/lc_plugin_auto_updater.php:373
+msgid "Purchase code"
+msgstr ""
+
+#: ../classes/lc_plugin_auto_updater.php:376
+msgid "Validate"
+msgstr ""
+
+#: ../classes/lc_plugin_auto_updater.php:381
+msgid ""
+"<strong style='color: #d54e21;'>IMPORTANT</strong>: purchase code can be "
+"used only for ONE domain. Use it <strong>only</strong> in final production "
+"website!"
+msgstr ""
+
+#: ../classes/lc_plugin_auto_updater.php:387
+msgid "Purchase successfully validated!"
+msgstr ""
+
+#: ../classes/lc_plugin_auto_updater.php:388
+msgid "Use new credentials"
+msgstr ""
+
+#: ../classes/lc_plugin_auto_updater.php:405
+msgid "Username missing"
+msgstr ""
+
+#: ../classes/lc_plugin_auto_updater.php:408
+msgid "Purchase code missing or incorrect"
+msgstr ""
+
+#: ../classes/lc_plugin_auto_updater.php:464
+msgid "Empty username or purchase code"
+msgstr ""
+
+#: ../classes/lc_plugin_auto_updater.php:491
+msgid "Item not found"
+msgstr ""
+
+#: ../classes/lc_plugin_auto_updater.php:494
+msgid "Purchase code already redeemed on another domain"
+msgstr ""
+
+#: ../classes/lc_plugin_auto_updater.php:497
+msgid "Error connecting to Envato servers"
+msgstr ""
+
+#: ../classes/lc_plugin_auto_updater.php:500
+msgid "Wrong username or purchase code"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:327
+msgid "minimum value is"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:340
+msgid "maximum value is"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:353
+msgid "must be at least of"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:353
+#: ../classes/simple_form_validator.php:379
+msgid "characters"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:366
+msgid "maximum"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:366
+msgid "characters allowed"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:379
+msgid "must be long"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:423 ../settings.php:2128
+msgid "Select"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:423
+msgid "options"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:435
+msgid "Maximum"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:435
+msgid "options allowed"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:511
+msgid "are required"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:511
+msgid "is required"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:515
+msgid "are not valid integers"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:515
+msgid "is not a valid integer"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:519
+msgid "are not valid floating numbers"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:519
+msgid "is not a valid floating number"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:523
+msgid "are not valid e-mail addresses"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:523
+msgid "is not a valid e-mail address"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:527
+msgid "are not valid dates"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:527
+msgid "is not a valid date"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:531
+msgid "are not valid times"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:531
+msgid "is not a valid time"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:535
+msgid "are not valid urls"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:535
+msgid "is not a valid url"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:539
+msgid "are not valid hexadecimal colors"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:539
+msgid "is not a valid hexadecimal color"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:543
+msgid "are not valid IP addresses"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:543
+msgid "is not a valid IP address"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:547
+msgid "are not valid ZIP codes"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:547
+msgid "is not a valid ZIP code"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:551
+msgid "are not valid telephone numbers"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:551
+msgid "is not a valid telephone number"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:554
+msgid "invalid data inserted"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:558
+msgid "values are not between the allowed"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:558
+msgid "value is not between the allowed"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:562
+msgid "values are between the forbidden"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:562
+msgid "values is between the forbidden"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:565
+msgid "the value doesn't match"
+msgstr ""
+
+#: ../classes/simple_form_validator.php:568
+msgid "file size is wrong"
+msgstr ""
+
+#: ../classes/source_helpers/dropbox_functions.php:25
+msgid "User token incorrect or expired. Try with a new one"
+msgstr ""
+
+#: ../classes/source_helpers/dropbox_functions.php:46
+msgid "Public folder not found"
+msgstr ""
+
+#: ../classes/source_helpers/dropbox_functions.php:88
+msgid "Connection error. Check folders name"
+msgstr ""
+
+#: ../classes/source_helpers/gdrive_integration.php:251
+#: ../classes/source_helpers/gdrive_integration.php:285
+msgid "Main folder missing"
+msgstr ""
+
+#: ../classes/source_helpers/gdrive_integration.php:261
+msgid "Error querying albums"
+msgstr ""
+
+#: ../collections_manager.php:11
+msgid "Collections Manager"
+msgstr ""
+
+#: ../collections_manager.php:20
+msgid "Add Collection"
+msgstr ""
+
+#: ../collections_manager.php:23
+msgid "Collection Name"
+msgstr ""
+
+#: ../collections_manager.php:25
+msgid "Add"
+msgstr ""
+
+#: ../collections_manager.php:31 ../collections_manager.php:409
+msgid "Collections List"
+msgstr ""
+
+#: ../collections_manager.php:36
+msgid "Save Collection"
+msgstr ""
+
+#: ../collections_manager.php:122
+msgid "collapse"
+msgstr ""
+
+#: ../collections_manager.php:162
+msgid "gallery already in collection"
+msgstr ""
+
+#: ../collections_manager.php:292
+msgid "Collection saved"
+msgstr ""
+
+#: ../collections_manager.php:345
+msgid "Collection added"
+msgstr ""
+
+#: ../collections_manager.php:427
+msgid "Definitively delete collection?"
+msgstr ""
+
+#: ../collections_manager.php:450
+msgid "No existing collections"
+msgstr ""
+
+#: ../connect_hub_tax.php:11 ../connect_hub_tax.php:25
+msgid "Connections"
+msgstr ""
+
+#: ../connect_hub_tax.php:12
+msgid "Connection"
+msgstr ""
+
+#: ../connect_hub_tax.php:13
+msgid "Search Connections"
+msgstr ""
+
+#: ../connect_hub_tax.php:15
+msgid "All Connections"
+msgstr ""
+
+#: ../connect_hub_tax.php:16
+msgid "Parent Connection"
+msgstr ""
+
+#: ../connect_hub_tax.php:17
+msgid "Parent Connection:"
+msgstr ""
+
+#: ../connect_hub_tax.php:18
+msgid "Edit Connection"
+msgstr ""
+
+#: ../connect_hub_tax.php:19
+msgid "Update Connection"
+msgstr ""
+
+#: ../connect_hub_tax.php:20
+msgid "Add New Connection"
+msgstr ""
+
+#: ../connect_hub_tax.php:21
+msgid "New Connection"
+msgstr ""
+
+#: ../connect_hub_tax.php:23
+msgid "Add or remove Connections"
+msgstr ""
+
+#: ../connect_hub_tax.php:24
+msgid "Choose from most used Connections"
+msgstr ""
+
+#: ../dynamic_js.php:101
+msgid "edit"
+msgstr ""
+
+#: ../functions.php:498
+msgid "Numbered buttons"
+msgstr ""
+
+#: ../functions.php:499
+msgid "Dots"
+msgstr ""
+
+#: ../functions.php:507
+msgid "Commands + full text"
+msgstr ""
+
+#: ../functions.php:508
+msgid "Commands + page numbers"
+msgstr ""
+
+#: ../functions.php:509
+msgid "Only arrows"
+msgstr ""
+
+#: ../functions.php:510
+msgid "Only arrows - monoblock"
+msgstr ""
+
+#: ../functions.php:521
+msgid "Fit, center and crop"
+msgstr ""
+
+#: ../functions.php:522
+msgid "Scale down"
+msgstr ""
+
+#: ../functions.php:523
+msgid "Scale to fill the height"
+msgstr ""
+
+#: ../functions.php:524
+msgid "Scale to fill the width"
+msgstr ""
+
+#: ../functions.php:525
+msgid "Fit images with landscape proportions"
+msgstr ""
+
+#: ../functions.php:526
+msgid "Fit images with portrait proportions"
+msgstr ""
+
+#: ../functions.php:537
+msgid "Fade and slide"
+msgstr ""
+
+#: ../functions.php:538 ../functions.php:914 ../functions.php:929
+msgid "Fade"
+msgstr ""
+
+#: ../functions.php:539
+msgid "Flash"
+msgstr ""
+
+#: ../functions.php:540
+msgid "Pulse"
+msgstr ""
+
+#: ../functions.php:541
+msgid "Slide"
+msgstr ""
+
+#: ../functions.php:542
+msgid "None"
+msgstr ""
+
+#: ../functions.php:553
+msgid "Always"
+msgstr ""
+
+#: ../functions.php:554
+msgid "Yes with toggle button"
+msgstr ""
+
+#: ../functions.php:555
+msgid "No with toggle button"
+msgstr ""
+
+#: ../functions.php:556 ../functions.php:848
+msgid "Never"
+msgstr ""
+
+#: ../functions.php:793
+msgid "Wordpress Library"
+msgstr ""
+
+#: ../functions.php:794
+msgid "Wordpress Category"
+msgstr ""
+
+#: ../functions.php:795
+msgid "Custom post type Taxonomy"
+msgstr ""
+
+#: ../functions.php:796
+msgid "Global Gallery Album"
+msgstr ""
+
+#: ../functions.php:797
+msgid "Flickr Album / Photostream / Tag URL"
+msgstr ""
+
+#: ../functions.php:798
+msgid "Instagram"
+msgstr ""
+
+#: ../functions.php:799
+msgid "Pinterest Board"
+msgstr ""
+
+#: ../functions.php:800
+msgid "Facebook Page Album"
+msgstr ""
+
+#: ../functions.php:801
+msgid "Google+ Album"
+msgstr ""
+
+#: ../functions.php:802
+msgid "Google Drive"
+msgstr ""
+
+#: ../functions.php:803
+msgid "Dropbox"
+msgstr ""
+
+#: ../functions.php:804
+msgid "Twitter"
+msgstr ""
+
+#: ../functions.php:805
+msgid "Tumblr Blog"
+msgstr ""
+
+#: ../functions.php:806
+#, fuzzy
+msgid "nextGEN Gallery"
+msgstr "Aggiungi Galleria"
+
+#: ../functions.php:807
+msgid "500px User"
+msgstr ""
+
+#: ../functions.php:808
+msgid "RSS Feed"
+msgstr ""
+
+#: ../functions.php:826 ../gallery_builder.php:849
+msgid "Set / Profile / Tag URL"
+msgstr ""
+
+#: ../functions.php:827 ../gallery_builder.php:850
+msgid "Board URL"
+msgstr ""
+
+#: ../functions.php:828 ../functions.php:833 ../gallery_builder.php:852
+#: ../gallery_builder.php:859
+msgid "Username"
+msgstr ""
+
+#: ../functions.php:829 ../gallery_builder.php:855
+msgid "@Username or #hashtag"
+msgstr ""
+
+#: ../functions.php:830 ../gallery_builder.php:856
+msgid "Blog URL"
+msgstr ""
+
+#: ../functions.php:831 ../gallery_builder.php:857
+msgid "User URL"
+msgstr ""
+
+#: ../functions.php:832 ../gallery_builder.php:858
+msgid "Feed URL"
+msgstr ""
+
+#: ../functions.php:841
+msgid "1 Hour"
+msgstr ""
+
+#: ../functions.php:842
+msgid "2 Hours"
+msgstr ""
+
+#: ../functions.php:843
+msgid "6 Hours"
+msgstr ""
+
+#: ../functions.php:844
+msgid "12 Hours"
+msgstr ""
+
+#: ../functions.php:845
+msgid "1 Day"
+msgstr ""
+
+#: ../functions.php:846
+msgid "3 Days"
+msgstr ""
+
+#: ../functions.php:847
+msgid "One week"
+msgstr ""
+
+#: ../functions.php:859
+msgid "Column"
+msgstr ""
+
+#: ../functions.php:860 ../functions.php:861 ../functions.php:862
+#: ../functions.php:863 ../functions.php:864
+msgid "Columns"
+msgstr ""
+
+#: ../functions.php:889
+msgid "Default loader"
+msgstr ""
+
+#: ../functions.php:890
+msgid "Rotating square"
+msgstr ""
+
+#: ../functions.php:891
+msgid "Overlapping circles"
+msgstr ""
+
+#: ../functions.php:892
+msgid "Stretching rectangles"
+msgstr ""
+
+#: ../functions.php:893
+msgid "Spinning & filling square"
+msgstr ""
+
+#: ../functions.php:894
+msgid "Pulsing circle"
+msgstr ""
+
+#: ../functions.php:895
+msgid "Spinning dots"
+msgstr ""
+
+#: ../functions.php:896
+msgid "Appearing cubes"
+msgstr ""
+
+#: ../functions.php:897
+msgid "Folding cube"
+msgstr ""
+
+#: ../functions.php:898
+msgid "Old-style spinner"
+msgstr ""
+
+#: ../functions.php:899
+msgid "Minimal spinner"
+msgstr ""
+
+#: ../functions.php:900
+msgid "Spotify-like spinner"
+msgstr ""
+
+#: ../functions.php:901
+msgid "Vortex"
+msgstr ""
+
+#: ../functions.php:902
+msgid "Bubbling Dots"
+msgstr ""
+
+#: ../functions.php:903
+msgid "Overlapping dots"
+msgstr ""
+
+#: ../functions.php:904
+msgid "Fading circles"
+msgstr ""
+
+#: ../functions.php:913
+msgid "No transition"
+msgstr ""
+
+#: ../functions.php:915
+msgid "Elastic"
+msgstr ""
+
+#: ../functions.php:916
+msgid "Downwards"
+msgstr ""
+
+#: ../functions.php:917
+msgid "Leftwards"
+msgstr ""
+
+#: ../functions.php:918
+msgid "Upwards"
+msgstr ""
+
+#: ../functions.php:919
+msgid "Rightwards"
+msgstr ""
+
+#: ../functions.php:920
+msgid "Horizontal scroll"
+msgstr ""
+
+#: ../functions.php:921
+msgid "Vertical scroll"
+msgstr ""
+
+#: ../functions.php:930
+msgid "Zoom-in"
+msgstr ""
+
+#: ../functions.php:931
+msgid "Bottom to top"
+msgstr ""
+
+#: ../functions.php:932
+msgid "Bottom to top v2"
+msgstr ""
+
+#: ../functions.php:933
+msgid "Right to left"
+msgstr ""
+
+#: ../functions.php:934
+msgid "Horizontal flip"
+msgstr ""
+
+#: ../functions.php:935
+msgid "Vertical flip"
+msgstr ""
+
+#: ../functions.php:936
+msgid "None (customizable through CSS)"
+msgstr ""
+
+#: ../functions.php:1023
+msgid "Username not found"
+msgstr ""
+
+#: ../functions.php:1118
+msgid "Select a term"
+msgstr ""
+
+#: ../functions.php:1119
+msgid "all"
+msgstr ""
+
+#: ../functions.php:1139
+msgid "nextGEN gallery plugin seems missing. No trace in the database"
+msgstr ""
+
+#: ../functions.php:1591
+msgid "error during the image creation"
+msgstr ""
+
+#: ../gallery_builder.php:7
+msgid "Publish"
+msgstr ""
+
+#: ../gallery_builder.php:9
+msgid "Gallery Type"
+msgstr ""
+
+#: ../gallery_builder.php:10
+msgid "Main Settings"
+msgstr ""
+
+#: ../gallery_builder.php:11
+msgid "Sort mode"
+msgstr ""
+
+#: ../gallery_builder.php:14
+msgid "Watermark Cache"
+msgstr ""
+
+#: ../gallery_builder.php:17
+msgid "Specific Settings"
+msgstr ""
+
+#: ../gallery_builder.php:18
+msgid "Gallery Builder"
+msgstr ""
+
+#: ../gallery_builder.php:43
+msgid "Choose images source"
+msgstr ""
+
+#: ../gallery_builder.php:44
+msgid "Select source"
+msgstr ""
+
+#: ../gallery_builder.php:66
+msgid "Access Token"
+msgstr ""
+
+#: ../gallery_builder.php:69
+msgid "Get your Instagram token"
+msgstr ""
+
+#: ../gallery_builder.php:166
+msgid "One or more fields are empty"
+msgstr ""
+
+#: ../gallery_builder.php:187
+msgid "Successfully connected!"
+msgstr ""
+
+#: ../gallery_builder.php:197
+msgid "Connection error - check credentials"
+msgstr ""
+
+#: ../gallery_builder.php:210
+msgid "Do you really want to remove this connection?"
+msgstr ""
+
+#: ../gallery_builder.php:279 ../settings.php:415 ../settings.php:538
+#: ../wp_gallery_manag.php:86
+msgid "Select a layout"
+msgstr ""
+
+#: ../gallery_builder.php:286 ../settings.php:413
+msgid "Gallery Layout"
+msgstr ""
+
+#: ../gallery_builder.php:294
+msgid "Thumbnail Sizes"
+msgstr ""
+
+#: ../gallery_builder.php:299 ../gallery_builder.php:320
+#: ../gallery_builder.php:1119 ../gallery_builder.php:1130 ../settings.php:524
+#: ../settings.php:552 ../settings.php:701 ../settings.php:732
+#: ../settings.php:812 ../settings.php:946 ../settings.php:1137
+#: ../settings.php:1282 ../settings.php:1312 ../settings.php:1327
+#: ../settings.php:1338 ../settings.php:1349 ../settings.php:1389
+#: ../settings.php:1411 ../settings.php:1567 ../settings.php:1599
+#: ../settings.php:1742 ../settings.php:1764 ../settings.php:1791
+#: ../tinymce_btn.php:100 ../tinymce_btn.php:206 ../tinymce_btn.php:246
+#: ../tinymce_btn.php:260 ../tinymce_btn.php:301 ../wp_gallery_manag.php:73
+#: ../wp_gallery_manag.php:139 ../wp_gallery_manag.php:182
+#: ../wp_gallery_manag.php:197
+msgid "Select an option"
+msgstr ""
+
+#: ../gallery_builder.php:309 ../wp_gallery_manag.php:104
+msgid "Image Columns"
+msgstr ""
+
+#: ../gallery_builder.php:315
+msgid "Thumbs Height"
+msgstr ""
+
+#: ../gallery_builder.php:321 ../wp_gallery_manag.php:183
+msgid "As Default"
+msgstr ""
+
+#: ../gallery_builder.php:326 ../settings.php:434 ../wp_gallery_manag.php:181
+msgid "Use pagination?"
+msgstr ""
+
+#: ../gallery_builder.php:332 ../settings.php:22 ../settings.php:442
+#: ../wp_gallery_manag.php:189
+msgid "Images per page"
+msgstr ""
+
+#: ../gallery_builder.php:406 ../settings.php:2038
+msgid "Create watermark cache"
+msgstr ""
+
+#: ../gallery_builder.php:417 ../settings.php:2161
+msgid "might take very long if you have many images to manage"
+msgstr ""
+
+#: ../gallery_builder.php:429 ../settings.php:2167
+msgid "Cache created succesfully"
+msgstr ""
+
+#: ../gallery_builder.php:432
+msgid "Process took too much time for your server. Try again"
+msgstr ""
+
+#: ../gallery_builder.php:435
+msgid ""
+"The process requires too much memory for your server. Try using smaller "
+"images"
+msgstr ""
+
+#: ../gallery_builder.php:438 ../settings.php:2176
+msgid "Error during the cache creation"
+msgstr ""
+
+#: ../gallery_builder.php:506 ../gallery_builder.php:936
+#: ../gallery_builder.php:1280 ../gallery_builder.php:1448
+msgid "Select images source"
+msgstr ""
+
+#: ../gallery_builder.php:513 ../gallery_builder.php:952
+#: ../gallery_builder.php:1087
+msgid "select all"
+msgstr ""
+
+#: ../gallery_builder.php:538
+msgid "select image"
+msgstr ""
+
+#: ../gallery_builder.php:539
+msgid "remove image"
+msgstr ""
+
+#: ../gallery_builder.php:540
+msgid "sort image"
+msgstr ""
+
+#: ../gallery_builder.php:541
+msgid "set thumbnail's center"
+msgstr ""
+
+#: ../gallery_builder.php:658
+msgid "Select thumbnail center clicking on a cell"
+msgstr ""
+
+#: ../gallery_builder.php:820 ../gallery_builder.php:896
+#: ../gallery_builder.php:1441 ../gallery_builder.php:1458
+msgid "Current gallery will be erased. Continue?"
+msgstr ""
+
+#: ../gallery_builder.php:853
+msgid "Public folder URL"
+msgstr ""
+
+#: ../gallery_builder.php:854
+msgid "User Token"
+msgstr ""
+
+#: ../gallery_builder.php:1095
+msgid "deselect all"
+msgstr ""
+
+#: ../gallery_builder.php:1106
+msgid "Remove image?"
+msgstr ""
+
+#: ../gallery_builder.php:1118
+msgid "Bulk Options"
+msgstr ""
+
+#: ../gallery_builder.php:1120
+msgid "Remove Images"
+msgstr ""
+
+#: ../gallery_builder.php:1121
+msgid "Set Author"
+msgstr ""
+
+#: ../gallery_builder.php:1122
+msgid "Set Title"
+msgstr ""
+
+#: ../gallery_builder.php:1123
+msgid "Set Description"
+msgstr ""
+
+#: ../gallery_builder.php:1124
+msgid "Set Thumbnail Center"
+msgstr ""
+
+#: ../gallery_builder.php:1131
+msgid "Top-left"
+msgstr ""
+
+#: ../gallery_builder.php:1132
+msgid "Top"
+msgstr ""
+
+#: ../gallery_builder.php:1133
+msgid "Top-right"
+msgstr ""
+
+#: ../gallery_builder.php:1134
+msgid "Left"
+msgstr ""
+
+#: ../gallery_builder.php:1135
+msgid "Center"
+msgstr ""
+
+#: ../gallery_builder.php:1136
+msgid "Right"
+msgstr ""
+
+#: ../gallery_builder.php:1137
+msgid "Bottom-left"
+msgstr ""
+
+#: ../gallery_builder.php:1138
+msgid "Bottom"
+msgstr ""
+
+#: ../gallery_builder.php:1139
+msgid "Bottom-right"
+msgstr ""
+
+#: ../gallery_builder.php:1142
+msgid "Apply"
+msgstr ""
+
+#: ../gallery_builder.php:1180
+msgid "Remove selected images?"
+msgstr ""
+
+#: ../gallery_builder.php:1338
+msgid "images"
+msgstr ""
+
+#: ../gallery_builder.php:1476
+msgid "Select WP images or the images source"
+msgstr ""
+
+#: ../gallery_builder.php:1503
+msgid "Global Gallery - images management"
+msgstr ""
+
+#: ../gallery_builder.php:1505
+msgid "Back to builder"
+msgstr ""
+
+#: ../gallery_builder.php:1584
+msgid "Go to gallery preview"
+msgstr ""
+
+#: ../settings.php:8
+msgid "Global Gallery Settings"
+msgstr ""
+
+#: ../settings.php:20
+msgid "Galleries max-width"
+msgstr ""
+
+#: ../settings.php:23
+msgid "Preview page"
+msgstr ""
+
+#: ../settings.php:46
+msgid "Slider transition duration"
+msgstr ""
+
+#: ../settings.php:48
+msgid "Slider - Slideshow interval"
+msgstr ""
+
+#: ../settings.php:50
+msgid "Slider - thumbnails width"
+msgstr ""
+
+#: ../settings.php:51
+msgid "Slider - thumbnails height"
+msgstr ""
+
+#: ../settings.php:56
+msgid "Carousel - horizontal margin"
+msgstr ""
+
+#: ../settings.php:57
+msgid "Carousel - vertical margin"
+msgstr ""
+
+#: ../settings.php:59
+msgid "Carousel - slideshow time"
+msgstr ""
+
+#: ../settings.php:64
+msgid "Global Gallery albums basepath"
+msgstr ""
+
+#: ../settings.php:65
+msgid "Global Gallery albums baseurl"
+msgstr ""
+
+#: ../settings.php:68
+msgid "Thumbnails Quality"
+msgstr ""
+
+#: ../settings.php:78
+msgid "Thumbnails Width"
+msgstr ""
+
+#: ../settings.php:79
+msgid "Thumbnails Height"
+msgstr ""
+
+#: ../settings.php:80
+msgid "Standard horizontal margin"
+msgstr ""
+
+#: ../settings.php:81
+msgid "Standard vertical margin"
+msgstr ""
+
+#: ../settings.php:82
+msgid "Masonry Columns"
+msgstr ""
+
+#: ../settings.php:83
+msgid "Masonry Image Margin"
+msgstr ""
+
+#: ../settings.php:84
+msgid "Masonry min width"
+msgstr ""
+
+#: ../settings.php:85
+msgid "PhotoString Thumbs height"
+msgstr ""
+
+#: ../settings.php:86
+msgid "PhotoString Image Margin"
+msgstr ""
+
+#: ../settings.php:87
+msgid "PhotoString min width"
+msgstr ""
+
+#: ../settings.php:89
+msgid "Collection columns min width"
+msgstr ""
+
+#: ../settings.php:90
+msgid "Collection Height"
+msgstr ""
+
+#: ../settings.php:91
+msgid "Collections horizontal margin"
+msgstr ""
+
+#: ../settings.php:92
+msgid "Collections vertical margin"
+msgstr ""
+
+#: ../settings.php:96 ../settings.php:1247
+msgid "Loader color"
+msgstr ""
+
+#: ../settings.php:97
+msgid "Image Border"
+msgstr ""
+
+#: ../settings.php:98
+msgid "Cells Border Radius"
+msgstr ""
+
+#: ../settings.php:100
+msgid "Images Outline Color"
+msgstr ""
+
+#: ../settings.php:106
+msgid "Main Overlay Color"
+msgstr ""
+
+#: ../settings.php:112
+msgid "Icons Color"
+msgstr ""
+
+#: ../settings.php:113
+msgid "Text under images - Title color"
+msgstr ""
+
+#: ../settings.php:114
+msgid "Text under images - Description color"
+msgstr ""
+
+#: ../settings.php:124
+msgid "Filter Border Radius"
+msgstr ""
+
+#: ../settings.php:143 ../settings.php:156
+msgid "Lightbox text visibility treshold"
+msgstr ""
+
+#: ../settings.php:150
+msgid "Lightbox thumbnails visibility treshold"
+msgstr ""
+
+#: ../settings.php:151
+msgid "Lightbox thumbnails Width"
+msgstr ""
+
+#: ../settings.php:152
+msgid "Lightbox thumbnails Height"
+msgstr ""
+
+#: ../settings.php:171
+msgid "Watermark Image"
+msgstr ""
+
+#: ../settings.php:178
+msgid "JS for old jQuery"
+msgstr ""
+
+#: ../settings.php:216
+msgid ""
+"An error occurred during dynamic CSS creation. The code will be used inline "
+"anyway"
+msgstr ""
+
+#: ../settings.php:221
+msgid "Options saved."
+msgstr ""
+
+#: ../settings.php:401
+msgid "Main Options"
+msgstr ""
+
+#: ../settings.php:402
+msgid "Layouts"
+msgstr ""
+
+#: ../settings.php:403
+msgid "Styling"
+msgstr ""
+
+#: ../settings.php:404
+msgid "Lightbox"
+msgstr ""
+
+#: ../settings.php:405 ../settings.php:1971
+msgid "Watermark"
+msgstr ""
+
+#: ../settings.php:406 ../settings.php:2058
+msgid "Custom CSS"
+msgstr ""
+
+#: ../settings.php:410
+msgid "Default Gallery Settings"
+msgstr ""
+
+#: ../settings.php:421
+msgid "Set default galleries layout"
+msgstr ""
+
+#: ../settings.php:424
+msgid "Elements maximum width"
+msgstr ""
+
+#: ../settings.php:431
+msgid "Set maximum container's width where plugin elements will be placed"
+msgstr ""
+
+#: ../settings.php:439
+msgid "Whether to split galleries into pages by default"
+msgstr ""
+
+#: ../settings.php:448
+msgid "Set the default images number per page"
+msgstr ""
+
+#: ../settings.php:451
+msgid "Preview container"
+msgstr ""
+
+#: ../settings.php:453 ../settings.php:476
+msgid "Select a page"
+msgstr ""
+
+#: ../settings.php:463
+msgid "Choose the page to use as preview container"
+msgstr ""
+
+#: ../settings.php:466
+msgid "Manage WP galleries with Global Gallery by default?"
+msgstr ""
+
+#: ../settings.php:471
+msgid "If checked, displays wordpress galleries through Global Gallery engine"
+msgstr ""
+
+#: ../settings.php:474
+msgid "Linked images behavior"
+msgstr ""
+
+#: ../settings.php:477
+msgid "open link in same page"
+msgstr ""
+
+#: ../settings.php:478
+msgid "open link in a new page"
+msgstr ""
+
+#: ../settings.php:481
+msgid "Choose where to open links"
+msgstr ""
+
+#: ../settings.php:484
+msgid "Show images without delay?"
+msgstr ""
+
+#: ../settings.php:489
+msgid "If checked, shows gallery images without delayed effect"
+msgstr ""
+
+#: ../settings.php:494
+msgid "Extend WP galleries management for these custom post types"
+msgstr ""
+
+#: ../settings.php:496
+msgid "Select custom post types"
+msgstr ""
+
+#: ../settings.php:509
+msgid "Pagination Settings"
+msgstr ""
+
+#: ../settings.php:512 ../settings.php:619 ../settings.php:748
+#: ../settings.php:1586 ../settings.php:1611 ../settings.php:1621
+msgid "Style"
+msgstr ""
+
+#: ../settings.php:514 ../settings.php:567 ../settings.php:621
+#: ../settings.php:750 ../settings.php:1203 ../settings.php:1235
+#: ../settings.php:1588 ../settings.php:1613 ../settings.php:1623
+#: ../settings.php:1943 ../settings.php:1954
+msgid "Select a style"
+msgstr ""
+
+#: ../settings.php:519
+msgid "Select pagination buttons style"
+msgstr ""
+
+#: ../settings.php:522
+msgid "Pagination system"
+msgstr ""
+
+#: ../settings.php:533
+msgid "Select default pagination system"
+msgstr ""
+
+#: ../settings.php:536
+msgid "Standard pagination - Layout"
+msgstr ""
+
+#: ../settings.php:547
+msgid "Select standard pagination elements layout"
+msgstr ""
+
+#: ../settings.php:550
+msgid "Buttons alignment"
+msgstr ""
+
+#: ../settings.php:558
+msgid "Select pagination buttons alignment"
+msgstr ""
+
+#: ../settings.php:562
+#, fuzzy
+msgid "Collection Settings"
+msgstr "Seleziona una collezione"
+
+#: ../settings.php:565
+msgid "Filters alignment"
+msgstr ""
+
+#: ../settings.php:576
+msgid "Use the old filters style?"
+msgstr ""
+
+#: ../settings.php:581
+msgid "If checked, uses old Global Gallery filters style"
+msgstr ""
+
+#: ../settings.php:584
+msgid "Use dropdown filters on mobile?"
+msgstr ""
+
+#: ../settings.php:589
+msgid "If checked, replaces filters with a compact dropdown on mobile"
+msgstr ""
+
+#: ../settings.php:592
+msgid "\"Back to collection\" - custom text"
+msgstr ""
+
+#: ../settings.php:596
+msgid "Use a custom string for the \"back to collection\" button"
+msgstr ""
+
+#: ../settings.php:599
+msgid "Display loaded galleries title?"
+msgstr ""
+
+#: ../settings.php:604
+msgid "If checked, displays the title on top of loaded galleries"
+msgstr ""
+
+#: ../settings.php:607
+msgid "\"Back to collection\" - keep visible on scroll?"
+msgstr ""
+
+#: ../settings.php:612
+msgid "If checked, \"back to collection\" button is kept visible on scroll"
+msgstr ""
+
+#: ../settings.php:616
+msgid "Slider Settings"
+msgstr ""
+
+#: ../settings.php:629
+msgid "Use old commands style?"
+msgstr ""
+
+#: ../settings.php:634
+msgid "If enabled, uses old commands graphic"
+msgstr ""
+
+#: ../settings.php:637
+msgid "Hide borders and shadows?"
+msgstr ""
+
+#: ../settings.php:642
+msgid "If enabled, displays slider without external borders and shadows"
+msgstr ""
+
+#: ../settings.php:645
+msgid "Crop method"
+msgstr ""
+
+#: ../settings.php:647
+msgid "Select a method"
+msgstr ""
+
+#: ../settings.php:656
+msgid "Select how to display shown image"
+msgstr ""
+
+#: ../settings.php:659
+msgid "Transition effect"
+msgstr ""
+
+#: ../settings.php:661
+msgid "Select a transition"
+msgstr ""
+
+#: ../settings.php:670
+msgid "Select transition effect between slides"
+msgstr ""
+
+#: ../settings.php:673
+msgid "Transition duration"
+msgstr ""
+
+#: ../settings.php:679
+msgid "How much time transition takes (in milliseconds - default 400)"
+msgstr ""
+
+#: ../settings.php:682 ../settings.php:794 ../tinymce_btn.php:299
+#: ../wp_gallery_manag.php:137
+msgid "Autoplay slideshow?"
+msgstr ""
+
+#: ../settings.php:687
+msgid "Check to autoplay slider's slideshow by default"
+msgstr ""
+
+#: ../settings.php:690 ../settings.php:784 ../settings.php:1920
+msgid "Slideshow interval"
+msgstr ""
+
+#: ../settings.php:696
+msgid "How long each slide will be shown (in milliseconds - default 3000)"
+msgstr ""
+
+#: ../settings.php:699
+msgid "Show thumbnails?"
+msgstr ""
+
+#: ../settings.php:710
+msgid "Select if and how thumbs will be shown"
+msgstr ""
+
+#: ../settings.php:713
+msgid "Thumbnails size"
+msgstr ""
+
+#: ../settings.php:719
+msgid "Set slider thumbnails size"
+msgstr ""
+
+#: ../settings.php:722
+msgid "Hide image's data by default?"
+msgstr ""
+
+#: ../settings.php:727
+msgid "Check hide image's data by default"
+msgstr ""
+
+#: ../settings.php:730
+msgid "Elements to remove"
+msgstr ""
+
+#: ../settings.php:734
+msgid "Play button"
+msgstr ""
+
+#: ../settings.php:734
+msgid "Lightbox button"
+msgstr ""
+
+#: ../settings.php:734
+msgid "Image's data"
+msgstr ""
+
+#: ../settings.php:741
+msgid "Select slider elements you want to remove"
+msgstr ""
+
+#: ../settings.php:745
+msgid "Carousel Settings"
+msgstr ""
+
+#: ../settings.php:755
+msgid "Select carousel elements style"
+msgstr ""
+
+#: ../settings.php:758
+msgid "Horizontal Margin"
+msgstr ""
+
+#: ../settings.php:764 ../settings.php:1057 ../settings.php:1172
+msgid "Set horizontal margin between images"
+msgstr ""
+
+#: ../settings.php:767
+msgid "Vertical Margin"
+msgstr ""
+
+#: ../settings.php:773 ../settings.php:1066 ../settings.php:1181
+msgid "Set vertical margin between images"
+msgstr ""
+
+#: ../settings.php:776
+msgid "Infinite loop sliding?"
+msgstr ""
+
+#: ../settings.php:781
+msgid "If checked, navigation won't stop if latest image is reached"
+msgstr ""
+
+#: ../settings.php:791
+msgid "Set slideshow interval time in milliseconds (default 5000)"
+msgstr ""
+
+#: ../settings.php:799
+msgid "Check to autoplay carousel slideshow by default"
+msgstr ""
+
+#: ../settings.php:802
+msgid "Pause slideshow on hover?"
+msgstr ""
+
+#: ../settings.php:807
+msgid "If checked, slideshow will be paused hovering an image"
+msgstr ""
+
+#: ../settings.php:810
+msgid "Hide navigation elements"
+msgstr ""
+
+#: ../settings.php:814
+msgid "Side arrows"
+msgstr ""
+
+#: ../settings.php:814
+msgid "Bottom dots"
+msgstr ""
+
+#: ../settings.php:821
+msgid "Select navigation elements to hide in carousels"
+msgstr ""
+
+#: ../settings.php:831
+msgid "Overlay Manager add-on - Default Overlays"
+msgstr ""
+
+#: ../settings.php:834
+msgid "Default galleries overlay"
+msgstr ""
+
+#: ../settings.php:836 ../settings.php:851 ../settings.php:866
+#: ../tinymce_btn.php:44 ../wp_gallery_manag.php:213
+msgid "Select an overlay"
+msgstr ""
+
+#: ../settings.php:837 ../settings.php:852 ../settings.php:867
+msgid "original one"
+msgstr ""
+
+#: ../settings.php:846
+msgid "Choose the default overlay applied to galleries"
+msgstr ""
+
+#: ../settings.php:849
+msgid "Default collections overlay"
+msgstr ""
+
+#: ../settings.php:861
+msgid "Choose default overlay applied to collections"
+msgstr ""
+
+#: ../settings.php:864
+msgid "Default carousels overlay"
+msgstr ""
+
+#: ../settings.php:876
+msgid "Choose default overlay applied to carousels"
+msgstr ""
+
+#: ../settings.php:884
+msgid "Image Protection"
+msgstr ""
+
+#: ../settings.php:887
+msgid "Disable right click"
+msgstr ""
+
+#: ../settings.php:892
+msgid "Check to disable right click on gallery images"
+msgstr ""
+
+#: ../settings.php:897
+msgid "Global Gallery album bases"
+msgstr ""
+
+#: ../settings.php:898
+msgid "changing these values could break albums, be careful"
+msgstr ""
+
+#: ../settings.php:902
+msgid "Albums basepath"
+msgstr ""
+
+#: ../settings.php:908 ../settings.php:917
+msgid "Default one is"
+msgstr ""
+
+#: ../settings.php:911
+msgid "Albums baseurl"
+msgstr ""
+
+#: ../settings.php:921
+msgid "Advanced"
+msgstr ""
+
+#: ../settings.php:924
+msgid "Thumbnails quality"
+msgstr ""
+
+#: ../settings.php:931
+msgid "Images thumbnail quality"
+msgstr ""
+
+#: ../settings.php:934
+msgid "Use thumbnails on admin side?"
+msgstr ""
+
+#: ../settings.php:940
+msgid ""
+"Check to use thumbnails on admin side. <strong>Could slow down the server in "
+"case of huge galleries</strong>"
+msgstr ""
+
+#: ../settings.php:944
+msgid "Global Gallery Albums - images title"
+msgstr ""
+
+#: ../settings.php:947
+msgid "File name"
+msgstr ""
+
+#: ../settings.php:948
+msgid "IPTC metadata"
+msgstr ""
+
+#: ../settings.php:951
+msgid "Choose which data is used to get GG album images title"
+msgstr ""
+
+#: ../settings.php:954
+msgid "Enable AJAX support?"
+msgstr ""
+
+#: ../settings.php:960
+msgid "Enable support for AJAX-loaded galleries and collections"
+msgstr ""
+
+#: ../settings.php:964
+msgid "Disable deeplinking?"
+msgstr ""
+
+#: ../settings.php:970
+msgid "If checked, disable collection filters and galleries deeplinking"
+msgstr ""
+
+#: ../settings.php:974
+msgid "Use custom CSS inline?"
+msgstr ""
+
+#: ../settings.php:980
+msgid "If checked, uses custom CSS inline (useful for multisite installations)"
+msgstr ""
+
+#: ../settings.php:984
+msgid "Use Easy WP Thumbs forcing system?"
+msgstr ""
+
+#: ../settings.php:990
+msgid ""
+"Try forcing thumbnails creation, check it ONLY if you note missing thumbnails"
+msgstr ""
+
+#: ../settings.php:995
+msgid "Use TimThumb?"
+msgstr ""
+
+#: ../settings.php:1001
+msgid "If checked, use Timthumb instead of Easy WP Thumbs"
+msgstr ""
+
+#: ../settings.php:1005
+msgid "Use javascript in website's head?"
+msgstr ""
+
+#: ../settings.php:1011
+msgid ""
+"Put javascript in website's head, use ONLY IF you notice incompatibilities"
+msgstr ""
+
+#: ../settings.php:1017
+msgid "Timthumb basepath"
+msgstr ""
+
+#: ../settings.php:1017
+msgid "for MU installations"
+msgstr ""
+
+#: ../settings.php:1020
+msgid "Basepath of the WP MU images"
+msgstr ""
+
+#: ../settings.php:1025
+msgid "By default is"
+msgstr ""
+
+#: ../settings.php:1039
+msgid "Standard Layout"
+msgstr ""
+
+#: ../settings.php:1042 ../settings.php:1817
+msgid "Thumbnail sizes"
+msgstr ""
+
+#: ../settings.php:1048
+msgid "Set default standard layout thumbnail sizes"
+msgstr ""
+
+#: ../settings.php:1051 ../settings.php:1166
+msgid "Horizontal margin"
+msgstr ""
+
+#: ../settings.php:1060 ../settings.php:1175
+msgid "Vertical margin"
+msgstr ""
+
+#: ../settings.php:1070
+msgid "Masonry Layout"
+msgstr ""
+
+#: ../settings.php:1073
+msgid "Image columns"
+msgstr ""
+
+#: ../settings.php:1079 ../settings.php:1110
+msgid "Set default columns number for masonry layout"
+msgstr ""
+
+#: ../settings.php:1082 ../settings.php:1113
+msgid "Images margin"
+msgstr ""
+
+#: ../settings.php:1088 ../settings.php:1119
+msgid "Set margin between images"
+msgstr ""
+
+#: ../settings.php:1091
+msgid "Minimum image width"
+msgstr ""
+
+#: ../settings.php:1097
+msgid "Set minimum width for images in the masonry gallery"
+msgstr ""
+
+#: ../settings.php:1101
+msgid "PhotoString Layout"
+msgstr ""
+
+#: ../settings.php:1104 ../settings.php:1158
+msgid "Thumbnails height"
+msgstr ""
+
+#: ../settings.php:1122
+msgid "Minimum images width"
+msgstr ""
+
+#: ../settings.php:1128
+msgid "Set minimum width for images in photostring galleries"
+msgstr ""
+
+#: ../settings.php:1132
+msgid "Collections Layout"
+msgstr ""
+
+#: ../settings.php:1135
+msgid "Thumbnails disposition"
+msgstr ""
+
+#: ../settings.php:1147
+msgid "Set collection columns number"
+msgstr ""
+
+#: ../settings.php:1150
+msgid "Collection columns minimum width"
+msgstr ""
+
+#: ../settings.php:1163
+msgid "Set collection thumbnails height"
+msgstr ""
+
+#: ../settings.php:1184
+msgid "Texts under images?"
+msgstr ""
+
+#: ../settings.php:1189
+msgid "If checked, texts will be displayed under collection images"
+msgstr ""
+
+#: ../settings.php:1197
+msgid "Predefined styles"
+msgstr ""
+
+#: ../settings.php:1201
+msgid "Choose a style"
+msgstr ""
+
+#: ../settings.php:1218
+msgid "Preview"
+msgstr ""
+
+#: ../settings.php:1230
+msgid "Loader"
+msgstr ""
+
+#: ../settings.php:1233
+msgid "Loader style"
+msgstr ""
+
+#: ../settings.php:1244
+msgid "Set which gallery preloader to use"
+msgstr ""
+
+#: ../settings.php:1254
+msgid "Loading animation's color"
+msgstr ""
+
+#: ../settings.php:1258
+msgid "Images Layout"
+msgstr ""
+
+#: ../settings.php:1261
+msgid "Images border size"
+msgstr ""
+
+#: ../settings.php:1270
+msgid "Images border color"
+msgstr ""
+
+#: ../settings.php:1277
+msgid "Set images border color - accepts also \"transparent\" value"
+msgstr ""
+
+#: ../settings.php:1280
+msgid "Outer image effect"
+msgstr ""
+
+#: ../settings.php:1283 ../settings.php:1313
+msgid "No Effect"
+msgstr ""
+
+#: ../settings.php:1284
+msgid "Soft shadow"
+msgstr ""
+
+#: ../settings.php:1285
+msgid "Outline"
+msgstr ""
+
+#: ../settings.php:1288
+msgid "Choose which effect use for images aspect"
+msgstr ""
+
+#: ../settings.php:1291
+msgid "Image outline color"
+msgstr ""
+
+#: ../settings.php:1298
+msgid "Set images outline color (must be enabled to be shown)"
+msgstr ""
+
+#: ../settings.php:1301
+msgid "Images border radius"
+msgstr ""
+
+#: ../settings.php:1310
+msgid "Thumbnail's effect"
+msgstr ""
+
+#: ../settings.php:1314
+msgid "Grayscale mask"
+msgstr ""
+
+#: ../settings.php:1315
+msgid "Blurred on hover"
+msgstr ""
+
+#: ../settings.php:1322
+msgid "Images Overlay"
+msgstr ""
+
+#: ../settings.php:1325
+msgid "Overlay type"
+msgstr ""
+
+#: ../settings.php:1328
+msgid "No overlay"
+msgstr ""
+
+#: ../settings.php:1329
+msgid "Only main overlay"
+msgstr ""
+
+#: ../settings.php:1330
+msgid "Both overlays"
+msgstr ""
+
+#: ../settings.php:1336
+msgid "Main overlay type"
+msgstr ""
+
+#: ../settings.php:1339
+msgid "Bottom Bar"
+msgstr ""
+
+#: ../settings.php:1340
+msgid "Top Bar"
+msgstr ""
+
+#: ../settings.php:1341
+msgid "Full image"
+msgstr ""
+
+#: ../settings.php:1347
+msgid "Main overlay behavior"
+msgstr ""
+
+#: ../settings.php:1350
+msgid "Show on hover"
+msgstr ""
+
+#: ../settings.php:1351
+msgid "Always shown"
+msgstr ""
+
+#: ../settings.php:1352
+msgid "Hide on hover"
+msgstr ""
+
+#: ../settings.php:1355
+msgid "Set main overlay behavior on hover"
+msgstr ""
+
+#: ../settings.php:1358
+msgid "Main overlay color"
+msgstr ""
+
+#: ../settings.php:1365
+msgid "Set main overlay's background color"
+msgstr ""
+
+#: ../settings.php:1368
+msgid "Main overlay opacity"
+msgstr ""
+
+#: ../settings.php:1377
+msgid "Main overlay text color"
+msgstr ""
+
+#: ../settings.php:1387
+msgid "Secondary overlay position"
+msgstr ""
+
+#: ../settings.php:1390
+msgid "Top-left corner"
+msgstr ""
+
+#: ../settings.php:1391
+msgid "Top-right corner"
+msgstr ""
+
+#: ../settings.php:1392
+msgid "Bottom-left corner"
+msgstr ""
+
+#: ../settings.php:1393
+msgid "Bottom-right corner"
+msgstr ""
+
+#: ../settings.php:1399
+msgid "Secondary overlay color"
+msgstr ""
+
+#: ../settings.php:1406
+msgid "Set secondary overlay's background color"
+msgstr ""
+
+#: ../settings.php:1409
+msgid "Secondary overlay - Icon"
+msgstr ""
+
+#: ../settings.php:1412
+msgid "Eye"
+msgstr ""
+
+#: ../settings.php:1413
+msgid "Camera"
+msgstr ""
+
+#: ../settings.php:1414
+msgid "Magnifier"
+msgstr ""
+
+#: ../settings.php:1415
+msgid "Image"
+msgstr ""
+
+#: ../settings.php:1418
+msgid "Choose which icon to use for secondary overlay"
+msgstr ""
+
+#: ../settings.php:1421
+msgid "Secondary overlay - Icons color"
+msgstr ""
+
+#: ../settings.php:1428
+msgid "Icons color in secondary overlay"
+msgstr ""
+
+#: ../settings.php:1432
+msgid "Collections - Texts under images"
+msgstr ""
+
+#: ../settings.php:1435
+msgid "Title color"
+msgstr ""
+
+#: ../settings.php:1442
+msgid "Gallery title's color"
+msgstr ""
+
+#: ../settings.php:1445
+msgid "Description color"
+msgstr ""
+
+#: ../settings.php:1452
+msgid "Gallery description's color"
+msgstr ""
+
+#: ../settings.php:1456
+#, fuzzy
+msgid "Collection Filters"
+msgstr "Seleziona una collezione"
+
+#: ../settings.php:1459
+msgid "Text Color"
+msgstr ""
+
+#: ../settings.php:1466
+msgid "Filters text color - default status"
+msgstr ""
+
+#: ../settings.php:1469
+msgid "Background Color"
+msgstr ""
+
+#: ../settings.php:1476
+msgid "Filters background color - default status"
+msgstr ""
+
+#: ../settings.php:1476 ../settings.php:1486 ../settings.php:1506
+#: ../settings.php:1516 ../settings.php:1536 ../settings.php:1546
+msgid "(not for old style)"
+msgstr ""
+
+#: ../settings.php:1479
+msgid "Border Color"
+msgstr ""
+
+#: ../settings.php:1486
+msgid "Filters border color - default status"
+msgstr ""
+
+#: ../settings.php:1489
+msgid "Text Color (on mouse hover)"
+msgstr ""
+
+#: ../settings.php:1496
+msgid "Filters text color - mouse hover status"
+msgstr ""
+
+#: ../settings.php:1499
+msgid "Background Color (on mouse hover)"
+msgstr ""
+
+#: ../settings.php:1506
+msgid "Filters background color - mouse hover status"
+msgstr ""
+
+#: ../settings.php:1509
+msgid "Border Color (on mouse hover)"
+msgstr ""
+
+#: ../settings.php:1516
+msgid "Filters border color - mouse hover status"
+msgstr ""
+
+#: ../settings.php:1519
+msgid "Text Color (selected filter)"
+msgstr ""
+
+#: ../settings.php:1526
+msgid "Filters text color - selected status"
+msgstr ""
+
+#: ../settings.php:1529
+msgid "Background Color (selected filter)"
+msgstr ""
+
+#: ../settings.php:1536
+msgid "Filters background color - selected status"
+msgstr ""
+
+#: ../settings.php:1539
+msgid "Border Color (selected filter)"
+msgstr ""
+
+#: ../settings.php:1546
+msgid "Filters border color - selected status"
+msgstr ""
+
+#: ../settings.php:1549
+msgid "Border Radius"
+msgstr ""
+
+#: ../settings.php:1555
+msgid "Set the border radius for each filter"
+msgstr ""
+
+#: ../settings.php:1555
+msgid "not for old style"
+msgstr ""
+
+#: ../settings.php:1565
+msgid "Which lightbox use?"
+msgstr ""
+
+#: ../settings.php:1583
+msgid "Lightbox Settings"
+msgstr ""
+
+#: ../settings.php:1594 ../settings.php:1618
+msgid "Select lightbox skin"
+msgstr ""
+
+#: ../settings.php:1597
+msgid "Open/close effect"
+msgstr ""
+
+#: ../settings.php:1608
+msgid ""
+"Select which opening/closing effect to use (for custom CSS, classes are <em>."
+"lcl_pre_show</em> and <em>.lcl_is_closing</em>)"
+msgstr ""
+
+#: ../settings.php:1632
+msgid "Select the lightbox style"
+msgstr ""
+
+#: ../settings.php:1636
+msgid "Overlay opacity"
+msgstr ""
+
+#: ../settings.php:1645
+msgid "Overlay color"
+msgstr ""
+
+#: ../settings.php:1656
+msgid "Overlay pattern"
+msgstr ""
+
+#: ../settings.php:1672
+msgid "Maximum width"
+msgstr ""
+
+#: ../settings.php:1679
+msgid "Set lightbox max width, in relation to browser"
+msgstr ""
+
+#: ../settings.php:1682
+msgid "Maximum height"
+msgstr ""
+
+#: ../settings.php:1689
+msgid "Set lightbox max height, in relation to browser"
+msgstr ""
+
+#: ../settings.php:1693
+msgid "Content padding"
+msgstr ""
+
+#: ../settings.php:1699
+msgid "Lightbox content's padding"
+msgstr ""
+
+#: ../settings.php:1702
+msgid "Border width"
+msgstr ""
+
+#: ../settings.php:1711
+msgid "Border color"
+msgstr ""
+
+#: ../settings.php:1722
+msgid "Corner radius"
+msgstr ""
+
+#: ../settings.php:1731
+msgid "Outer shadow?"
+msgstr ""
+
+#: ../settings.php:1740 ../settings.php:1789
+msgid "Text position"
+msgstr ""
+
+#: ../settings.php:1743
+msgid "Under image"
+msgstr ""
+
+#: ../settings.php:1744
+msgid "Over image"
+msgstr ""
+
+#: ../settings.php:1745
+msgid "On right side"
+msgstr ""
+
+#: ../settings.php:1746
+msgid "On left side"
+msgstr ""
+
+#: ../settings.php:1749 ../settings.php:1796
+msgid "Select text position in lightbox"
+msgstr ""
+
+#: ../settings.php:1752
+msgid "Text visibility treshold"
+msgstr ""
+
+#: ../settings.php:1758
+msgid "Screens smaller than this value have text hidden by default"
+msgstr ""
+
+#: ../settings.php:1762
+msgid "Commands position"
+msgstr ""
+
+#: ../settings.php:1765
+msgid "Inner"
+msgstr ""
+
+#: ../settings.php:1766
+msgid "Outer"
+msgstr ""
+
+#: ../settings.php:1772
+msgid "Closing button in corner position?"
+msgstr ""
+
+#: ../settings.php:1780
+msgid "Navigation buttons in middle position?"
+msgstr ""
+
+#: ../settings.php:1792
+msgid "Under the image"
+msgstr ""
+
+#: ../settings.php:1793
+msgid "Over the image"
+msgstr ""
+
+#: ../settings.php:1800
+msgid "Use thumbnails navigation?"
+msgstr ""
+
+#: ../settings.php:1805
+msgid "If checked, thumbnails will be shown in lightbox"
+msgstr ""
+
+#: ../settings.php:1808
+msgid "Thumbnails visibility treshold"
+msgstr ""
+
+#: ../settings.php:1814
+msgid "Screens smaller than this value have thumbnails hidden by default"
+msgstr ""
+
+#: ../settings.php:1823
+msgid "Set lightbox thumbnail sizes"
+msgstr ""
+
+#: ../settings.php:1826
+msgid "Use full images in thumbnails navigation?"
+msgstr ""
+
+#: ../settings.php:1831
+msgid ""
+"If checked, fills thumbnails with full-size images (enable ONLY if you note "
+"thumbs loading issues)"
+msgstr ""
+
+#: ../settings.php:1835
+msgid "Enable fullscreen?"
+msgstr ""
+
+#: ../settings.php:1840
+msgid "If checked, allows to use the fullscreen mode"
+msgstr ""
+
+#: ../settings.php:1843
+msgid "Fullscreen treshold"
+msgstr ""
+
+#: ../settings.php:1849
+msgid ""
+"Lightbox will be only in fullscreen mode for screens smaller than this value"
+msgstr ""
+
+#: ../settings.php:1853
+msgid "Enable deeplink?"
+msgstr ""
+
+#: ../settings.php:1858
+msgid "If checked, enables images deeplinking"
+msgstr ""
+
+#: ../settings.php:1861
+msgid "Download button?"
+msgstr ""
+
+#: ../settings.php:1866
+msgid ""
+"If checked, enables images download button (only for self hosted images)"
+msgstr ""
+
+#: ../settings.php:1869
+msgid "Enable zoom?"
+msgstr ""
+
+#: ../settings.php:1874
+msgid "If checked, enables images zooming system"
+msgstr ""
+
+#: ../settings.php:1877
+msgid "Show counter?"
+msgstr ""
+
+#: ../settings.php:1882
+msgid "If checked, displays images count and progress"
+msgstr ""
+
+#: ../settings.php:1885
+msgid "Enable socials?"
+msgstr ""
+
+#: ../settings.php:1890
+msgid "If checked, enables social share"
+msgstr ""
+
+#: ../settings.php:1894
+msgid "Auto start slideshow?"
+msgstr ""
+
+#: ../settings.php:1899
+msgid "If checked, starts slideshow on lightbox opening"
+msgstr ""
+
+#: ../settings.php:1902
+msgid "Show progressbar?"
+msgstr ""
+
+#: ../settings.php:1907
+msgid "If checked, shows a progressbar during slideshow"
+msgstr ""
+
+#: ../settings.php:1911
+msgid "Open / Close timing"
+msgstr ""
+
+#: ../settings.php:1917
+msgid "Set open/close lightbox timing (default 500)"
+msgstr ""
+
+#: ../settings.php:1927
+msgid "Set slideshow interval's time in milliseconds (default 5000)"
+msgstr ""
+
+#: ../settings.php:1930
+msgid "Animation time"
+msgstr ""
+
+#: ../settings.php:1937
+msgid "Set animation's time between images in milliseconds (default 300)"
+msgstr ""
+
+#: ../settings.php:1941 ../settings.php:1952
+msgid "Animation behavior"
+msgstr ""
+
+#: ../settings.php:1948 ../settings.php:1963
+msgid "Select the animation behavior navigating through images"
+msgstr ""
+
+#: ../settings.php:1978
+msgid "The watermarker function requires writing permissions in"
+msgstr ""
+
+#: ../settings.php:1978
+msgid "by your server. Please check them."
+msgstr ""
+
+#: ../settings.php:1984
+msgid "Watermark image"
+msgstr ""
+
+#: ../settings.php:1986
+msgid "use wizard or paste image URL"
+msgstr ""
+
+#: ../settings.php:1987
+msgid "Select image or upload a new one"
+msgstr ""
+
+#: ../settings.php:2003
+msgid "Watermark Opacity"
+msgstr ""
+
+#: ../settings.php:2010
+msgid "Set watermark opacity"
+msgstr ""
+
+#: ../settings.php:2013
+msgid "Watermark position"
+msgstr ""
+
+#: ../settings.php:2040
+msgid "Create"
+msgstr ""
+
+#: ../settings.php:2045
+msgid "Clean watermark cache"
+msgstr ""
+
+#: ../settings.php:2047
+msgid "Clean"
+msgstr ""
+
+#: ../settings.php:2067
+msgid "Elements Legend"
+msgstr ""
+
+#: ../settings.php:2097
+msgid "Update Options"
+msgstr ""
+
+#: ../settings.php:2126
+msgid "Global Gallery - watermark selection"
+msgstr ""
+
+#: ../settings.php:2158
+msgid "Watermark image hasn't been set"
+msgstr ""
+
+#: ../settings.php:2170
+msgid ""
+"Process took too much time for your server. Try creating the cache again"
+msgstr ""
+
+#: ../settings.php:2173
+msgid ""
+"The process requires too much memory for your server. Try applying it to "
+"smaller images"
+msgstr ""
+
+#: ../settings.php:2192
+msgid "Cache cleaned succesfully"
+msgstr ""
+
+#: ../settings.php:2193
+msgid "Error during the cache deletion"
+msgstr ""
+
+#: ../settings.php:2217
+msgid "It will overwrite your current settings, continue?"
+msgstr ""
+
+#: ../settings.php:2276
+msgid "Delete the option"
+msgstr ""
+
+#: ../shortcodes.php:197
+msgid "page"
+msgstr ""
+
+#: ../shortcodes.php:197
+msgid "of"
+msgstr ""
+
+#: ../shortcodes.php:219
+msgid "show more"
+msgstr ""
+
+#: ../shortcodes.php:229 ../shortcodes.php:239
+msgid "go to page"
+msgstr ""
+
+#: ../shortcodes.php:451
+msgid "Back to collection"
+msgstr ""
+
+#: ../taxonomy_options.php:23 ../taxonomy_options.php:39
+#: ../taxonomy_options.php:101
+msgid "Icon"
+msgstr ""
+
+#: ../taxonomy_options.php:28 ../taxonomy_options.php:45
+msgid "Category icon, placed before category name"
+msgstr ""
+
+#: ../taxonomy_options.php:31 ../taxonomy_options.php:49
+#: ../taxonomy_options.php:102
+msgid "Order"
+msgstr ""
+
+#: ../taxonomy_options.php:33 ../taxonomy_options.php:52
+msgid "The category order that will be used for the grid filter"
+msgstr ""
+
+#: ../taxonomy_options.php:153
+msgid "no icon"
+msgstr ""
+
+#: ../tinymce_btn.php:84
+msgid "Random Display?"
+msgstr ""
+
+#: ../tinymce_btn.php:139 ../tinymce_btn.php:190 ../tinymce_btn.php:285
+msgid "Random Display"
+msgstr ""
+
+#: ../tinymce_btn.php:157 ../tinymce_btn.php:225
+msgid "Images source"
+msgstr ""
+
+#: ../tinymce_btn.php:169
+msgid "Slider Width"
+msgstr ""
+
+#: ../tinymce_btn.php:179
+msgid "Slider Height"
+msgstr ""
+
+#: ../tinymce_btn.php:187
+msgid "Proportionally to the width"
+msgstr ""
+
+#: ../tinymce_btn.php:197 ../tinymce_btn.php:292
+msgid "Use Watermark"
+msgstr ""
+
+#: ../tinymce_btn.php:204
+msgid "Autoplay slider?"
+msgstr ""
+
+#: ../tinymce_btn.php:207 ../tinymce_btn.php:302
+msgid "as default"
+msgstr ""
+
+#: ../tinymce_btn.php:212 ../tinymce_btn.php:307
+msgid "Overrides global autoplay setting"
+msgstr ""
+
+#: ../tinymce_btn.php:216
+msgid "Insert Slider"
+msgstr ""
+
+#: ../tinymce_btn.php:244
+msgid "Images Per Time"
+msgstr ""
+
+#: ../tinymce_btn.php:312
+msgid "Insert Carousel"
+msgstr ""
+
+#: ../wp_gallery_manag.php:71
+msgid "Use Global Gallery with wordpress galleries in this page?"
+msgstr ""
+
+#: ../wp_gallery_manag.php:74 ../wp_gallery_manag.php:140
+msgid "As default"
+msgstr ""
+
+#: ../wp_gallery_manag.php:84
+msgid "Display as"
+msgstr ""
+
+#: ../wp_gallery_manag.php:87
+msgid "Default layout"
+msgstr ""
+
+#: ../wp_gallery_manag.php:98
+msgid "Images izes"
+msgstr ""
+
+#: ../wp_gallery_manag.php:111 ../wp_gallery_manag.php:147
+msgid "Images height"
+msgstr ""
+
+#: ../wp_gallery_manag.php:119
+msgid "Slider width"
+msgstr ""
+
+#: ../wp_gallery_manag.php:128
+msgid "Slider height"
+msgstr ""
+
+#: ../wp_gallery_manag.php:168
+msgid "Use multiscroll?"
+msgstr ""
+
+#: ../wp_gallery_manag.php:198
+msgid "auto - follow global settings"
+msgstr ""
+
+#: ../wp_gallery_manag.php:199
+msgid "standard"
+msgstr ""
+
+#: ../wp_gallery_manag.php:200
+msgid "infinite scroll"
+msgstr ""
+
+#, fuzzy
+#~ msgid "All photos"
+#~ msgstr "Seleziona una collezione"
+
+#, fuzzy
+#~ msgid "Slider - thumbnails behavior"
+#~ msgstr "Seleziona una collezione"
+
+#~ msgid "Border width of the lightbox"
+#~ msgstr "Larghezza bordi della lightbox"
+
+#, fuzzy
+#~ msgid "Select a behaviour"
+#~ msgstr "Seleziona una collezione"
+
+#, fuzzy
+#~ msgid "Save the collection"
+#~ msgstr "Seleziona una collezione"

@@ -1,0 +1,43 @@
+/*
+Theme Name: Twenty Twenty -coworkinghostel
+Theme URI: https://www.coworkinghostel.com.br
+Description: A child theme for Twenty Twenty -coworkinghostel.
+Author: Francisco Matelli
+Author URI: https://www.franciscomatelli.com.br/
+Template: twentytwenty
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+.wp-social-login-provider-list a {
+	float: left !important;
+	margin-right: 6px;
+}
+.woocommerce-LoopProduct-link .woocommerce-loop-product__title {
+	color: #FFF !important;
+}
+.woocommerce-LoopProduct-link .price {
+	color: #777 !important;
+}
+
+.woocommerce-input-wrapper,
+.woocommerce-checkout input {
+	width: 100% !important;
+}
+
+.woocommerce-page .col2-set .col-1,
+.woocommerce-page .col2-set .col-2,
+.woocommerce-checkout form .col2-set .col-2,
+.woocommerce-checkout form .col2-set .col-1 {
+	width: 100% !important;
+	max-width: 100% !important;
+}
+
+.woocommerce-notices-wrapper {
+	height: 20px;
+}
+
+.payment_box {
+	color: #000;
+}

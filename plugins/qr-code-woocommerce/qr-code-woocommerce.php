@@ -1,0 +1,1 @@
+/var/www/html/wp-content/plugins/qr-code-woocommerce/woocommerce-qrc.php

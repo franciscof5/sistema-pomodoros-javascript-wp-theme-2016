@@ -1,0 +1,16 @@
+{
+	"name": "f5sites/go_pricing",
+	"description": "Go pricing PREMIUM",
+	"type": "wordpress-plugin",
+	"authors": [
+		{
+			"name": "Francisco Matelli Matulovic",
+			"email": "francisco@f5sites.com",
+			"homepage": "http://franciscomat.com"
+		}
+	],
+	"require": {
+    		"composer/installers": "~1.0",
+	        "php": ">=5.2.4"
+        }
+}

@@ -1,0 +1,31 @@
+/*
+Theme Name:         SW Maxshop child LOJASDOMAGO
+Theme URI:          http://wp.smartaddons.com/themes/sw_maxshop/
+Description:        A child theme of SW Maxshop
+Author:             Magentech
+Template:      			sw_maxshop
+Author URI:         http://magentech.com/
+Version:            2.3.2
+License:            GNU General Public License v2 or later
+*/
+@import url("../sw_maxshop/style.css");
+/* =Theme customization starts here  */
+
+.products-thumb {
+	min-height: 270px;
+}
+.entry-content {
+	min-height: 380px;
+}
+.entry-thumb {
+	min-height: 170px !important;
+}
+/*BUG ON IMAGE SIZE ON FRONT-END (era oq ue falta porra)*/
+.size-shop_catalog,.hover-image {
+	width: 100%;
+}
+/*.single_add_to_cart_button {
+	width: 320px;
+	height: 150px;
+	background: #5F87D1;
+}*/

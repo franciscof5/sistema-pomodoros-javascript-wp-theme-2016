@@ -1,0 +1,166 @@
+/*
+Theme Name: Projectimer App
+Theme URI: http://www.projectimer.com.br
+Description: Theme for Projectimer project
+Version: 2017
+Author: Francisco Matelli Matulovic
+Author URI: http://www.franciscomat.com
+*/
+
+ul {list-style:none;}
+
+@font-face {
+    font-family: 'lobster';
+    src: url('fonts/lobster/lobster_1.3-webfont.eot');
+    src: url('fonts/lobster/lobster_1.3-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/lobster/lobster_1.3-webfont.woff2') format('woff2'),
+         url('fonts/lobster/lobster_1.3-webfont.woff') format('woff'),
+         url('fonts/lobster/lobster_1.3-webfont.ttf') format('truetype'),
+         url('fonts/lobster/lobster_1.3-webfont.svg#lobster_1.3regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.h1, .h2, .h3, h1, h2, h3 {
+	 font-family: 'lobster' !important;
+}
+
+/* HOME or IMPROVEMENTS 2017 */
+.fill { 
+    min-height: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+body, #projectimer-theme {
+	background-color: #E6E6E6 !important;
+}
+html, body {
+    height: 100%;
+}
+
+#footer {
+	color: #bbb;
+	clear: both;
+	background: #2D2D2D;
+	margin: 0 !important;
+	height: 140px;
+	padding: 20px;
+}
+	#footer a:hover {
+		color: #FFF;
+	}
+		#footer .links {
+			float: left;
+		}
+		#footer .link-group {
+			float: left;
+			margin: 0 20px;
+		}
+		#footer h3 {
+			color:#FFF;
+			font-family: "lobster";
+			font-size: 20px;
+		}
+		#footer #footer-contact-form {
+			float:right;
+			width:auto;
+			margin-right: 25px;
+		}
+		#footer a {
+			color: #777;
+		}
+		#footer a:hover {
+			color: 093;
+		}
+		#footer input[type=text], #footer input[type=email], #footer  textarea {
+			background: #b6b6b6;
+			color: #333 !important;
+			width: 200px;
+		}
+		#footer input[type=submit] {
+			background: #093;
+
+		}
+.content_nosidebar {
+	width: 90%;
+	margin: 0 auto;
+}
+
+
+/* DAQUI PRA BAIXO LINHA DE CORTE DE QUALIDADE ------------------------------------------*/
+
+
+/* RANKING 
+#authors ul li {
+	height: 68px;
+	border: 1px solid #CCC;
+	border-radius: 10px;
+	margin: 0 0 5px 0;
+}
+#authors ul li:nth-child(1) { border: 0;}
+
+#authors ul li img {
+	border-radius: 10px;
+}
+#authors ul li div:nth-child(2) {
+	margin: -22px 0 0 80px;
+}
+#authors ul li h3 {
+	margin-top: 30px;
+	width: 80%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+#authors ul li:nth-child(even) {
+	background: #EEE;
+}
+#authors ul li span {
+	float: right;
+	font-size: 22px;
+	margin: 15px;
+	color: #006633;
+	font-family: "lobster";
+}*/
+
+
+/* > Global Elements
+-------------------------------------------------------------- */
+
+body {
+	/*background: #EEE; fsites
+	background: transparent;*/
+	/*background: url("images/gray-background.jpg") top left; */
+	font-size: 12px;
+	font-family: Tahoma, Verdana, sans-serif;
+	line-height: 160%;
+	color: #333;
+	/*width:90%;*/
+	/*max-width: 1250px; f5sites*/
+	margin: 0 auto;
+	padding-top: 0 !important; /* Remove the top padding space for the admin bar in this theme */
+	/*ajusta configuracoes do tema anterior*/
+	width: 100% !important; 
+	max-width: 100% !important;
+}
+	
+a { color: #093; /*#bc1800; f5sites*/ text-decoration: none;}
+
+img.avatar {
+	float: left;
+	font-family: arial;
+	font-size: 10px;
+	border-radius: 50px;
+}
+
+
+/*form#whats-new-form {
+	margin-bottom: 10px;
+	border: 1px solid #b6b6b6;
+        border-top: 2px solid #919191;
+	overflow: hidden;
+	padding: 8px;
+        background: #f2f2f2;
+        
+}*/

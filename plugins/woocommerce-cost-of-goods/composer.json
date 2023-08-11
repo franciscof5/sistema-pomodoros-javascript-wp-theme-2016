@@ -1,0 +1,17 @@
+{
+	"name": "f5sites/woocommerce-cost-of-goods",
+	"description": "woocommerce-cost-of-goods",
+	"type": "wordpress-plugin",
+	"version": "1.0",
+	"authors": [
+		{
+			"name": "Francisco Matelli Matulovic",
+			"email": "francisco@f5sites.com",
+			"homepage": "http://franciscomat.com"
+		}
+	],
+	"require": {
+    		"composer/installers": "~1.0",
+	        "php": ">=5.2.4"
+        }
+}
