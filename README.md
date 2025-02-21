@@ -116,6 +116,7 @@ Cria um servidor de Pomodoros usando o WordPress. Um post tipo 'projectimer_focu
   - [ ] Edited
 
 ## Integrations
+- [ ] Alexa voice command
 - [ ] **API**
   - [ ] WP REST API
 - [ ] **Courses on Rest**
