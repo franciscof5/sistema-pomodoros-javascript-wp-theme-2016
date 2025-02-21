@@ -15,6 +15,152 @@ Developd by: [Francisco Matelli Matulovic](https://www.franciscomat.com)
 
 Cria um servidor de Pomodoros usando o WordPress. Um post tipo 'projectimer_focus' é criado e cada usuário que termina um "pomodoro" na verdade publica um post do tipo 'projectimer_focus'.
 
+# Funcionalidades do Sistema
+
+## Features / Funcionalidades
+- [ ] **Burndown**
+  - [ ] Scrumodoros
+  - [ ] Burndown tags
+- [ ] **Calendar**
+  - [ ] Custom
+  - [ ] Datas vestibulares
+  - [ ] URL time range
+- [ ] **Task Manager**
+- [ ] **Ranking**
+  - [ ] Individual
+  - [ ] Teams
+  - [ ] Projects
+  - [ ] Tags
+  - [ ] Friends (somente público)
+- [ ] **Team Shared Goals**
+- [ ] **Reports**
+  - [ ] PDF
+  - [ ] Email
+  - [ ] Teams
+  - [ ] Tags
+- [ ] **Project Timer**
+- [ ] **TV**
+- [ ] **Session Video Record at End**
+
+## Subscriptions
+- [ ] **Offline**
+- [ ] **24h Timer / Day Planner**
+  - [ ] Day types
+  - [ ] Activity colors
+- [ ] **Relógio de ponto**
+- [ ] **Performance Blog**
+  - [ ] Automatic best of week
+- [ ] **Life Planner**
+- [ ] **World Map**
+- [ ] **Freelancer Invoicer**
+- [ ] **Translates**
+- [ ] **Day Goals**
+- [ ] **Ads**
+  - [ ] Rest
+  - [ ] Logout
+  - [ ] Audio on end
+- [ ] **Invite**
+- [ ] **Push Notification**
+- [ ] **Pomodoros Stories**
+
+## Super Gestor
+- [ ] **Active Timers**
+
+## Funcionalidades do Timer
+- [ ] **Jump Rest Accumulate**
+- [ ] **Session Countdown**
+  - [ ] 4 Pomodoros
+- [ ] **Mensurador Numérico de Sessão**
+  - [ ] Cadastros feitos
+  - [ ] Telefonemas
+  - [ ] Bugs...
+- [ ] **Habit Counters**
+  - [ ] Rest
+  - [ ] Pushups
+  - [ ] Cigars
+- [ ] **Interrupt Lost Time**
+- [ ] **Music**
+  - [ ] 3rd party integration
+- [ ] **Email Log**
+- [ ] **Manual Add/Edit**
+- [ ] **Rest Chat**
+- [ ] **Rest Mini Games**
+- [ ] **Rest Yoga / Meditate / Aerobics / Sport Trainer**
+- [ ] **Courses on Rest**
+- [ ] **Rest Benefits Alert When Jump**
+- [ ] **Rest YouTube/Video Pause-Restart**
+- [ ] **Rest Tasks**
+- [ ] **Task Slider**
+- [ ] **Auto Cycle**
+
+## Help
+- [ ] **Ergonomic**
+- [ ] **Tour**
+
+## Produtos
+- [ ] **24h Clock**
+
+## Settings
+- [ ] **Category Colors**
+  - [ ] Study
+  - [ ] Work...
+- [ ] **Force Rest**
+- [ ] **Rests Jump to Lost Session**
+- [ ] **Tolerancy Time to Action Button**
+  - [ ] 15s
+- [ ] **Timezone**
+- [ ] **Customize Sounds**
+- [ ] **Hourly Rate**
+- [ ] **Volume**
+- [ ] **All Funcionalidades do Timer**
+  - [ ] Edited
+
+## Integrations
+- [ ] **API**
+  - [ ] WP REST API
+- [ ] **Courses on Rest**
+  - [ ] Finger yoga
+  - [ ] Idioms...
+- [ ] **RTM**
+- [ ] **Google Calendar (iCal)**
+- [ ] **Trello**
+- [ ] **Social**
+  - [ ] Auto post
+- [ ] **Couch**
+- [ ] **Data Export CSV**
+- [ ] **Runrun.it**
+- [ ] **Fnetwor Gateways**
+  - [ ] Edited
+
+## Gamify
+- [ ] **XP**
+  - [ ] Rascunho arquivado (game alertfy xp pontos)
+- [ ] **Challenges**
+  - [ ] Best in x days
+  - [ ] First to get x pomo
+- [ ] **Hall of Fame**
+- [ ] **Incentives**
+- [ ] **Trophies**
+- [ ] **Ranking Alert**
+  - [ ] Email
+  - [ ] Alertfy
+
+## App
+- [ ] **Auto Interrupt When Distract**
+  - [ ] Call
+  - [ ] SMS
+  - [ ] Apps
+
+## Desktop
+- [ ] **Auto Turn Off Monitor on Interval**
+
+## Web Browser Apps
+- [ ] **Blog**
+- [ ] **Focus Page**
+- [ ] **Calendar**
+- [ ] **Ranking**
+- [ ] **Badges**
+
 ### CONFIGURAÇÃO
 
 Basta instalar no diretório de temas e ativar os seguintes plugins
