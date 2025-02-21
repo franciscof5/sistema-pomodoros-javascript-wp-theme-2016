@@ -7,9 +7,9 @@ Sistema Focalizador JavaScript é um tema de WordPress para criação de um serv
 
 Site Oficial: [Pomodoros.com.br](https://www.pomodoros.com.br) 
 
-Documentação Oficial: [F5 Sites Pomodoros Project](https://projects.f5sites.com/pomodoros.com.br) 
+Documentação Oficial: [F5 Sites Pomodoros Project](https://github.com/franciscof5/sistema-pomodoros-javascript-wp-theme-2016/) 
 
-Developd by: [Francisco Matelli Matulovic](https://www.franciscomat.com)
+Developd by: [Francisco Matelli Matulovic](https://www.franciscomatelli.com.br)
 
 ## DESCRIÇÃO
 
@@ -18,12 +18,15 @@ Cria um servidor de Pomodoros usando o WordPress. Um post tipo 'projectimer_focu
 # Funcionalidades do Sistema
 
 ## Features / Funcionalidades
+- [ ] Multilanuages
+- [x] Alertas alertify
+  - [ ] Função que alerta com um div quando um usuário qualquer da comunidade terminou um pomodoro, usando ajax e setinterval
 - [ ] **Burndown**
   - [ ] Scrumodoros
   - [ ] Burndown tags
 - [ ] **Calendar**
   - [ ] Custom
-  - [ ] Datas vestibulares
+  - [ ] Datas vestibulares e concursos
   - [ ] URL time range
 - [ ] **Task Manager**
 - [ ] **Ranking**
@@ -39,10 +42,10 @@ Cria um servidor de Pomodoros usando o WordPress. Um post tipo 'projectimer_focu
   - [ ] Teams
   - [ ] Tags
 - [ ] **Project Timer**
+- [ ] User statistics stats
+- [ ] Convite por email
 - [ ] **TV**
 - [ ] **Session Video Record at End**
-
-## Subscriptions
 - [ ] **Offline**
 - [ ] **24h Timer / Day Planner**
   - [ ] Day types
@@ -55,13 +58,16 @@ Cria um servidor de Pomodoros usando o WordPress. Um post tipo 'projectimer_focu
 - [ ] **Freelancer Invoicer**
 - [ ] **Translates**
 - [ ] **Day Goals**
-- [ ] **Ads**
+- [ ] **Ads system**
   - [ ] Rest
   - [ ] Logout
   - [ ] Audio on end
 - [ ] **Invite**
 - [ ] **Push Notification**
-- [ ] **Pomodoros Stories**
+- [ ] Painel done / Stories
+- [ ] Comando de voz do browser
+- [ ] Função para inserir manualmente pomodoros
+- [ ] Ciclador automatico
 
 ## Super Gestor
 - [ ] **Active Timers**
@@ -74,10 +80,14 @@ Cria um servidor de Pomodoros usando o WordPress. Um post tipo 'projectimer_focu
   - [ ] Cadastros feitos
   - [ ] Telefonemas
   - [ ] Bugs...
-- [ ] **Habit Counters**
+- [ ] **Habit Counters / Interval tasks / Interval**
   - [ ] Rest
   - [ ] Pushups
   - [ ] Cigars
+  - [ ] Courses, wine taste
+  - [ ] Training yoga and strong
+  - [ ] 5 minutes youtube long videos
+  - [ ] Fichas do que foi feito e recapitular
 - [ ] **Interrupt Lost Time**
 - [ ] **Music**
   - [ ] 3rd party integration
@@ -92,13 +102,23 @@ Cria um servidor de Pomodoros usando o WordPress. Um post tipo 'projectimer_focu
 - [ ] **Rest Tasks**
 - [ ] **Task Slider**
 - [ ] **Auto Cycle**
+- [ ] Quando fechar o navegador e o ciclo encerrar, salvar como tarefas atrasadas
+- [ ] Anti SPAM
+- [x] Fazer tempo rodar por PHP em vez de JS
 
 ## Help
-- [ ] **Ergonomic**
-- [ ] **Tour**
+- [ ] Ergonomic
+- [ ] Tour
+- [ ] FAQ
+- [ ] Dicas de produtividade
+- [ ] Página projeto na f5sites
 
 ## Produtos
-- [ ] **24h Clock**
+- [ ] Doações
+- [ ] Subscriptions
+- [ ] Brindes
+- [ ] Ads e publicidade inside
+- [ ] 24h Clock
 
 ## Settings
 - [ ] **Category Colors**
@@ -116,6 +136,8 @@ Cria um servidor de Pomodoros usando o WordPress. Um post tipo 'projectimer_focu
   - [ ] Edited
 
 ## Integrations
+- [ ] Social login
+- [ ] GA GT Google Analytics e Google Tags
 - [ ] Alexa voice command
 - [ ] **API**
   - [ ] WP REST API
@@ -130,8 +152,10 @@ Cria um servidor de Pomodoros usando o WordPress. Um post tipo 'projectimer_focu
 - [ ] **Couch**
 - [ ] **Data Export CSV**
 - [ ] **Runrun.it**
+- [ ] Uservoice
 - [ ] **Fnetwor Gateways**
   - [ ] Edited
+
 
 ## Gamify
 - [ ] **XP**
@@ -145,6 +169,7 @@ Cria um servidor de Pomodoros usando o WordPress. Um post tipo 'projectimer_focu
 - [ ] **Ranking Alert**
   - [ ] Email
   - [ ] Alertfy
+- [ ] Prizes
 
 ## App
 - [ ] **Auto Interrupt When Distract**
@@ -152,7 +177,7 @@ Cria um servidor de Pomodoros usando o WordPress. Um post tipo 'projectimer_focu
   - [ ] SMS
   - [ ] Apps
 
-## Desktop
+## Desktop App
 - [ ] **Auto Turn Off Monitor on Interval**
 
 ## Web Browser Apps
@@ -161,6 +186,12 @@ Cria um servidor de Pomodoros usando o WordPress. Um post tipo 'projectimer_focu
 - [ ] **Calendar**
 - [ ] **Ranking**
 - [ ] **Badges**
+
+## Design
+- [ ] Logo
+- [ ] Visit card
+- [ ] Mascot
+- [ ] Favicon
 
 ### CONFIGURAÇÃO
 
