@@ -68,6 +68,7 @@ Cria um servidor de Pomodoros usando o WordPress. Um post tipo 'projectimer_focu
 - [ ] Comando de voz do browser
 - [ ] Função para inserir manualmente pomodoros
 - [ ] Ciclador automatico
+- [ ] bug: quando inicia num dispositivo, no outro quando puxa nao liga o setInterval do load_session
 
 ## Super Gestor
 - [ ] **Active Timers**
@@ -85,7 +86,7 @@ Cria um servidor de Pomodoros usando o WordPress. Um post tipo 'projectimer_focu
   - [ ] Pushups
   - [ ] Cigars
   - [ ] Courses, wine taste
-  - [ ] Training yoga and strong
+  - [ ] Training yoga, stretch and strong
   - [ ] 5 minutes youtube long videos
   - [ ] Fichas do que foi feito e recapitular
 - [ ] **Interrupt Lost Time**
@@ -105,6 +106,8 @@ Cria um servidor de Pomodoros usando o WordPress. Um post tipo 'projectimer_focu
 - [ ] Quando fechar o navegador e o ciclo encerrar, salvar como tarefas atrasadas
 - [ ] Anti SPAM
 - [x] Fazer tempo rodar por PHP em vez de JS
+- [ ] Descubra seu perfil de aluno, teste (1 a 10)
+- [ ] Eco: uma garrafa reciclada com morango por novo usuário
 
 ## Help
 - [ ] Ergonomic
@@ -118,7 +121,10 @@ Cria um servidor de Pomodoros usando o WordPress. Um post tipo 'projectimer_focu
 - [ ] Subscriptions
 - [ ] Brindes
 - [ ] Ads e publicidade inside
+- [ ] Ads maik marketing e newsletter
 - [ ] 24h Clock
+- [ ] Pomodoros arduino
+- [ ] Pesquisa do Pomodoros em Parceria com prof. Tadeu Pereira
 
 ## Settings
 - [ ] **Category Colors**
@@ -156,7 +162,6 @@ Cria um servidor de Pomodoros usando o WordPress. Um post tipo 'projectimer_focu
 - [ ] **Fnetwor Gateways**
   - [ ] Edited
 
-
 ## Gamify
 - [ ] **XP**
   - [ ] Rascunho arquivado (game alertfy xp pontos)
@@ -171,7 +176,7 @@ Cria um servidor de Pomodoros usando o WordPress. Um post tipo 'projectimer_focu
   - [ ] Alertfy
 - [ ] Prizes
 
-## App
+## Mobile App
 - [ ] **Auto Interrupt When Distract**
   - [ ] Call
   - [ ] SMS
