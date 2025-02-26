@@ -30,6 +30,7 @@ Cria um servidor de Pomodoros usando o WordPress. Um post tipo 'projectimer_focu
 - [ ] Headless
 - [ ] Blog
 - [ ] Anti SPAM
+- [ ] Organize wp theme
 
 ## Timer & Rest timer
 - [x] Fazer tempo rodar por PHP em vez de JS
