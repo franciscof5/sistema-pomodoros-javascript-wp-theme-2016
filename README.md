@@ -28,187 +28,180 @@ Cria um servidor de Pomodoros usando o WordPress. Um post tipo 'projectimer_focu
 
 ## Tech
 - [ ] Headless
-
-## Timer
-- [ ] **Jump Rest Accumulate**
-- [ ] **Session Countdown**
-  - [ ] 4 Pomodoros
-- [ ] **Mensurador Numérico de Sessão**
-  - [ ] Cadastros feitos
-  - [ ] Telefonemas
-  - [ ] Bugs...
-- [ ] **Habit Counters / Interval tasks / Interval**
-  - [ ] Rest
-  - [ ] Pushups
-  - [ ] Cigars
-  - [ ] Courses, wine taste
-  - [ ] Training yoga, stretch and strong
-  - [ ] 5 minutes youtube long videos
-  - [ ] Fichas do que foi feito e recapitular
-- [ ] **Interrupt Lost Time**
-- [ ] **Music**
-  - [ ] 3rd party integration
-- [ ] **Email Log**
-- [ ] **Manual Add/Edit**
-- [ ] **Rest Chat**
-- [ ] **Rest Mini Games**
-- [ ] **Rest Yoga / Meditate / Aerobics / Sport Trainer**
-- [ ] **Courses on Rest**
-- [ ] **Rest Benefits Alert When Jump**
-- [ ] **Rest YouTube/Video Pause-Restart**
-- [ ] **Rest Tasks**
-- [ ] **Task Slider**
-- [ ] **Auto Cycle**
-- [ ] Quando fechar o navegador e o ciclo encerrar, salvar como tarefas atrasadas
+- [ ] Blog
 - [ ] Anti SPAM
+
+## Timer & Rest timer
 - [x] Fazer tempo rodar por PHP em vez de JS
-- [ ] Descubra seu perfil de aluno, teste (1 a 10)
-- [ ] Eco: uma garrafa reciclada com morango por novo usuário
-- [ ] Multilanguages
+  - [ ] bug: quando inicia num dispositivo, no outro quando puxa nao liga o setInterval do load_session
+- [ ] Interrupt Lost Time
+  - [ ] Web, if time is running don't save when close browser
+- [ ] Task Slider
+- [ ] Auto Cycle
+- [ ] Manual Add/Edit pomodoros
+- [ ] Session end: recapitulate cycle what you did
+  - [ ] Session Video Record at End
+- [ ] **Rest Timer**
+  - [ ] Rest Tasks
+  - [ ] Habit Counters / Interval tasks / Interval
+    - [ ] Cadastros feitos / Telefonemas
+    - [ ] Cigars
+  - [ ] Training yoga, stretch and strong
+    - [ ] Pushups
+  - [ ] Jump Rest Accumulate rest time
+  - [ ] Courses, wine taste
+  - [ ] 5 minutes youtube long videos
+  - [ ] Rest Chat
+  - [ ] Rest Mini Games
+  - [ ] Rest Yoga / Meditate / Aerobics / Sport Trainer
+  - [ ] Rest Benefits Alert When Jump
 
 ## Apps
 - [ ] Mobile App
-  - [ ] **Auto Interrupt When Distract**
+  - [ ] Auto Interrupt When Distract
     - [ ] Call
     - [ ] SMS
     - [ ] Apps
 - [ ] Desktop App
-  - [ ] **Auto Turn Off Monitor on Interval**
+  - [ ] Auto Turn Off Monitor on Interval
 - [ ] Web Browser Apps
-  - [ ] **Blog**
-  - [ ] **Focus Page**
-  - [ ] **Calendar**
-  - [ ] **Ranking**
-  - [ ] **Badges**
+  - [ ] Blog
+  - [ ] Focus Page
+  - [ ] Calendar
+  - [ ] Ranking
+- [ ] Pomodoros arduino
 
 ## Tools
 - [x] Alertas alertify
   - [ ] Função que alerta com um div quando um usuário qualquer da comunidade terminou um pomodoro, usando ajax e setinterval
-- [ ] **Burndown**
+- [ ] Burndown
   - [ ] Scrumodoros
   - [ ] Burndown tags
-- [ ] **Calendar**
-  - [ ] Custom
+- [ ] Calendar
+  - [ ] Custom date range
   - [ ] Datas vestibulares e concursos
   - [ ] URL time range
-- [ ] **Task Manager**
-- [ ] **Ranking**
-  - [ ] Individual
-  - [ ] Teams
-  - [ ] Projects
-  - [ ] Tags
-  - [ ] Friends (somente público)
-- [ ] **Team Shared Goals**
-- [ ] **Reports**
+- [ ] Todo list e Task Manager
+- [ ] Team Shared Goals
+- [ ] Reports
   - [ ] PDF
   - [ ] Email
   - [ ] Teams
   - [ ] Tags
-- [ ] **Project Timer**
 - [ ] User statistics stats
-- [ ] Convite por email
-- [ ] **TV**
-- [ ] **Session Video Record at End**
-- [ ] **Offline**
-- [ ] **24h Timer / Day Planner**
+- [ ] Invite member by email
+- [ ] Pomdoros TV
+- [ ] Offline
+- [ ] 24h Timer / Day Planner
   - [ ] Day types
   - [ ] Activity colors
-- [ ] **Relógio de ponto**
-- [ ] **Performance Blog**
+- [ ] Relógio de ponto
+- [ ] Performance Blog
+  - [ ] Ranking blog
   - [ ] Automatic best of week
-- [ ] **Life Planner**
-- [ ] **World Map**
-- [ ] **Freelancer Invoicer**
-- [ ] **Translates**
-- [ ] **Day Goals**
-- [ ] **Ads system**
-  - [ ] Rest
-  - [ ] Logout
-  - [ ] Audio on end
-- [ ] **Invite**
-- [ ] **Push Notification**
-- [ ] Painel done / Stories
+- [ ] Life Planner
+- [ ] World Map real time
+- [ ] Freelancer Invoicer
+- [ ] Day Goals
+- [ ] Push Notification
 - [ ] Comando de voz do browser
-- [ ] Função para inserir manualmente pomodoros
-- [ ] Ciclador automatico
-- [ ] bug: quando inicia num dispositivo, no outro quando puxa nao liga o setInterval do load_session
 - [ ] Help
   - [ ] Ergonomic
   - [ ] Tour
   - [ ] FAQ
   - [ ] Tips (Dicas de produtividade)
   - [ ] Página projeto na f5sites
+- [ ] Descubra seu perfil de aluno, teste (1 a 10)
 
 ## Social & Gamify
-- [ ] **XP**
+- [ ] XP
   - [ ] Rascunho arquivado (game alertfy xp pontos)
-- [ ] **Challenges**
+- [ ] Challenges
   - [ ] Best in x days
   - [ ] First to get x pomo
-- [ ] **Hall of Fame**
-- [ ] **Incentives**
-- [ ] **Trophies**
-- [ ] **Ranking Alert**
+- [ ] Hall of Fame
+- [ ] Incentives
+- [ ] Trophies
+- [ ] Ranking Alert
   - [ ] Email
   - [ ] Alertfy
 - [ ] Prizes
+  - [ ] Badges
+- [ ] Ranking
+  - [ ] Individual
+  - [ ] Teams
+  - [ ] Projects
+  - [ ] Tags
+  - [ ] Friends (somente público)
+- [ ] Stories / Painel done
+
 
 ## Integrations
+- [ ] Email
+  - [ ] Log
 - [ ] Social login
+- [ ] Music, spotify
 - [ ] GA GT Google Analytics e Google Tags
 - [ ] Alexa voice command
-- [ ] **API**
+- [ ] API
   - [ ] WP REST API
-- [ ] **Courses on Rest**
+- [ ] Courses on Rest
   - [ ] Finger yoga
   - [ ] Idioms...
-- [ ] **RTM**
-- [ ] **Google Calendar (iCal)**
-- [ ] **Trello**
-- [ ] **Social**
+- [ ] RTM
+- [ ] Google Calendar (iCal)
+- [ ] Trello
+- [ ] Social
   - [ ] Auto post
-- [ ] **Couch**
-- [ ] **Data Export CSV**
-- [ ] **Runrun.it**
+- [ ] Couch
+- [ ] Data Export CSV
+- [ ] Runrun.it
 - [ ] Uservoice
-- [ ] **Fnetwor Gateways**
+- [ ] Fnetwor Gateways
   - [ ] Edited
 
 ## Settings
-- [ ] **Category Colors**
+- [ ] Multilanguages
+- [ ] Category Colors
   - [ ] Study
   - [ ] Work...
-- [ ] **Force Rest**
-- [ ] **Rests Jump to Lost Session**
-- [ ] **Tolerancy Time to Action Button**
+- [ ] Force Rest
+- [ ] Rests Jump to Lost Session
+- [ ] Tolerancy Time to Action Button
   - [ ] 15s
-- [ ] **Timezone**
-- [ ] **Customize Sounds**
-- [ ] **Hourly Rate**
-- [ ] **Volume**
-- [ ] **All Funcionalidades do Timer**
+- [ ] Timezone
+- [ ] Customize Sounds
+- [ ] Hourly Rate
+- [ ] Volume
+- [ ] All Funcionalidades do Timer
   - [ ] Edited
 - [ ] Super Gestor
 
 
-
-
 ## Income
-## Produtos
 - [ ] Doações
 - [ ] Subscriptions
-- [ ] Brindes
-- [ ] Ads e publicidade inside
-- [ ] Ads maik marketing e newsletter
-- [ ] 24h Clock
-- [ ] Pomodoros arduino
-- [ ] Pesquisa do Pomodoros em Parceria com prof. Tadeu Pereira
+- [ ] Brindes pomodoros.com.br
+  - [ ] 24h Clock
+- [ ] Prizes partner
+- [ ] Ads mail marketing e newsletter
+- [ ] Ads system
+  - [ ] Rest
+  - [ ] Logout
+  - [ ] Audio on end
+- [ ] Eco: uma garrafa reciclada com morango por novo usuário
 
 ## Design
 - [ ] Logo
 - [ ] Visit card
 - [ ] Mascot
 - [ ] Favicon
+
+## Rever
+- [ ] Mensurador Numérico de Sessão
+- [ ] Session Countdown
+- [ ] Pesquisa do Pomodoros em Parceria com prof. Tadeu Pereira
+
 
 ### CONFIGURAÇÃO
 
