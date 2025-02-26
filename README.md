@@ -15,11 +15,73 @@ Developd by: [Francisco Matelli Matulovic](https://www.franciscomatelli.com.br)
 
 Cria um servidor de Pomodoros usando o WordPress. Um post tipo 'projectimer_focus' é criado e cada usuário que termina um "pomodoro" na verdade publica um post do tipo 'projectimer_focus'.
 
-# Funcionalidades do Sistema
+# Features
 
-## Features / Funcionalidades
+* Tech - Headless / Blog / 
+* Timer - Stats / Cycler / 
+* Apps - web / mobile / desktop
+* Tools - Tasks / Calendar / Scrumodoro / Reports / Goals / Help
+* Social e Gamefy - Teams / Ranking / Tv /
+* Integrations - Calendar / Alexa / Trello
+* Settings - Multilanguages
+* Income - Ads system / Products
+
+## Tech
 - [ ] Headless
-- [ ] Multilanuages
+
+## Timer
+- [ ] **Jump Rest Accumulate**
+- [ ] **Session Countdown**
+  - [ ] 4 Pomodoros
+- [ ] **Mensurador Numérico de Sessão**
+  - [ ] Cadastros feitos
+  - [ ] Telefonemas
+  - [ ] Bugs...
+- [ ] **Habit Counters / Interval tasks / Interval**
+  - [ ] Rest
+  - [ ] Pushups
+  - [ ] Cigars
+  - [ ] Courses, wine taste
+  - [ ] Training yoga, stretch and strong
+  - [ ] 5 minutes youtube long videos
+  - [ ] Fichas do que foi feito e recapitular
+- [ ] **Interrupt Lost Time**
+- [ ] **Music**
+  - [ ] 3rd party integration
+- [ ] **Email Log**
+- [ ] **Manual Add/Edit**
+- [ ] **Rest Chat**
+- [ ] **Rest Mini Games**
+- [ ] **Rest Yoga / Meditate / Aerobics / Sport Trainer**
+- [ ] **Courses on Rest**
+- [ ] **Rest Benefits Alert When Jump**
+- [ ] **Rest YouTube/Video Pause-Restart**
+- [ ] **Rest Tasks**
+- [ ] **Task Slider**
+- [ ] **Auto Cycle**
+- [ ] Quando fechar o navegador e o ciclo encerrar, salvar como tarefas atrasadas
+- [ ] Anti SPAM
+- [x] Fazer tempo rodar por PHP em vez de JS
+- [ ] Descubra seu perfil de aluno, teste (1 a 10)
+- [ ] Eco: uma garrafa reciclada com morango por novo usuário
+- [ ] Multilanguages
+
+## Apps
+- [ ] Mobile App
+  - [ ] **Auto Interrupt When Distract**
+    - [ ] Call
+    - [ ] SMS
+    - [ ] Apps
+- [ ] Desktop App
+  - [ ] **Auto Turn Off Monitor on Interval**
+- [ ] Web Browser Apps
+  - [ ] **Blog**
+  - [ ] **Focus Page**
+  - [ ] **Calendar**
+  - [ ] **Ranking**
+  - [ ] **Badges**
+
+## Tools
 - [x] Alertas alertify
   - [ ] Função que alerta com um div quando um usuário qualquer da comunidade terminou um pomodoro, usando ajax e setinterval
 - [ ] **Burndown**
@@ -70,77 +132,26 @@ Cria um servidor de Pomodoros usando o WordPress. Um post tipo 'projectimer_focu
 - [ ] Função para inserir manualmente pomodoros
 - [ ] Ciclador automatico
 - [ ] bug: quando inicia num dispositivo, no outro quando puxa nao liga o setInterval do load_session
+- [ ] Help
+  - [ ] Ergonomic
+  - [ ] Tour
+  - [ ] FAQ
+  - [ ] Tips (Dicas de produtividade)
+  - [ ] Página projeto na f5sites
 
-## Super Gestor
-- [ ] **Active Timers**
-
-## Funcionalidades do Timer
-- [ ] **Jump Rest Accumulate**
-- [ ] **Session Countdown**
-  - [ ] 4 Pomodoros
-- [ ] **Mensurador Numérico de Sessão**
-  - [ ] Cadastros feitos
-  - [ ] Telefonemas
-  - [ ] Bugs...
-- [ ] **Habit Counters / Interval tasks / Interval**
-  - [ ] Rest
-  - [ ] Pushups
-  - [ ] Cigars
-  - [ ] Courses, wine taste
-  - [ ] Training yoga, stretch and strong
-  - [ ] 5 minutes youtube long videos
-  - [ ] Fichas do que foi feito e recapitular
-- [ ] **Interrupt Lost Time**
-- [ ] **Music**
-  - [ ] 3rd party integration
-- [ ] **Email Log**
-- [ ] **Manual Add/Edit**
-- [ ] **Rest Chat**
-- [ ] **Rest Mini Games**
-- [ ] **Rest Yoga / Meditate / Aerobics / Sport Trainer**
-- [ ] **Courses on Rest**
-- [ ] **Rest Benefits Alert When Jump**
-- [ ] **Rest YouTube/Video Pause-Restart**
-- [ ] **Rest Tasks**
-- [ ] **Task Slider**
-- [ ] **Auto Cycle**
-- [ ] Quando fechar o navegador e o ciclo encerrar, salvar como tarefas atrasadas
-- [ ] Anti SPAM
-- [x] Fazer tempo rodar por PHP em vez de JS
-- [ ] Descubra seu perfil de aluno, teste (1 a 10)
-- [ ] Eco: uma garrafa reciclada com morango por novo usuário
-
-## Help
-- [ ] Ergonomic
-- [ ] Tour
-- [ ] FAQ
-- [ ] Dicas de produtividade
-- [ ] Página projeto na f5sites
-
-## Produtos
-- [ ] Doações
-- [ ] Subscriptions
-- [ ] Brindes
-- [ ] Ads e publicidade inside
-- [ ] Ads maik marketing e newsletter
-- [ ] 24h Clock
-- [ ] Pomodoros arduino
-- [ ] Pesquisa do Pomodoros em Parceria com prof. Tadeu Pereira
-
-## Settings
-- [ ] **Category Colors**
-  - [ ] Study
-  - [ ] Work...
-- [ ] **Force Rest**
-- [ ] **Rests Jump to Lost Session**
-- [ ] **Tolerancy Time to Action Button**
-  - [ ] 15s
-- [ ] **Timezone**
-- [ ] **Customize Sounds**
-- [ ] **Hourly Rate**
-- [ ] **Volume**
-- [ ] **All Funcionalidades do Timer**
-  - [ ] Edited
+## Social & Gamify
+- [ ] **XP**
+  - [ ] Rascunho arquivado (game alertfy xp pontos)
+- [ ] **Challenges**
+  - [ ] Best in x days
+  - [ ] First to get x pomo
+- [ ] **Hall of Fame**
+- [ ] **Incentives**
+- [ ] **Trophies**
+- [ ] **Ranking Alert**
+  - [ ] Email
+  - [ ] Alertfy
+- [ ] Prizes
 
 ## Integrations
 - [ ] Social login
@@ -163,35 +174,35 @@ Cria um servidor de Pomodoros usando o WordPress. Um post tipo 'projectimer_focu
 - [ ] **Fnetwor Gateways**
   - [ ] Edited
 
-## Gamify
-- [ ] **XP**
-  - [ ] Rascunho arquivado (game alertfy xp pontos)
-- [ ] **Challenges**
-  - [ ] Best in x days
-  - [ ] First to get x pomo
-- [ ] **Hall of Fame**
-- [ ] **Incentives**
-- [ ] **Trophies**
-- [ ] **Ranking Alert**
-  - [ ] Email
-  - [ ] Alertfy
-- [ ] Prizes
+## Settings
+- [ ] **Category Colors**
+  - [ ] Study
+  - [ ] Work...
+- [ ] **Force Rest**
+- [ ] **Rests Jump to Lost Session**
+- [ ] **Tolerancy Time to Action Button**
+  - [ ] 15s
+- [ ] **Timezone**
+- [ ] **Customize Sounds**
+- [ ] **Hourly Rate**
+- [ ] **Volume**
+- [ ] **All Funcionalidades do Timer**
+  - [ ] Edited
+- [ ] Super Gestor
 
-## Mobile App
-- [ ] **Auto Interrupt When Distract**
-  - [ ] Call
-  - [ ] SMS
-  - [ ] Apps
 
-## Desktop App
-- [ ] **Auto Turn Off Monitor on Interval**
 
-## Web Browser Apps
-- [ ] **Blog**
-- [ ] **Focus Page**
-- [ ] **Calendar**
-- [ ] **Ranking**
-- [ ] **Badges**
+
+## Income
+## Produtos
+- [ ] Doações
+- [ ] Subscriptions
+- [ ] Brindes
+- [ ] Ads e publicidade inside
+- [ ] Ads maik marketing e newsletter
+- [ ] 24h Clock
+- [ ] Pomodoros arduino
+- [ ] Pesquisa do Pomodoros em Parceria com prof. Tadeu Pereira
 
 ## Design
 - [ ] Logo
