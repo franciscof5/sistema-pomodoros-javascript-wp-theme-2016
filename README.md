@@ -18,6 +18,7 @@ Cria um servidor de Pomodoros usando o WordPress. Um post tipo 'projectimer_focu
 # Funcionalidades do Sistema
 
 ## Features / Funcionalidades
+- [ ] Headless
 - [ ] Multilanuages
 - [x] Alertas alertify
   - [ ] Função que alerta com um div quando um usuário qualquer da comunidade terminou um pomodoro, usando ajax e setinterval
