@@ -1,1 +1,0 @@
-/var/www/html/wp-content/themes/sistema-focalizador-javascript/pomodoro/projectimer-pomodoros-shared-parts.js

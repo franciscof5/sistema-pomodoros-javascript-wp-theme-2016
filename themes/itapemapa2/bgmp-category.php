@@ -1,1 +1,0 @@
-/var/www/html/wp-content/themes/itapemapa2/taxonomy-bgmp-category.php
