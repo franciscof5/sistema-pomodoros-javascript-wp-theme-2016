@@ -67,7 +67,7 @@
 
   // Your web app's Firebase configuration
   const firebaseConfig = {
-    apiKey: "AIzaSyABZjPkdjVzf9u94HLKyQoYa24SKcSOl6o",
+    apiKey: "",
     authDomain: "pomodoros-com-br.firebaseapp.com",
     databaseURL: "https://pomodoros-com-br.firebaseio.com",
     projectId: "pomodoros-com-br",
